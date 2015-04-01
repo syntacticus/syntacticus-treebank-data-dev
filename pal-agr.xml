@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-03-01T02:12:40+01:00" schema-version="2.0">
+<proiel export-time="2015-04-01T02:13:14+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -158,6 +158,8 @@
     <author>Palladius</author>
     <citation-part>Pal. Agr.</citation-part>
     <editorial-note>The original electronic text lacks line numbers (from the left margin) except in the poem at the end of the work. It lacks the critical appartus (from the footer) and page numbering etc. (from the heading). Chapter numbers (from the right margin) are integrated with chapter titles. Section numbers (from the right margin) are placed before the start of the first sentence on each line in the text. Books are numbered using Roman numerals instead of Latin ordinal numbers. Lines ending with a hyphen have been joined with the following line. Italicised words (apparently only on p. 22) are not represented as such. A bracketed sectioning scheme is included in book 1, chapters 37-42, but not in book 3, chapter 13 or in book 5, chapters 4-8. The original electronic text was altered in the following ways by Marius L. Jøhndal: 1) Chapter numbers were moved to in-text references and converted to Arabic numerals on the format CHAPTER.SECTION, 2) periods at the end of each chapter title were removed, 3) the table of contents (an unnumbered chapter with the title TITVLI) was removed from each book, 4) italicised words were marked as such, 5) all bracketed sectioning schemes were removed, 6) the only chapter title of book 14 was marked as such and downcased like other chapter titles, 7) the line numbers were removed from the verses, 8) an asterisk was removed from the text and 9) "conbure" was changed to "conbures" in 1.35.1.</editorial-note>
+    <annotator>Bergthora Aegisdottir (2 sentences) and Marco Budassi (2 sentences)</annotator>
+    <reviewer>Dag Haug (2 sentences)</reviewer>
     <electronic-text-publisher>Corpus scriptorum latinorum</electronic-text-publisher>
     <electronic-text-original-url>http://www.forumromanum.org/literature/palladius/agr.html</electronic-text-original-url>
     <electronic-text-license>Probably in the Public Domain</electronic-text-license>
@@ -168,51 +170,55 @@
     <printed-text-date>1898</printed-text-date>
     <div>
       <title>I. De praeceptis rei rusticae</title>
-      <sentence id="159692" status="unannotated">
-        <token id="2021770" form="Pars" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021771" form="est" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021772" form="prima" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021773" form="prudentiae" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021774" form="ipsam" citation-part="1.1.1" presentation-after=", "/>
-        <token id="2021775" form="cui" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021776" form="praecepturus" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021777" form="es" citation-part="1.1.1" presentation-after=", "/>
-        <token id="2021778" form="aestimare" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021779" form="personam" citation-part="1.1.1" presentation-after=". "/>
+      <sentence id="159692" status="annotated">
+        <token id="2021770" form="Pars" citation-part="1.1.1" lemma="pars" part-of-speech="Nb" morphology="-s---fn--i" head-id="2021771" relation="sub" presentation-after=" "/>
+        <token id="2021771" form="est" citation-part="1.1.1" lemma="sum" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="2021772" form="prima" citation-part="1.1.1" lemma="primus" part-of-speech="Mo" morphology="-s---fn--i" head-id="2021770" relation="atr" presentation-after=" "/>
+        <token id="2021773" form="prudentiae" citation-part="1.1.1" lemma="prudentia" part-of-speech="Nb" morphology="-s---fg--i" head-id="2021770" relation="atr" presentation-after=" "/>
+        <token id="2021774" form="ipsam" citation-part="1.1.1" lemma="ipse" part-of-speech="Pd" morphology="-s---fa--i" head-id="2021779" relation="atr" presentation-after=", "/>
+        <token id="2021775" form="cui" citation-part="1.1.1" lemma="qui" part-of-speech="Pr" morphology="-s---fd--i" head-id="2021776" relation="obl" presentation-after=" "/>
+        <token id="2021776" form="praecepturus" citation-part="1.1.1" lemma="praecipio" part-of-speech="V-" morphology="-sfpamn--i" head-id="2021779" relation="apos" presentation-after=" "/>
+        <token id="2021777" form="es" citation-part="1.1.1" lemma="sum" part-of-speech="V-" morphology="2spia----i" head-id="2021776" relation="aux" presentation-after=", "/>
+        <token id="2021778" form="aestimare" citation-part="1.1.1" lemma="aestimo" part-of-speech="V-" morphology="--pna----i" head-id="2021771" relation="xobj" presentation-after=" ">
+          <slash target-id="2021770" relation="xsub"/>
+        </token>
+        <token id="2021779" form="personam" citation-part="1.1.1" lemma="persona" part-of-speech="Nb" morphology="-s---fa--i" head-id="2021778" relation="obj" presentation-after=". "/>
       </sentence>
-      <sentence id="159693" status="unannotated">
-        <token id="2021780" form="Neque" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021781" form="enim" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021782" form="formator" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021783" form="agricolae" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021784" form="debet" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021785" form="artibus" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021786" form="et" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021787" form="eloquentia" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021788" form="rhetores" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021789" form="aemulari" citation-part="1.1.1" presentation-after=", "/>
-        <token id="2021790" form="quod" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021791" form="a" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021792" form="plerisque" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021793" form="factum" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021794" form="est" citation-part="1.1.1" presentation-after=": "/>
-      </sentence>
-      <sentence id="159694" status="unannotated">
-        <token id="2021795" form="qui" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021796" form="dum" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021797" form="diserte" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021798" form="loquuntur" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021799" form="rusticis" citation-part="1.1.1" presentation-after=", "/>
-        <token id="2021800" form="adsecuti" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021801" form="sunt" citation-part="1.1.1" presentation-after=", "/>
-        <token id="2021802" form="ut" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021803" form="eorum" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021804" form="doctrina" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021805" form="nec" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021806" form="a" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021807" form="disertissimis" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021808" form="possit" citation-part="1.1.1" presentation-after=" "/>
-        <token id="2021809" form="intelligi" citation-part="1.1.1" presentation-after=". "/>
+      <sentence id="159693" status="annotated">
+        <token id="2021780" form="Neque" citation-part="1.1.1" lemma="neque" part-of-speech="Df" morphology="---------n" head-id="2021784" relation="aux" presentation-after=" "/>
+        <token id="2021781" form="enim" citation-part="1.1.1" lemma="enim" part-of-speech="Df" morphology="---------n" head-id="2021784" relation="aux" presentation-after=" "/>
+        <token id="2021782" form="formator" citation-part="1.1.1" lemma="formator" part-of-speech="Nb" morphology="-s---mn--i" head-id="2021784" relation="sub" presentation-after=" "/>
+        <token id="2021783" form="agricolae" citation-part="1.1.1" lemma="agricola" part-of-speech="Nb" morphology="-s---mg--i" head-id="2021782" relation="atr" presentation-after=" "/>
+        <token id="2021784" form="debet" citation-part="1.1.1" lemma="debeo" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="2021785" form="artibus" citation-part="1.1.1" lemma="ars" part-of-speech="Nb" morphology="-p---fb--i" head-id="2021786" relation="adv" presentation-after=" "/>
+        <token id="2021786" form="et" citation-part="1.1.1" lemma="et" part-of-speech="C-" morphology="---------n" head-id="2021789" relation="adv" presentation-after=" "/>
+        <token id="2021787" form="eloquentia" citation-part="1.1.1" lemma="eloquentia" part-of-speech="Nb" morphology="-s---fb--i" head-id="2021786" relation="adv" presentation-after=" "/>
+        <token id="2021788" form="rhetores" citation-part="1.1.1" lemma="rhetor" part-of-speech="Nb" morphology="-p---ma--i" head-id="2021789" relation="obj" presentation-after=" "/>
+        <token id="2021789" form="aemulari" citation-part="1.1.1" lemma="aemulor" part-of-speech="V-" morphology="--pnp----i" head-id="2021784" relation="xobj" presentation-after=", ">
+          <slash target-id="2021782" relation="xsub"/>
+        </token>
+        <token id="2021790" form="quod" citation-part="1.1.1" lemma="qui" part-of-speech="Pr" morphology="-s---na--i" head-id="2021793" relation="sub" presentation-after=" "/>
+        <token id="2021791" form="a" citation-part="1.1.1" lemma="ab" part-of-speech="R-" morphology="---------n" head-id="2021793" relation="ag" presentation-after=" "/>
+        <token id="2021792" form="plerisque" citation-part="1.1.1" lemma="plerus" part-of-speech="A-" morphology="-p---mbp-i" head-id="2021791" relation="obl" presentation-after=" "/>
+        <token id="2021793" form="factum" citation-part="1.1.1" lemma="facio" part-of-speech="V-" morphology="-srppnn--i" head-id="2021789" relation="apos" presentation-after=" "/>
+        <token id="2021794" form="est" citation-part="1.1.1" lemma="sum" part-of-speech="V-" morphology="3spia----i" head-id="2021793" relation="aux" presentation-after=": "/>
+        <token id="2021795" form="qui" citation-part="1.1.1" lemma="qui" part-of-speech="Pr" morphology="-p---mn--i" head-id="2021800" relation="sub" presentation-after=" "/>
+        <token id="2021796" form="dum" citation-part="1.1.1" lemma="dum" part-of-speech="G-" morphology="---------n" head-id="2021800" relation="adv" presentation-after=" "/>
+        <token id="2021797" form="diserte" citation-part="1.1.1" lemma="diserte" part-of-speech="Df" morphology="-------p-i" head-id="2021798" relation="adv" presentation-after=" "/>
+        <token id="2021798" form="loquuntur" citation-part="1.1.1" lemma="loquor" part-of-speech="V-" morphology="3ppip----i" head-id="2021796" relation="pred" presentation-after=" "/>
+        <token id="2021799" form="rusticis" citation-part="1.1.1" lemma="rusticus" part-of-speech="A-" morphology="-p---mbp-i" head-id="2021798" relation="obl" presentation-after=", "/>
+        <token id="2021800" form="adsecuti" citation-part="1.1.1" lemma="adsequor" part-of-speech="V-" morphology="-prppmn--i" head-id="2021792" relation="apos" presentation-after=" "/>
+        <token id="2021801" form="sunt" citation-part="1.1.1" lemma="sum" part-of-speech="V-" morphology="3ppia----i" head-id="2021800" relation="aux" presentation-after=", "/>
+        <token id="2021802" form="ut" citation-part="1.1.1" lemma="ut" part-of-speech="G-" morphology="---------n" head-id="2021800" relation="adv" presentation-after=" "/>
+        <token id="2021803" form="eorum" citation-part="1.1.1" lemma="is" part-of-speech="Pp" morphology="3p---mg--i" head-id="2021804" relation="atr" presentation-after=" "/>
+        <token id="2021804" form="doctrina" citation-part="1.1.1" lemma="doctrina" part-of-speech="Nb" morphology="-s---fn--i" head-id="2021808" relation="sub" presentation-after=" "/>
+        <token id="2021805" form="nec" citation-part="1.1.1" lemma="neque" part-of-speech="Df" morphology="---------n" head-id="2021808" relation="aux" presentation-after=" "/>
+        <token id="2021806" form="a" citation-part="1.1.1" lemma="ab" part-of-speech="R-" morphology="---------n" head-id="2021809" relation="ag" presentation-after=" "/>
+        <token id="2021807" form="disertissimis" citation-part="1.1.1" lemma="dissero" part-of-speech="A-" morphology="-p---mds-i" head-id="2021806" relation="obl" presentation-after=" "/>
+        <token id="2021808" form="possit" citation-part="1.1.1" lemma="possum" part-of-speech="V-" morphology="3spsa----i" head-id="2021802" relation="pred" presentation-after=" "/>
+        <token id="2021809" form="intelligi" citation-part="1.1.1" lemma="intellego" part-of-speech="V-" morphology="--pnp----i" head-id="2021808" relation="xobj" presentation-after=". ">
+          <slash target-id="2021804" relation="xsub"/>
+        </token>
       </sentence>
       <sentence id="159695" status="unannotated">
         <token id="2021810" form="Sed" citation-part="1.1.1" presentation-after=" "/>
@@ -292,33 +298,43 @@
     </div>
     <div>
       <title>II. De quattuor rebus, quibus agricultura consistit</title>
-      <sentence id="159698" status="unannotated">
-        <token id="2021879" form="Primo" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021880" form="igitur" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021881" form="eligendi" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021882" form="et" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021883" form="bene" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021884" form="colendi" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021885" form="agri" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021886" form="ratio" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021887" form="quattuor" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021888" form="rebus" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021889" form="constat" citation-part="1.2.1" presentation-after=", "/>
-        <token id="2021890" form="aere" citation-part="1.2.1" presentation-after=", "/>
-        <token id="2021891" form="aqua" citation-part="1.2.1" presentation-after=", "/>
-        <token id="2021892" form="terra" citation-part="1.2.1" presentation-after=", "/>
-        <token id="2021893" form="industria" citation-part="1.2.1" presentation-after=". "/>
+      <sentence id="159698" status="reviewed">
+        <token id="2021879" form="Primo" citation-part="1.2.1" lemma="primo" part-of-speech="Df" morphology="---------n" head-id="2021889" relation="adv" presentation-after=" "/>
+        <token id="2021880" form="igitur" citation-part="1.2.1" lemma="igitur" part-of-speech="Df" morphology="---------n" head-id="2021889" relation="adv" presentation-after=" "/>
+        <token id="2021881" form="eligendi" citation-part="1.2.1" lemma="eligo" part-of-speech="V-" morphology="---d--g--i" head-id="2021882" relation="narg" presentation-after=" "/>
+        <token id="2021882" form="et" citation-part="1.2.1" lemma="et" part-of-speech="C-" morphology="---------n" head-id="2021886" relation="narg" presentation-after=" "/>
+        <token id="2021883" form="bene" citation-part="1.2.1" lemma="bene" part-of-speech="Df" morphology="-------p-i" head-id="2021884" relation="adv" presentation-after=" "/>
+        <token id="2021884" form="colendi" citation-part="1.2.1" lemma="colo" part-of-speech="V-" morphology="---d--g--i" head-id="2021882" relation="narg" presentation-after=" "/>
+        <token id="2021885" form="agri" citation-part="1.2.1" lemma="ager" part-of-speech="Nb" morphology="-s---mg--i" head-id="2021884" relation="sub" presentation-after=" "/>
+        <token id="2021886" form="ratio" citation-part="1.2.1" lemma="ratio" part-of-speech="Nb" morphology="-s---fn--i" head-id="2021889" relation="sub" presentation-after=" "/>
+        <token id="2021887" form="quattuor" citation-part="1.2.1" lemma="quattuor" part-of-speech="Ma" morphology="---------n" head-id="2021888" relation="atr" presentation-after=" "/>
+        <token id="2021888" form="rebus" citation-part="1.2.1" lemma="res" part-of-speech="Nb" morphology="-p---fb--i" head-id="2021889" relation="obl" presentation-after=" "/>
+        <token id="2021889" form="constat" citation-part="1.2.1" lemma="consto" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=", "/>
+        <token id="2021890" form="aere" citation-part="1.2.1" lemma="aes" part-of-speech="Nb" morphology="-s---nb--i" head-id="2021888" relation="apos" presentation-after=", "/>
+        <token id="2021891" form="aqua" citation-part="1.2.1" lemma="aqua" part-of-speech="Nb" morphology="-s---fb--i" head-id="2021888" relation="apos" presentation-after=", "/>
+        <token id="2021892" form="terra" citation-part="1.2.1" lemma="terra" part-of-speech="Nb" morphology="-s---fb--i" head-id="2021888" relation="apos" presentation-after=", "/>
+        <token id="2021893" form="industria" citation-part="1.2.1" lemma="industria" part-of-speech="Nb" morphology="-s---fb--i" head-id="2021888" relation="apos" presentation-after=". "/>
       </sentence>
-      <sentence id="159699" status="unannotated">
-        <token id="2021894" form="Ex" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021895" form="his" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021896" form="tria" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021897" form="naturalia" citation-part="1.2.1" presentation-after=", "/>
-        <token id="2021898" form="unum" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021899" form="facultatis" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021900" form="et" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021901" form="uoluntatis" citation-part="1.2.1" presentation-after=" "/>
-        <token id="2021902" form="est" citation-part="1.2.1" presentation-after=". "/>
+      <sentence id="159699" status="reviewed">
+        <token id="2021894" form="Ex" citation-part="1.2.1" lemma="ex" part-of-speech="R-" morphology="---------n" head-id="2021896" relation="part" presentation-after=" "/>
+        <token id="2021895" form="his" citation-part="1.2.1" lemma="hic" part-of-speech="Pd" morphology="-p---qb--i" head-id="2021894" relation="obl" presentation-after=" "/>
+        <token id="2021896" form="tria" citation-part="1.2.1" lemma="tres" part-of-speech="Ma" morphology="-p---nn--i" head-id="2326199" relation="sub" presentation-after=" "/>
+        <token id="2021897" form="naturalia" citation-part="1.2.1" lemma="naturalis" part-of-speech="A-" morphology="-p---nnp-i" head-id="2326199" relation="xobj" presentation-after=", ">
+          <slash target-id="2021896" relation="xsub"/>
+        </token>
+        <token id="2021898" form="unum" citation-part="1.2.1" lemma="unus" part-of-speech="Ma" morphology="-s---nn--i" head-id="2021902" relation="sub" presentation-after=" ">
+          <slash target-id="2021894" relation="part"/>
+        </token>
+        <token id="2021899" form="facultatis" citation-part="1.2.1" lemma="facultas" part-of-speech="Nb" morphology="-s---fg--i" head-id="2021900" relation="xobj" presentation-after=" "/>
+        <token id="2021900" form="et" citation-part="1.2.1" lemma="et" part-of-speech="C-" morphology="---------n" head-id="2021902" relation="xobj" presentation-after=" ">
+          <slash target-id="2021898" relation="xsub"/>
+        </token>
+        <token id="2021901" form="uoluntatis" citation-part="1.2.1" lemma="uoluntas" part-of-speech="Nb" morphology="-s---fg--i" head-id="2021900" relation="xobj" presentation-after=" "/>
+        <token id="2021902" form="est" citation-part="1.2.1" lemma="sum" part-of-speech="V-" morphology="3spia----i" head-id="2326198" relation="pred" presentation-after=". "/>
+        <token id="2326198" empty-token-sort="C" relation="pred"/>
+        <token id="2326199" empty-token-sort="V" head-id="2326198" relation="pred">
+          <slash target-id="2021902" relation="pid"/>
+        </token>
       </sentence>
       <sentence id="159700" status="unannotated">
         <token id="2021903" form="Naturae" citation-part="1.2.1" presentation-after=" "/>
