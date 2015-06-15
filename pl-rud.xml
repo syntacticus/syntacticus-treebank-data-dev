@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-04-15T23:16:39+02:00" schema-version="2.0">
+<proiel export-time="2015-06-14T17:21:58+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -158,6 +158,7 @@
     <title>Rudens</title>
     <author>Plautus</author>
     <citation-part>Pl. Rud.</citation-part>
+    <annotator>Marius Larsen Jøhndal (2 sentences)</annotator>
     <electronic-text-publisher>Perseus</electronic-text-publisher>
     <electronic-text-original-url>http://www.perseus.tufts.edu/hopper/</electronic-text-original-url>
     <electronic-text-license>Creative Commons Attribution-ShareAlike 3.0</electronic-text-license>
@@ -13057,12 +13058,14 @@
         <token id="2203580" form="ego" citation-part="1297" presentation-after=" "/>
         <token id="2203581" form="opinor" citation-part="1297" presentation-after=". "/>
       </sentence>
-      <sentence id="183227" status="unannotated">
-        <token id="2203582" form="adeundus" citation-part="1298" presentation-after=" "/>
-        <token id="2203583" form="mihi" citation-part="1298" presentation-after=" "/>
-        <token id="2203584" form="illic" citation-part="1298" presentation-after=" "/>
-        <token id="2203585" form="est" citation-part="1298" presentation-after=" "/>
-        <token id="2203586" form="homo" citation-part="1298" presentation-after=". "/>
+      <sentence id="183227" status="annotated">
+        <token id="2203582" form="adeundus" citation-part="1298" lemma="adeo" part-of-speech="V-" morphology="-s-g-mn--i" head-id="2203585" relation="xobj" presentation-after=" ">
+          <slash target-id="2203586" relation="xsub"/>
+        </token>
+        <token id="2203583" form="mihi" citation-part="1298" lemma="ego" part-of-speech="Pp" morphology="1s---md--i" head-id="2203582" relation="ag" presentation-after=" "/>
+        <token id="2203584" form="illic" citation-part="1298" lemma="illic" part-of-speech="Pd" morphology="-s---mn--i" head-id="2203586" relation="atr" presentation-after=" "/>
+        <token id="2203585" form="est" citation-part="1298" lemma="sum" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="2203586" form="homo" citation-part="1298" lemma="homo" part-of-speech="Nb" morphology="-s---mn--i" head-id="2203585" relation="sub" presentation-after=". "/>
       </sentence>
       <sentence id="183228" status="unannotated">
         <token id="2203587" form="di" citation-part="1298" presentation-after=", "/>
@@ -13499,13 +13502,15 @@
       <sentence id="183296" status="unannotated">
         <token id="2203883" form="Tango" citation-part="1333" presentation-before="Labr. " presentation-after=". "/>
       </sentence>
-      <sentence id="183297" status="unannotated">
-        <token id="2203884" form="Per" citation-part="1334" presentation-before="G. " presentation-after=" "/>
-        <token id="2203885" form="Venerem" citation-part="1334" presentation-after=" "/>
-        <token id="2203886" form="hanc" citation-part="1334" presentation-after=" "/>
-        <token id="2203887" form="iurandum" citation-part="1334" presentation-after=" "/>
-        <token id="2203888" form="est" citation-part="1334" presentation-after=" "/>
-        <token id="2203889" form="tibi" citation-part="1334" presentation-after=".     "/>
+      <sentence id="183297" status="annotated">
+        <token id="2203884" form="Per" citation-part="1334" lemma="per" part-of-speech="R-" morphology="---------n" head-id="2203887" relation="adv" presentation-before="G. " presentation-after=" "/>
+        <token id="2203885" form="Venerem" citation-part="1334" lemma="Venus" part-of-speech="Ne" morphology="-s---fa--i" head-id="2203884" relation="obl" presentation-after=" "/>
+        <token id="2203886" form="hanc" citation-part="1334" lemma="hic" part-of-speech="Pd" morphology="-s---fa--i" head-id="2203885" relation="atr" presentation-after=" "/>
+        <token id="2203887" form="iurandum" citation-part="1334" lemma="iuro" part-of-speech="V-" morphology="-s-g-na--i" head-id="2203888" relation="xobj" presentation-after=" ">
+          <slash target-id="2203888" relation="xsub"/>
+        </token>
+        <token id="2203888" form="est" citation-part="1334" lemma="sum" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="2203889" form="tibi" citation-part="1334" lemma="tu" part-of-speech="Pp" morphology="2s---md--i" head-id="2203887" relation="ag" presentation-after=".     "/>
       </sentence>
       <sentence id="183298" status="unannotated">
         <token id="2203890" form="Quid" citation-part="1334" presentation-before="L. " presentation-after=" "/>
