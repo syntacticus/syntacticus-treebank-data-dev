@@ -11772,21 +11772,19 @@
         <token id="1389809" form="esto" citation-part="15" lemma="esto" part-of-speech="Pd" morphology="---------n" head-id="1389811" relation="sub" presentation-after=" "/>
         <token id="1389810" form="ouieron" citation-part="15" lemma="haber" part-of-speech="V-" morphology="3pri-----i" head-id="1389811" relation="aux" presentation-after=" "/>
         <token id="1389811" form="fecho" citation-part="15" lemma="hacer" part-of-speech="V-" morphology="-s-p-m---i" head-id="1389808" relation="pred" presentation-after=" "/>
-        <token id="1389812" form="salio" citation-part="15" lemma="salir" part-of-speech="V-" morphology="3sri-----i" head-id="1389815" relation="pred" presentation-after=" "/>
+        <token id="1389812" form="salio" citation-part="15" lemma="salir" part-of-speech="V-" morphology="3sri-----i" relation="pred" presentation-after=" "/>
         <token id="1389813" form="el" citation-part="15" lemma="el" part-of-speech="S-" morphology="-s---m---i" head-id="1389814" relation="aux" presentation-after=" "/>
-        <token id="1389814" form="Rey" citation-part="15" lemma="rey" part-of-speech="Nb" morphology="-s---m---i" head-id="1389812" relation="sub" presentation-after=". "/>
-        <token id="1389815" form="et" citation-part="15" lemma="et" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
-        <token id="1389816" form="daniel" citation-part="15" lemma="Daniel" part-of-speech="Ne" morphology="---------n" head-id="1389825" relation="sub" presentation-after=". "/>
+        <token id="1389814" form="Rey" citation-part="15" lemma="rey" part-of-speech="Nb" morphology="-s---m---i" head-id="1389815" relation="sub" presentation-after=". "/>
+        <token id="1389815" form="et" citation-part="15" lemma="et" part-of-speech="C-" morphology="---------n" head-id="1389812" relation="sub" presentation-after=" "/>
+        <token id="1389816" form="daniel" citation-part="15" lemma="Daniel" part-of-speech="Ne" morphology="---------n" head-id="1389815" relation="sub" presentation-after=". "/>
         <token id="1389817" form="et" citation-part="15" lemma="et" part-of-speech="C-" morphology="---------n" head-id="1389815" relation="aux" presentation-after=" "/>
         <token id="1389818" form="los" citation-part="15" lemma="el" part-of-speech="S-" morphology="-p---m---i" head-id="1389819" relation="aux" presentation-after=" "/>
-        <token id="1389819" form="otros" citation-part="15" lemma="otro" part-of-speech="Py" morphology="-p---m---i" head-id="1389826" relation="sub" presentation-after=" "/>
+        <token id="1389819" form="otros" citation-part="15" lemma="otro" part-of-speech="Py" morphology="-p---m---i" head-id="1389815" relation="sub" presentation-after=" "/>
         <token id="1389820" form="que" citation-part="15" lemma="que" part-of-speech="Pr" morphology="---------n" head-id="1389821" relation="sub" presentation-after=" "/>
         <token id="1389821" form="eran" citation-part="15" lemma="ser" part-of-speech="V-" morphology="3pii-----i" head-id="1389819" relation="atr" presentation-after=" "/>
         <token id="1389822" form="y" citation-part="15" lemma="ý" part-of-speech="Df" morphology="---------n" head-id="1389821" relation="adv" presentation-after=" "/>
         <token id="1389823" form="con" citation-part="15" lemma="con" part-of-speech="R-" morphology="---------n" head-id="1389821" relation="adv" presentation-after=" "/>
         <token id="1389824" form="ellos" citation-part="15" lemma="él" part-of-speech="Pp" morphology="3p---m---i" head-id="1389823" relation="obl" presentation-after=". "/>
-        <token id="1389825" empty-token-sort="V" head-id="1389815" relation="pred"/>
-        <token id="1389826" empty-token-sort="V" head-id="1389815" relation="pred"/>
       </sentence>
       <sentence id="98109" status="annotated">
         <token id="1389827" form="et" citation-part="15" lemma="et" part-of-speech="C-" morphology="---------n" head-id="1389828" relation="aux" presentation-after=" "/>
@@ -20577,7 +20575,7 @@
         <token id="1397381" form="de" citation-part="28" lemma="de" part-of-speech="R-" morphology="---------n" head-id="1397384" relation="sub" presentation-after=" "/>
         <token id="1397382" form="Joseph" citation-part="28" lemma="Josef" part-of-speech="Ne" morphology="---------n" head-id="1397381" relation="obl" presentation-after=" "/>
         <token id="1397383" form="llama" citation-part="28" lemma="llama" part-of-speech="Nb" morphology="-s---f---i" head-id="1397384" relation="xobj" presentation-after=". ">
-          <slash target-id="1397380" relation="xsub"/>
+          <slash target-id="1397381" relation="xsub"/>
         </token>
         <token id="1397384" empty-token-sort="V" relation="pred"/>
       </sentence>
