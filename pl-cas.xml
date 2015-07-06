@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-06-21T01:51:25+02:00" schema-version="2.0">
+<proiel export-time="2015-07-05T01:51:41+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -158,7 +158,7 @@
     <title>Casina</title>
     <author>Plautus</author>
     <citation-part>Pl. Cas.</citation-part>
-    <annotator>Marius Larsen Jøhndal (1 sentence)</annotator>
+    <annotator>Marius Larsen Jøhndal (2 sentences)</annotator>
     <electronic-text-publisher>Perseus</electronic-text-publisher>
     <electronic-text-original-url>http://www.perseus.tufts.edu/hopper/</electronic-text-original-url>
     <electronic-text-license>Creative Commons Attribution-ShareAlike 3.0</electronic-text-license>
@@ -8180,11 +8180,15 @@
         <token id="2109725" form="exposivit" citation-part="853" presentation-after=" "/>
         <token id="2109726" form="cubito" citation-part="853" presentation-after=".  "/>
       </sentence>
-      <sentence id="169179" status="unannotated">
-        <token id="2109727" form="Cubitum" citation-part="853" lemma="cubo" part-of-speech="V-" morphology="---u--a--i" presentation-before="Lys. " presentation-after=" "/>
-        <token id="2109728" form="ergo" citation-part="853" lemma="ergo" part-of-speech="Df" morphology="---------n" presentation-after=" "/>
-        <token id="2109729" form="ire" citation-part="853" lemma="eo" part-of-speech="V-" morphology="--pna----i" presentation-after=" "/>
-        <token id="2109730" form="volt" citation-part="853" lemma="volo" part-of-speech="V-" morphology="3spia----i" presentation-after=". "/>
+      <sentence id="169179" status="annotated">
+        <token id="2109727" form="Cubitum" citation-part="853" lemma="cubo" part-of-speech="V-" morphology="---u--a--i" head-id="2109729" relation="xadv" presentation-before="Lys. " presentation-after=" ">
+          <slash target-id="2109729" relation="xsub"/>
+        </token>
+        <token id="2109728" form="ergo" citation-part="853" lemma="ergo" part-of-speech="Df" morphology="---------n" head-id="2109730" relation="aux" presentation-after=" "/>
+        <token id="2109729" form="ire" citation-part="853" lemma="eo" part-of-speech="V-" morphology="--pna----i" head-id="2109730" relation="xobj" presentation-after=" ">
+          <slash target-id="2109730" relation="xsub"/>
+        </token>
+        <token id="2109730" form="volt" citation-part="853" lemma="volo#1" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=". "/>
       </sentence>
       <sentence id="169180" status="unannotated">
         <token id="2109731" form="Quin" citation-part="854" presentation-before="Ol. " presentation-after=" "/>
