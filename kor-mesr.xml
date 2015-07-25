@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-06-21T01:02:47+02:00" schema-version="2.0">
+<proiel export-time="2015-07-19T01:00:45+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -1766,6 +1766,7 @@
         <token id="1146454" form="naxakarg" citation-part="3" lemma="naxakarg" part-of-speech="A-" morphology="---------n" head-id="1146455" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146455" form="bani" citation-part="3" lemma="ban" part-of-speech="Nb" morphology="-s----l--i" head-id="1146453" relation="obl" antecedent-id="1146449" information-status="old" foreign-ids="nominal"/>
         <token id="1146456" form="s" citation-part="3" lemma="s" part-of-speech="Df" morphology="---------n" head-id="1146455" relation="aux" presentation-after=" "/>
+        <token id="1178787" empty-token-sort="P" citation-part="3" head-id="1146457" relation="sub" information-status="old"/>
         <token id="1146457" form="nšanakemkʻ" citation-part="3" lemma="nšanakem" part-of-speech="V-" morphology="1ppia----i" head-id="1146450" relation="atr" presentation-after=", "/>
         <token id="1146458" form="vasn" citation-part="3" lemma="vasn" part-of-speech="R-" morphology="---------n" head-id="1146462" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146459" form="oroy" citation-part="3" lemma="or" part-of-speech="Pr" morphology="-s----g--i" head-id="1146458" relation="obl" presentation-after=" "/>
@@ -1791,7 +1792,6 @@
           <slash target-id="1146479" relation="xsub"/>
         </token>
         <token id="1146479" form="kočʻecʻeloy" citation-part="3" lemma="kočʻem" part-of-speech="V-" morphology="-s-p--g--i" head-id="1146476" relation="atr" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178787" empty-token-sort="P" citation-part="3" head-id="1146457" relation="sub" information-status="old"/>
       </sentence>
       <sentence id="80513" status="reviewed" presentation-after=" ">
         <token id="1146480" form="I" citation-part="3" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146484" relation="adv" presentation-after=" "/>
@@ -1805,6 +1805,7 @@
         <token id="1146488" form="ekeal" citation-part="3" lemma="gam" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146489" relation="xadv" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1146489" relation="xsub"/>
         </token>
+        <token id="1178789" empty-token-sort="P" citation-part="3" head-id="1146489" relation="sub" antecedent-id="1146450" information-status="old"/>
         <token id="1146489" form="haseal" citation-part="3" lemma="hasanem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1178766" relation="pred" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146490" form="i" citation-part="3" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146489" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146491" form="dowr̄n" citation-part="3" lemma="dowr̄n" part-of-speech="Nb" morphology="-s----a--i" head-id="1146490" relation="obl" information-status="new" presentation-after=" " foreign-ids="nominal"/>
@@ -1835,7 +1836,6 @@
         <token id="1146512" form="Ar̄awanay" citation-part="3" lemma="Ar̄awan" part-of-speech="Ne" morphology="-s----g--i" head-id="1146502" relation="atr" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146513" form="owrowmn" citation-part="3" lemma="omn" part-of-speech="Px" morphology="-s----g--i" head-id="1146512" relation="atr" information-status="info_unannotatable" presentation-after=": "/>
         <token id="1178766" empty-token-sort="C" citation-part="3" relation="pred"/>
-        <token id="1178789" empty-token-sort="P" citation-part="3" head-id="1146489" relation="sub" antecedent-id="1146450" information-status="old"/>
       </sentence>
       <sentence id="80514" status="reviewed" presentation-after=" ">
         <token id="1178767" form="Tełekacʻeal" citation-part="3" lemma="tełekacʻem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1178768" relation="xobj" presentation-after=" "/>
@@ -1849,6 +1849,7 @@
         <token id="1178773" form="cʻankali" citation-part="3" lemma="cʻankali" part-of-speech="A-" morphology="-s----n--i" head-id="1178774" relation="xobj" presentation-after=" ">
           <slash target-id="1178776" relation="xsub"/>
         </token>
+        <token id="1178782" empty-token-sort="P" citation-part="3" head-id="1178774" relation="sub" antecedent-id="1178789" information-status="old"/>
         <token id="1178774" form="ełeal" citation-part="3" lemma="linim" part-of-speech="V-" morphology="-s-p--n--i" head-id="1178780" relation="pred" presentation-after=" "/>
         <token id="1178775" form="zinoworakan" citation-part="3" lemma="zinoworakan" part-of-speech="A-" morphology="-s----n--i" head-id="1178776" relation="atr" presentation-after=" "/>
         <token id="1178776" form="arowestiwn" citation-part="3" lemma="arowestiwn" part-of-speech="Mo" morphology="-s----n--i" head-id="1178774" relation="sub" antecedent-id="1178782" information-status="acc_inf" presentation-after=" "/>
@@ -1856,7 +1857,6 @@
         <token id="1178778" form="zawrakanacʻ" citation-part="3" lemma="zawrakan" part-of-speech="Nb" morphology="-p----d--i" head-id="1178774" relation="adv" antecedent-id="1178782" information-status="acc_inf"/>
         <token id="1178779" form="n" citation-part="3" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1178778" relation="aux" presentation-after=" : "/>
         <token id="1178780" empty-token-sort="C" citation-part="3" relation="pred"/>
-        <token id="1178782" empty-token-sort="P" citation-part="3" head-id="1178774" relation="sub" antecedent-id="1178789" information-status="old"/>
       </sentence>
       <sentence id="80515" status="reviewed">
         <token id="1146528" form="Ew" citation-part="3" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146531" relation="aux" presentation-after=" "/>
@@ -1893,13 +1893,13 @@
         <token id="1146553" form="zardareal" citation-part="3" lemma="zardarem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146554" relation="xadv" presentation-after=", " foreign-ids="nominal">
           <slash target-id="1146554" relation="xsub"/>
         </token>
+        <token id="1178790" empty-token-sort="P" citation-part="3" head-id="1146554" relation="sub" antecedent-id="1146552" information-status="old"/>
         <token id="1146554" form="harkanēr" citation-part="3" lemma="harkanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1146555" form="z" citation-part="3" lemma="z" part-of-speech="R-" morphology="---------n" head-id="1146558" relation="aux"/>
         <token id="1146556" form="išxanacʻ" citation-part="3" lemma="išxan" part-of-speech="Nb" morphology="-p----g--i" head-id="1146558" relation="atr" antecedent-id="1146493" information-status="old" foreign-ids="nominal"/>
         <token id="1146557" form="n" citation-part="3" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146556" relation="aux" presentation-after=" "/>
         <token id="1146558" form="spasaworowtʻiwns" citation-part="3" lemma="spasaworowtʻiwn" part-of-speech="Nb" morphology="-p----a--i" head-id="1146554" relation="obj" antecedent-id="1146504" information-status="acc_inf" foreign-ids="nominal"/>
         <token id="1146559" form="n" citation-part="3" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146558" relation="aux" presentation-after=" : "/>
-        <token id="1178790" empty-token-sort="P" citation-part="3" head-id="1146554" relation="sub" antecedent-id="1146552" information-status="old"/>
       </sentence>
     </div>
     <div>
@@ -1920,6 +1920,7 @@
         <token id="1146572" form="darjeal" citation-part="4" lemma="dar̄nam" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146573" relation="xadv" presentation-after=", " foreign-ids="nominal">
           <slash target-id="1146573" relation="xsub"/>
         </token>
+        <token id="1178793" empty-token-sort="P" citation-part="4" head-id="1146573" relation="sub" antecedent-id="1178790" information-status="old"/>
         <token id="1146573" form="merkanayr" citation-part="4" lemma="merkanam" part-of-speech="V-" morphology="3siia----i" head-id="1146579" relation="pred" presentation-after=" "/>
         <token id="1146574" form="aynowhetew" citation-part="4" lemma="aynowhetew" part-of-speech="Df" morphology="---------n" head-id="1146573" relation="aux" presentation-after=" "/>
         <token id="1146575" form="z" citation-part="4" lemma="z" part-of-speech="R-" morphology="---------n" head-id="1146577" relation="aux"/>
@@ -1934,13 +1935,12 @@
         <token id="1146582" form="xačʻ" citation-part="4" lemma="xačʻ" part-of-speech="Nb" morphology="-s----a--i" head-id="1146580" relation="obj" information-status="acc_gen" foreign-ids="nominal"/>
         <token id="1146583" form="n" citation-part="4" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146582" relation="aux" presentation-after=" "/>
         <token id="1146584" form="parcanacʻ" citation-part="4" lemma="parcankʻ" part-of-speech="Nb" morphology="-p----g--i" head-id="1146582" relation="atr" information-status="info_unannotatable" presentation-after="; " foreign-ids="nominal"/>
+        <token id="1178794" empty-token-sort="P" citation-part="4" head-id="1146585" relation="sub" antecedent-id="1178793" information-status="old"/>
         <token id="1146585" form="elanēr" citation-part="4" lemma="elanem" part-of-speech="V-" morphology="3siia----i" head-id="1146579" relation="pred" presentation-after=" "/>
         <token id="1146586" form="zkni" citation-part="4" lemma="zkni" part-of-speech="R-" morphology="---------n" head-id="1146585" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146587" form="amenakecʻoycʻ" citation-part="4" lemma="amenakecʻoycʻ" part-of-speech="A-" morphology="---------n" head-id="1146588" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146588" form="xačʻeloy" citation-part="4" lemma="xačʻem" part-of-speech="V-" morphology="-s-p--g--i" head-id="1146586" relation="obl" antecedent-id="1146582" information-status="acc_inf"/>
         <token id="1146589" form="n" citation-part="4" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146588" relation="aux" presentation-after=" : "/>
-        <token id="1178793" empty-token-sort="P" citation-part="4" head-id="1146573" relation="sub" antecedent-id="1178790" information-status="old"/>
-        <token id="1178794" empty-token-sort="P" citation-part="4" head-id="1146585" relation="sub" antecedent-id="1178793" information-status="old"/>
       </sentence>
       <sentence id="80517" status="reviewed" presentation-after=" ">
         <token id="1146590" form="Ew" citation-part="4" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146599" relation="aux" presentation-after=" "/>
@@ -1954,6 +1954,7 @@
         <token id="1146596" form="gownd" citation-part="4" lemma="gownd" part-of-speech="Nb" morphology="-s----a--i" head-id="1146594" relation="obl" information-status="acc_gen" foreign-ids="nominal"/>
         <token id="1146597" form="n" citation-part="4" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146596" relation="aux" presentation-after=" "/>
         <token id="1146598" form="Kʻristosi" citation-part="4" lemma="kʻristos" part-of-speech="Nb" morphology="-s----g--i" head-id="1146596" relation="atr" information-status="acc_gen" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178795" empty-token-sort="P" citation-part="4" head-id="1146599" relation="sub" antecedent-id="1178794" information-status="old"/>
         <token id="1146599" form="xar̄nēr" citation-part="4" lemma="xar̄nem" part-of-speech="V-" morphology="3siia----i" head-id="1146600" relation="pred" presentation-after=", "/>
         <token id="1146600" form="ew" citation-part="4" lemma="ew" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
         <token id="1146601" form="andēn" citation-part="4" lemma="andēn" part-of-speech="Df" morphology="---------n" head-id="1146606" relation="aux" presentation-after=" "/>
@@ -1961,9 +1962,8 @@
         <token id="1146603" form="i" citation-part="4" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146606" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146604" form="miaynakecʻakan" citation-part="4" lemma="miaynakecʻakan" part-of-speech="A-" morphology="-s----a--i" head-id="1146605" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146605" form="karg" citation-part="4" lemma="karg" part-of-speech="Nb" morphology="-s----a--i" head-id="1146603" relation="obl" information-status="new" presentation-after=" " foreign-ids="nominal"/>
-        <token id="1146606" form="mtanēr" citation-part="4" lemma="mtanem" part-of-speech="V-" morphology="3siia----i" head-id="1146600" relation="pred" presentation-after=": "/>
-        <token id="1178795" empty-token-sort="P" citation-part="4" head-id="1146599" relation="sub" antecedent-id="1178794" information-status="old"/>
         <token id="1178796" empty-token-sort="P" citation-part="4" head-id="1146606" relation="sub" antecedent-id="1178795" information-status="old"/>
+        <token id="1146606" form="mtanēr" citation-part="4" lemma="mtanem" part-of-speech="V-" morphology="3siia----i" head-id="1146600" relation="pred" presentation-after=": "/>
       </sentence>
       <sentence id="80518" status="reviewed" presentation-after=" ">
         <token id="1146607" form="Bazowm" citation-part="4" lemma="bazowm" part-of-speech="Py" morphology="-s----a--i" head-id="1146608" relation="atr" presentation-after=" " foreign-ids="nominal"/>
@@ -1974,6 +1974,7 @@
         <token id="1146612" form="əst" citation-part="4" lemma="əst" part-of-speech="R-" morphology="---------n" head-id="1146615" relation="adv" presentation-after=" "/>
         <token id="1146613" form="awetarani" citation-part="4" lemma="awetaran" part-of-speech="Nb" morphology="-s----g--i" head-id="1146612" relation="obl" antecedent-id="1146565" information-status="old" foreign-ids="nominal"/>
         <token id="1146614" form="n" citation-part="4" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146613" relation="aux" presentation-after=" "/>
+        <token id="1178797" empty-token-sort="P" citation-part="4" head-id="1146615" relation="sub" antecedent-id="1178796" information-status="old"/>
         <token id="1146615" form="krēr" citation-part="4" lemma="krem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1146616" form="amenayn" citation-part="4" lemma="amenayn" part-of-speech="Py" morphology="---------n" head-id="1146617" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146617" form="iracʻ" citation-part="4" lemma="ir" part-of-speech="Nb" morphology="-p----d--i" head-id="1146615" relation="obl" information-status="quant" presentation-after=". " foreign-ids="nominal"/>
@@ -1999,7 +2000,6 @@
         <token id="1146635" form="ew" citation-part="4" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146619" relation="apos" presentation-after=" "/>
         <token id="1146636" form="getnatarac" citation-part="4" lemma="getnatarac" part-of-speech="A-" morphology="---------n" head-id="1146637" relation="atr" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146637" form="ankołnocʻ" citation-part="4" lemma="ankołin" part-of-speech="Nb" morphology="-p----d--i" head-id="1146635" relation="apos" information-status="kind" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178797" empty-token-sort="P" citation-part="4" head-id="1146615" relation="sub" antecedent-id="1178796" information-status="old"/>
       </sentence>
       <sentence id="80520" status="reviewed" presentation-after=" ">
         <token id="1146638" form="Ew" citation-part="4" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146656" relation="aux" presentation-after=" "/>
@@ -2020,19 +2020,19 @@
         <token id="1146653" form="i" citation-part="4" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146656" relation="adv" presentation-after=" "/>
         <token id="1146654" form="tʻawtʻapʻel" citation-part="4" lemma="tʻawtʻapʻem" part-of-speech="V-" morphology="---d--l--i" head-id="1146653" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146655" form="akan" citation-part="4" lemma="akn" part-of-speech="Nb" morphology="-s----l--i" head-id="1146656" relation="obl" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
-        <token id="1146656" form="včarēr" citation-part="4" lemma="včarem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=": "/>
         <token id="1178798" empty-token-sort="P" citation-part="4" head-id="1146656" relation="sub" antecedent-id="1178797" information-status="old"/>
+        <token id="1146656" form="včarēr" citation-part="4" lemma="včarem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=": "/>
       </sentence>
       <sentence id="80521" status="reviewed" presentation-after=" ">
         <token id="1146657" form="Ew" citation-part="4" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146661" relation="aux" presentation-after=" "/>
         <token id="1146658" form="z" citation-part="4" lemma="z" part-of-speech="R-" morphology="---------n" head-id="1146659" relation="aux"/>
         <token id="1146659" form="ays" citation-part="4" lemma="ays" part-of-speech="Pd" morphology="-s----a--i" head-id="1146661" relation="obj" antecedent-id="1146656" information-status="quant" presentation-after=" "/>
         <token id="1146660" form="amenayn" citation-part="4" lemma="amenayn" part-of-speech="Py" morphology="-s----a--i" head-id="1146659" relation="atr" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178799" empty-token-sort="P" citation-part="4" head-id="1146661" relation="sub" antecedent-id="1178798" information-status="old"/>
         <token id="1146661" form="ar̄nēr" citation-part="4" lemma="ar̄nem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1146662" form="očʻ" citation-part="4" lemma="očʻ" part-of-speech="Df" morphology="---------n" head-id="1146661" relation="aux" presentation-after=" "/>
         <token id="1146663" form="sakaw" citation-part="4" lemma="sakaw" part-of-speech="Py" morphology="---------n" head-id="1146664" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146664" form="žamanaks" citation-part="4" lemma="žamanak" part-of-speech="Nb" morphology="-p----a--i" head-id="1146661" relation="adv" information-status="info_unannotatable" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178799" empty-token-sort="P" citation-part="4" head-id="1146661" relation="sub" antecedent-id="1178798" information-status="old"/>
       </sentence>
       <sentence id="80522" status="reviewed" presentation-after=" ">
         <token id="1146665" form="Ew" citation-part="4" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146672" relation="aux" presentation-after=" "/>
@@ -2044,15 +2044,15 @@
         <token id="1146669" form="omans" citation-part="4" lemma="omn" part-of-speech="Px" morphology="-p----a--i" head-id="1146666" relation="obj" information-status="non_spec" presentation-after=" ; "/>
         <token id="1146670" form="y" citation-part="4" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146672" relation="obl" information-status="info_unannotatable"/>
         <token id="1146671" form="inkʻn" citation-part="4" lemma="inkʻn" part-of-speech="Pd" morphology="-s----a--i" head-id="1146670" relation="obl" antecedent-id="1178799" information-status="old" presentation-after=" "/>
+        <token id="1178800" empty-token-sort="P" citation-part="4" head-id="1146672" relation="sub" antecedent-id="1146671" information-status="old"/>
         <token id="1146672" form="yarecʻowcʻanēr" citation-part="4" lemma="yarecʻowcʻanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after="; "/>
         <token id="1146673" form="ašakerteal" citation-part="4" lemma="ašakertem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146672" relation="xadv" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1146672" relation="xsub"/>
         </token>
+        <token id="1178801" empty-token-sort="P" citation-part="4" head-id="1146673" relation="obj" antecedent-id="1146669" information-status="non_spec_old"/>
         <token id="1146674" form="nmin" citation-part="4" lemma="noyn" part-of-speech="Pd" morphology="-s----d--i" head-id="1146676" relation="atr" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146675" form="sovorakan" citation-part="4" lemma="sovorkan" part-of-speech="A-" morphology="---------n" head-id="1146676" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146676" form="awetaranowtʻean" citation-part="4" lemma="awetaranowtʻiwn" part-of-speech="Nb" morphology="-s----d--i" head-id="1146673" relation="obl" antecedent-id="1146613" information-status="old" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178800" empty-token-sort="P" citation-part="4" head-id="1146672" relation="sub" antecedent-id="1146671" information-status="old"/>
-        <token id="1178801" empty-token-sort="P" citation-part="4" head-id="1146673" relation="obj" antecedent-id="1146669" information-status="non_spec_old"/>
       </sentence>
       <sentence id="80523" status="reviewed">
         <token id="1146677" form="Ew" citation-part="4" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146691" relation="aux" presentation-after=" "/>
@@ -2073,11 +2073,11 @@
           <slash target-id="1146691" relation="xsub"/>
         </token>
         <token id="1146690" form="hačoy" citation-part="4" lemma="hačoy" part-of-speech="A-" morphology="-s----n--i" head-id="1146689" relation="xobj" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178802" empty-token-sort="P" citation-part="4" head-id="1146691" relation="sub" antecedent-id="1178800" information-status="old"/>
         <token id="1146691" form="linēr" citation-part="4" lemma="linim" part-of-speech="V-" morphology="3siip----i" relation="pred" presentation-after=" "/>
         <token id="1146692" form="Astowcoy" citation-part="4" lemma="Astowac" part-of-speech="Ne" morphology="-s----d--i" head-id="1146693" relation="obl" antecedent-id="1146569" information-status="old" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146693" form="ew" citation-part="4" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146689" relation="obl" presentation-after=" "/>
         <token id="1146694" form="mardkan" citation-part="4" lemma="mardik" part-of-speech="Nb" morphology="-s----d--i" head-id="1146693" relation="obl" information-status="kind" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178802" empty-token-sort="P" citation-part="4" head-id="1146691" relation="sub" antecedent-id="1178800" information-status="old"/>
       </sentence>
     </div>
     <div>
@@ -2095,6 +2095,7 @@
         <token id="1146702" form="dimeal" citation-part="5" lemma="dimem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146703" relation="xadv" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1146703" relation="xsub"/>
         </token>
+        <token id="1178803" empty-token-sort="P" citation-part="5" head-id="1146703" relation="sub" antecedent-id="1146701" information-status="old"/>
         <token id="1146703" form="iǰanēr" citation-part="5" lemma="iǰanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1146704" form="y" citation-part="5" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146703" relation="obl" information-status="info_unannotatable"/>
         <token id="1146705" form="ankarg" citation-part="5" lemma="ankarg" part-of-speech="A-" morphology="---------n" head-id="1146706" relation="atr" presentation-after=" " foreign-ids="nominal"/>
@@ -2103,7 +2104,6 @@
         <token id="1146708" form="andarman" citation-part="5" lemma="andarman" part-of-speech="A-" morphology="---------n" head-id="1146706" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146709" form="tełis" citation-part="5" lemma="tełi" part-of-speech="Nb" morphology="-p----a--i" head-id="1146704" relation="obl" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146710" form="Gołtʻan" citation-part="5" lemma="Gołtʻan" part-of-speech="Ne" morphology="---------n" head-id="1146709" relation="apos" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178803" empty-token-sort="P" citation-part="5" head-id="1146703" relation="sub" antecedent-id="1146701" information-status="old"/>
       </sentence>
       <sentence id="80525" status="reviewed" presentation-after=" ">
         <token id="1146711" form="Ayl" citation-part="5" lemma="ayl" part-of-speech="C-" morphology="---------n" head-id="1146714" relation="aux" presentation-after=" "/>
@@ -2131,14 +2131,14 @@
           <slash target-id="1146732" relation="xsub"/>
         </token>
         <token id="1146731" form="barepaštowtʻeamb" citation-part="5" lemma="barepaštowtʻiwn" part-of-speech="Nb" morphology="-s----i--i" head-id="1146732" relation="adv" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178804" empty-token-sort="P" citation-part="5" head-id="1146732" relation="sub" antecedent-id="1146716" information-status="old"/>
         <token id="1146732" form="spasaworēr" citation-part="5" lemma="spasaworem" part-of-speech="V-" morphology="3siia----i" head-id="1146727" relation="pred" presentation-after=" "/>
+        <token id="1178805" empty-token-sort="P" citation-part="5" head-id="1146732" relation="obl" antecedent-id="1146715" information-status="old"/>
         <token id="1146733" form="əst" citation-part="5" lemma="əst" part-of-speech="R-" morphology="---------n" head-id="1146732" relation="adv" presentation-after=" "/>
         <token id="1146734" form="ašakertacʻ" citation-part="5" lemma="ašakert" part-of-speech="Nb" morphology="-p----g--i" head-id="1146735" relation="atr" information-status="acc_gen" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146735" form="hawatocʻ" citation-part="5" lemma="hawatkʻ" part-of-speech="Nb" morphology="-p----d--i" head-id="1146733" relation="obl" information-status="acc_gen" foreign-ids="nominal"/>
         <token id="1146736" form="n" citation-part="5" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146735" relation="aux" presentation-after=" "/>
         <token id="1146737" form="Kʻristosi" citation-part="5" lemma="Kʻristos" part-of-speech="Ne" morphology="-s----g--i" head-id="1146735" relation="narg" antecedent-id="1146598" information-status="old" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178804" empty-token-sort="P" citation-part="5" head-id="1146732" relation="sub" antecedent-id="1146716" information-status="old"/>
-        <token id="1178805" empty-token-sort="P" citation-part="5" head-id="1146732" relation="obl" antecedent-id="1146715" information-status="old"/>
       </sentence>
       <sentence id="80526" status="reviewed" presentation-after=" ">
         <token id="1146738" form="Isk" citation-part="5" lemma="isk" part-of-speech="C-" morphology="---------n" head-id="1146747" relation="aux" presentation-after=" "/>
@@ -2154,6 +2154,7 @@
           <slash target-id="1146749" relation="xsub"/>
         </token>
         <token id="1146748" form="jer̄n" citation-part="5" lemma="jer̄n" part-of-speech="Nb" morphology="-s----a--i" head-id="1146747" relation="obj" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178806" empty-token-sort="P" citation-part="5" head-id="1146749" relation="sub" antecedent-id="1146739" information-status="old"/>
         <token id="1146749" form="arkanēr" citation-part="5" lemma="arkanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1146750" form="z" citation-part="5" lemma="z-" part-of-speech="R-" morphology="---------n" head-id="1146749" relation="per"/>
         <token id="1146751" form="gawar̄ov" citation-part="5" lemma="gawar̄" part-of-speech="Nb" morphology="-s----i--i" head-id="1146750" relation="obl" antecedent-id="1146718" information-status="old" foreign-ids="nominal"/>
@@ -2163,7 +2164,6 @@
         <token id="1146755" form="satarowtʻeamb" citation-part="5" lemma="satarowtʻiwn" part-of-speech="Nb" morphology="-s----i--i" head-id="1146753" relation="obl" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146756" form="išxani" citation-part="5" lemma="išxan" part-of-speech="Nb" morphology="-s----g--i" head-id="1146755" relation="atr" antecedent-id="1178804" information-status="old" foreign-ids="nominal"/>
         <token id="1146757" form="n" citation-part="5" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146756" relation="aux" presentation-after=" . "/>
-        <token id="1178806" empty-token-sort="P" citation-part="5" head-id="1146749" relation="sub" antecedent-id="1146739" information-status="old"/>
       </sentence>
       <sentence id="83351" status="reviewed" presentation-after=" ">
         <token id="1146758" form="gereal" citation-part="5" lemma="gerem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146773" relation="xadv" presentation-after=" " foreign-ids="nominal">
@@ -2183,8 +2183,8 @@
         <token id="1146770" form="i" citation-part="5" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146773" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146771" form="hnazandowtʻiwn" citation-part="5" lemma="hnazandowtʻiwn" part-of-speech="Nb" morphology="-s----l--i" head-id="1146770" relation="obl" information-status="acc_gen" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146772" form="Kʻristosi" citation-part="5" lemma="Kʻristos" part-of-speech="Ne" morphology="-s----g--i" head-id="1146771" relation="atr" antecedent-id="1146737" information-status="old" presentation-after=" " foreign-ids="nominal"/>
-        <token id="1146773" form="matowcʻanēr" citation-part="5" lemma="matowcʻanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=": "/>
         <token id="1178807" empty-token-sort="P" citation-part="5" head-id="1146773" relation="sub" antecedent-id="1178806" information-status="old"/>
+        <token id="1146773" form="matowcʻanēr" citation-part="5" lemma="matowcʻanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=": "/>
       </sentence>
       <sentence id="80528" status="reviewed">
         <token id="1146774" form="Ew" citation-part="5" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146790" relation="aux" presentation-after=" "/>
@@ -2216,11 +2216,11 @@
         </token>
       </sentence>
       <sentence id="83352" status="reviewed" presentation-after=" ">
+        <token id="1178808" empty-token-sort="P" citation-part="5" head-id="1146797" relation="sub" antecedent-id="1146793" information-status="old"/>
         <token id="1146797" form="ankanēin" citation-part="5" lemma="ankanim" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=" "/>
         <token id="1146798" form="i" citation-part="5" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146797" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146799" form="kołmans" citation-part="5" lemma="kołmn" part-of-speech="Nb" morphology="-p----a--i" head-id="1146798" relation="obl" information-status="acc_gen" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146800" form="Maracʻ" citation-part="5" lemma="Markʻ" part-of-speech="Ne" morphology="-p----g--i" head-id="1146799" relation="atr" information-status="info_unannotatable" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178808" empty-token-sort="P" citation-part="5" head-id="1146797" relation="sub" antecedent-id="1146793" information-status="old"/>
       </sentence>
       <sentence id="80529" status="reviewed" presentation-after=" ">
         <token id="1146801" form="Noynpēs" citation-part="5" lemma="noynpēs" part-of-speech="Df" morphology="---------n" head-id="1146806" relation="adv" presentation-after=" "/>
@@ -2228,10 +2228,10 @@
         <token id="1146803" form="hog" citation-part="5" lemma="hog" part-of-speech="Nb" morphology="-s----a--i" head-id="1146806" relation="obj" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146804" form="i" citation-part="5" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146806" relation="adv" presentation-after=" "/>
         <token id="1146805" form="mti" citation-part="5" lemma="mit" part-of-speech="Nb" morphology="-s----l--i" head-id="1146804" relation="obl" antecedent-id="1146782" information-status="acc_inf" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178809" empty-token-sort="P" citation-part="5" head-id="1146806" relation="sub" antecedent-id="1146782" information-status="old"/>
         <token id="1146806" form="arkanēr" citation-part="5" lemma="arkanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1146807" form="hamašxarhakans" citation-part="5" lemma="hamašxarhakan" part-of-speech="A-" morphology="-p----a--i" head-id="1146808" relation="obj" information-status="old_inact" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146808" form="spʻopʻeloy" citation-part="5" lemma="spʻopʻem" part-of-speech="V-" morphology="---d--g--i" head-id="1146803" relation="narg" information-status="info_unannotatable" presentation-after=". "/>
-        <token id="1178809" empty-token-sort="P" citation-part="5" head-id="1146806" relation="sub" antecedent-id="1146782" information-status="old"/>
       </sentence>
       <sentence id="80530" status="reviewed" presentation-after=" ">
         <token id="1146809" form="ew" citation-part="5" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146828" relation="aux" presentation-after=" "/>
@@ -2255,11 +2255,11 @@
         <token id="1146825" form="ar̄akʻelakan" citation-part="5" lemma="ar̄akʻelakan" part-of-speech="A-" morphology="-s----a--i" head-id="1146823" relation="obj" information-status="acc_gen" foreign-ids="nominal"/>
         <token id="1146826" form="n" citation-part="5" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146825" relation="aux" presentation-after=" , "/>
         <token id="1146827" form="ew" citation-part="5" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146828" relation="aux" presentation-after=" "/>
+        <token id="1178810" empty-token-sort="P" citation-part="5" head-id="1146828" relation="sub" antecedent-id="1178809" information-status="old"/>
         <token id="1146828" form="asēr" citation-part="5" lemma="asem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1146829" form="hogalov" citation-part="5" lemma="hogam" part-of-speech="V-" morphology="---d--i--i" head-id="1146828" relation="xadv" presentation-after=". ">
           <slash target-id="1146828" relation="xsub"/>
         </token>
-        <token id="1178810" empty-token-sort="P" citation-part="5" head-id="1146828" relation="sub" antecedent-id="1178809" information-status="old"/>
       </sentence>
       <sentence id="80531" status="reviewed">
         <token id="1146830" form="Trtmowtʻiwn" citation-part="5" lemma="trtmowtʻiwn" part-of-speech="Nb" morphology="-s----n--i" head-id="1146833" relation="sub" information-status="new" presentation-after=" " foreign-ids="nominal"/>
@@ -2295,9 +2295,9 @@
         <token id="1146858" form="els" citation-part="5" lemma="elkʻ" part-of-speech="A-" morphology="-p----a--i" head-id="1146861" relation="obj" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146859" form="iracʻ" citation-part="5" lemma="ir" part-of-speech="Nb" morphology="-p----g--i" head-id="1146858" relation="atr" foreign-ids="nominal"/>
         <token id="1146860" form="n" citation-part="5" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146859" relation="aux" presentation-after=" "/>
+        <token id="1178811" empty-token-sort="P" citation-part="5" head-id="1146861" relation="sub" antecedent-id="1146832" information-status="old"/>
         <token id="1146861" form="gtanicʻē" citation-part="5" lemma="gtanem" part-of-speech="V-" morphology="3spsa----i" head-id="1146855" relation="pred" presentation-after=": "/>
         <token id="1178786" empty-token-sort="C" citation-part="5" relation="pred"/>
-        <token id="1178811" empty-token-sort="P" citation-part="5" head-id="1146861" relation="sub" antecedent-id="1146832" information-status="old"/>
       </sentence>
     </div>
     <div>
@@ -2310,11 +2310,13 @@
         <token id="1146866" form="andēn" citation-part="6" lemma="andēn" part-of-speech="Df" morphology="---------n" head-id="1146869" relation="adv" presentation-after=" "/>
         <token id="1146867" form="i" citation-part="6" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146869" relation="adv" presentation-after=" "/>
         <token id="1146868" form="nmin" citation-part="6" lemma="noyn" part-of-speech="Pd" morphology="-s----l--i" head-id="1146867" relation="obl" antecedent-id="1146851" information-status="old" presentation-after=" "/>
+        <token id="1178812" empty-token-sort="P" citation-part="6" head-id="1146869" relation="sub" information-status="old"/>
         <token id="1146869" form="degerēr" citation-part="6" lemma="degerim" part-of-speech="V-" morphology="3siia----i" head-id="1146863" relation="pred" presentation-after=", "/>
         <token id="1146870" form="yarowcʻeal" citation-part="6" lemma="yarowcʻanem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146872" relation="xadv" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1146872" relation="xsub"/>
         </token>
         <token id="1146871" form="aynowhetew" citation-part="6" lemma="aynowhetew" part-of-speech="Df" morphology="---------n" head-id="1146872" relation="adv" presentation-after=" "/>
+        <token id="1178813" empty-token-sort="P" citation-part="6" head-id="1146872" relation="sub" antecedent-id="1178812" information-status="old"/>
         <token id="1146872" form="hasanēr" citation-part="6" lemma="hasanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1146873" form="ar̄" citation-part="6" lemma="ar̄" part-of-speech="R-" morphology="---------n" head-id="1146872" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146874" form="sowrb" citation-part="6" lemma="sowrb" part-of-speech="A-" morphology="-s----a--i" head-id="1146875" relation="atr" presentation-after=" " foreign-ids="nominal"/>
@@ -2325,6 +2327,7 @@
         <token id="1146879" form="oroy" citation-part="6" lemma="or" part-of-speech="Pr" morphology="-s----g--i" head-id="1146880" relation="atr" presentation-after=" "/>
         <token id="1146880" form="anown" citation-part="6" lemma="anown" part-of-speech="Nb" morphology="-s----a--i" head-id="1146882" relation="obj" antecedent-id="1146875" information-status="acc_inf" foreign-ids="nominal"/>
         <token id="1146881" form="n" citation-part="6" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146880" relation="aux" presentation-after=" "/>
+        <token id="1178814" empty-token-sort="P" citation-part="6" head-id="1146882" relation="sub" antecedent-id="1178813" information-status="old"/>
         <token id="1146882" form="čanačʻēr" citation-part="6" lemma="čanačʻem" part-of-speech="V-" morphology="3stia----i" head-id="1146875" relation="atr" presentation-after=" "/>
         <token id="1146883" form="Sahak" citation-part="6" lemma="Sahak" part-of-speech="Nb" morphology="-s----n--i" head-id="1146880" relation="apos" presentation-after=", " foreign-ids="nominal"/>
         <token id="1146884" form="z" citation-part="6" lemma="z" part-of-speech="R-" morphology="---------n" head-id="1146885" relation="aux"/>
@@ -2332,16 +2335,13 @@
         <token id="1146886" form="patrastakan" citation-part="6" lemma="patrastakan" part-of-speech="A-" morphology="-s----n--i" head-id="1146887" relation="xobj" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1146885" relation="xsub"/>
         </token>
+        <token id="1178815" empty-token-sort="P" citation-part="6" head-id="1146887" relation="sub" antecedent-id="1178814" information-status="old"/>
         <token id="1146887" form="gtanēr" citation-part="6" lemma="gtanem" part-of-speech="V-" morphology="3siia----i" head-id="1146875" relation="apos" presentation-after=" "/>
         <token id="1146888" form="nmin" citation-part="6" lemma="noyn" part-of-speech="Pd" morphology="-s----b--i" head-id="1146889" relation="atr" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1146889" form="pʻowtʻoy" citation-part="6" lemma="pʻowtʻ" part-of-speech="Nb" morphology="-s----b--i" head-id="1146890" relation="obl" antecedent-id="1146861" information-status="old" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146890" form="hawaneal" citation-part="6" lemma="hawanim" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146887" relation="xobj" presentation-after=": " foreign-ids="nominal">
           <slash target-id="1146885" relation="xsub"/>
         </token>
-        <token id="1178812" empty-token-sort="P" citation-part="6" head-id="1146869" relation="sub" information-status="old"/>
-        <token id="1178813" empty-token-sort="P" citation-part="6" head-id="1146872" relation="sub" antecedent-id="1178812" information-status="old"/>
-        <token id="1178814" empty-token-sort="P" citation-part="6" head-id="1146882" relation="sub" antecedent-id="1178813" information-status="old"/>
-        <token id="1178815" empty-token-sort="P" citation-part="6" head-id="1146887" relation="sub" antecedent-id="1178814" information-status="old"/>
       </sentence>
       <sentence id="80534" status="reviewed" presentation-after=" ">
         <token id="1146891" form="Ew" citation-part="6" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146900" relation="aux" presentation-after=" "/>
@@ -2355,6 +2355,7 @@
         <token id="1146897" form="mecawkʻ" citation-part="6" lemma="mec" part-of-speech="A-" morphology="-p----i--i" head-id="1146896" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146898" form="ar̄" citation-part="6" lemma="ar̄" part-of-speech="R-" morphology="---------n" head-id="1146896" relation="atr" presentation-after=" "/>
         <token id="1146899" form="Astowac" citation-part="6" lemma="Astowac" part-of-speech="Ne" morphology="-s----a--i" head-id="1146898" relation="obl" antecedent-id="1146817" information-status="old" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178816" empty-token-sort="P" citation-part="6" head-id="1146900" relation="sub" antecedent-id="1146888" information-status="old"/>
         <token id="1146900" form="kanxēin" citation-part="6" lemma="kanxem" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=", "/>
         <token id="1146901" form="vasn" citation-part="6" lemma="vasn" part-of-speech="R-" morphology="---------n" head-id="1146894" relation="adv" presentation-after=" "/>
         <token id="1146902" form="amenayn" citation-part="6" lemma="amenayn" part-of-speech="Py" morphology="---------n" head-id="1146903" relation="atr" presentation-after=" " foreign-ids="nominal"/>
@@ -2363,16 +2364,15 @@
         <token id="1146905" form="pʻrkowtʻean" citation-part="6" lemma="pʻrkowtʻiwn" part-of-speech="Nb" morphology="-s----g--i" head-id="1146907" relation="obl" information-status="acc_gen" foreign-ids="nominal"/>
         <token id="1146906" form="n" citation-part="6" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146905" relation="aux" presentation-after=" "/>
         <token id="1146907" form="hasaneloy" citation-part="6" lemma="hasanem" part-of-speech="V-" morphology="---d--g--i" head-id="1146901" relation="obl" information-status="info_unannotatable" presentation-after=": "/>
-        <token id="1178816" empty-token-sort="P" citation-part="6" head-id="1146900" relation="sub" antecedent-id="1146888" information-status="old"/>
       </sentence>
       <sentence id="80535" status="reviewed" presentation-after=" ">
         <token id="1146908" form="Ew" citation-part="6" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1146911" relation="aux" presentation-after=" "/>
         <token id="1146909" form="z" citation-part="6" lemma="z" part-of-speech="R-" morphology="---------n" head-id="1146910" relation="aux"/>
         <token id="1146910" form="ayn" citation-part="6" lemma="ayn" part-of-speech="Pd" morphology="-s----a--i" head-id="1146911" relation="obj" antecedent-id="1146900" information-status="old" presentation-after=" "/>
+        <token id="1178817" empty-token-sort="P" citation-part="6" head-id="1146911" relation="sub" antecedent-id="1178816" information-status="old"/>
         <token id="1146911" form="ar̄nēin" citation-part="6" lemma="ar̄nem" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=" "/>
         <token id="1146912" form="awowrs" citation-part="6" lemma="awr" part-of-speech="Nb" morphology="-p----l--i" head-id="1146911" relation="adv" information-status="quant" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146913" form="bazowms" citation-part="6" lemma="bazowm" part-of-speech="Py" morphology="-p----a--i" head-id="1146912" relation="atr" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178817" empty-token-sort="P" citation-part="6" head-id="1146911" relation="sub" antecedent-id="1178816" information-status="old"/>
       </sentence>
       <sentence id="80536" status="reviewed">
         <token id="1146914" form="Apa" citation-part="6" lemma="apa" part-of-speech="Df" morphology="---------n" head-id="1146915" relation="adv" presentation-after=" "/>
@@ -2421,6 +2421,7 @@
         <token id="1146947" form="ašxatowtʻeancʻ" citation-part="6" lemma="ašxatowtʻiwn" part-of-speech="Nb" morphology="-s----g--i" head-id="1146948" relation="obj" information-status="quant" presentation-after=" " foreign-ids="nominal"/>
         <token id="1146948" form="hambereal" citation-part="6" lemma="hamberem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1146945" relation="xadv" presentation-after=", " foreign-ids="nominal"/>
         <token id="1146949" form="azd" citation-part="6" lemma="azd" part-of-speech="Nb" morphology="-s----a--i" head-id="1146950" relation="obj" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178818" empty-token-sort="P" citation-part="6" head-id="1146950" relation="sub" antecedent-id="1146943" information-status="old"/>
         <token id="1146950" form="ar̄nēin" citation-part="6" lemma="ar̄nem" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=" "/>
         <token id="1146951" form="apa" citation-part="6" lemma="apa" part-of-speech="Df" morphology="---------n" head-id="1146950" relation="adv" presentation-after=" "/>
         <token id="1146952" form="ew" citation-part="6" lemma="ew" part-of-speech="Df" morphology="---------n" head-id="1146950" relation="aux" presentation-after=" "/>
@@ -2438,7 +2439,6 @@
         <token id="1146964" form="Vr̄amšapowh" citation-part="6" lemma="Vr̄amšapowh" part-of-speech="Nb" morphology="-s----n--i" head-id="1146963" relation="xobj" presentation-after=": " foreign-ids="nominal">
           <slash target-id="1146962" relation="xsub"/>
         </token>
-        <token id="1178818" empty-token-sort="P" citation-part="6" head-id="1146950" relation="sub" antecedent-id="1146943" information-status="old"/>
       </sentence>
       <sentence id="80538" status="reviewed">
         <token id="1146965" form="Yaynžam" citation-part="6" lemma="yaynžam" part-of-speech="Df" morphology="---------n" head-id="1146966" relation="adv" presentation-after=" "/>
@@ -2478,6 +2478,7 @@
         <token id="1146995" form="n" citation-part="6" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1146994" relation="aux" presentation-after=" "/>
         <token id="1146996" form="i" citation-part="6" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1146994" relation="adv" presentation-after=" "/>
         <token id="1146997" form="Daniēlē" citation-part="6" lemma="Daniēl" part-of-speech="Nb" morphology="-s----b--i" head-id="1146996" relation="obl" antecedent-id="1146971" information-status="old" presentation-after=", " foreign-ids="nominal"/>
+        <token id="1178868" empty-token-sort="P" citation-part="6" head-id="1146998" relation="sub" antecedent-id="1146990" information-status="old"/>
         <token id="1146998" form="yawžarecʻin" citation-part="6" lemma="yawžarem" part-of-speech="V-" morphology="3paia----i" relation="pred" presentation-after=" "/>
         <token id="1146999" form="z" citation-part="6" lemma="z" part-of-speech="R-" morphology="---------n" head-id="1147000" relation="aux"/>
         <token id="1147000" form="arkʻay" citation-part="6" lemma="arkʻay" part-of-speech="Nb" morphology="-s----a--i" head-id="1146998" relation="obj" antecedent-id="1146992" information-status="old" presentation-after=" ; " foreign-ids="nominal"/>
@@ -2489,7 +2490,6 @@
         <token id="1147004" form="pitoyicʻ" citation-part="6" lemma="pitoy" part-of-speech="A-" morphology="-p----g--i" head-id="1147003" relation="obl" antecedent-id="1146994" information-status="old" foreign-ids="nominal"/>
         <token id="1147005" form="n" citation-part="6" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147004" relation="aux" presentation-after=" "/>
         <token id="1147006" form="aynocʻik" citation-part="6" lemma="ayn" part-of-speech="Pd" morphology="-p----g--i" head-id="1147004" relation="atr" information-status="info_unannotatable" presentation-after=": "/>
-        <token id="1178868" empty-token-sort="P" citation-part="6" head-id="1146998" relation="sub" antecedent-id="1146990" information-status="old"/>
       </sentence>
       <sentence id="80540" status="reviewed" presentation-after=" ">
         <token id="1147007" form="Ew" citation-part="6" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147009" relation="adv" presentation-after=" "/>
@@ -2511,6 +2511,7 @@
         <token id="1147021" form="Habēl" citation-part="6" lemma="Habēl" part-of-speech="Ne" morphology="-s----n--i" head-id="1147022" relation="xobj" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1147020" relation="xsub"/>
         </token>
+        <token id="1178870" empty-token-sort="P" citation-part="6" head-id="1147022" relation="sub" information-status="kind"/>
         <token id="1147022" form="kočʻēin" citation-part="6" lemma="kočʻem" part-of-speech="V-" morphology="3piia----i" head-id="1147016" relation="atr" presentation-after=", "/>
         <token id="1147023" form="or" citation-part="6" lemma="or" part-of-speech="Pr" morphology="-s----n--i" head-id="1147024" relation="sub" presentation-after=" "/>
         <token id="1147024" form="ēr" citation-part="6" lemma="em" part-of-speech="V-" morphology="3siia----i" head-id="1147016" relation="apos" presentation-after=" "/>
@@ -2520,7 +2521,6 @@
         <token id="1147026" form="Daniēli" citation-part="6" lemma="Daniēl" part-of-speech="Nb" morphology="-s----g--i" head-id="1147025" relation="atr" antecedent-id="1146997" information-status="old" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147027" form="asorwoy" citation-part="6" lemma="Asori" part-of-speech="A-" morphology="-s----g--i" head-id="1147028" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147028" form="episkoposi" citation-part="6" lemma="episkopos" part-of-speech="Nb" morphology="-s----g--i" head-id="1147026" relation="apos" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178870" empty-token-sort="P" citation-part="6" head-id="1147022" relation="sub" information-status="kind"/>
         <token id="1191296" empty-token-sort="V" citation-part="6" head-id="1147011" relation="apos"/>
       </sentence>
       <sentence id="80541" status="reviewed" presentation-after=" ">
@@ -2533,6 +2533,7 @@
           <slash target-id="1147036" relation="xsub"/>
         </token>
         <token id="1147035" form="pʻowtʻanaki" citation-part="6" lemma="pʻowtʻanaki" part-of-speech="Df" morphology="---------n" head-id="1147036" relation="adv" presentation-after=" "/>
+        <token id="1178871" empty-token-sort="P" citation-part="6" head-id="1147036" relation="sub" antecedent-id="1147030" information-status="old"/>
         <token id="1147036" form="hasanēr" citation-part="6" lemma="hasanem" part-of-speech="V-" morphology="3siia----i" head-id="1147040" relation="pred" presentation-after=" "/>
         <token id="1147037" form="ar̄" citation-part="6" lemma="ar̄" part-of-speech="R-" morphology="---------n" head-id="1147036" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147038" form="Daniēl" citation-part="6" lemma="Daniēł" part-of-speech="Ne" morphology="-s----n--i" head-id="1147037" relation="obl" antecedent-id="1147026" information-status="old" foreign-ids="nominal"/>
@@ -2550,9 +2551,12 @@
         <token id="1147050" form="ar̄eal" citation-part="6" lemma="ar̄nowm" part-of-speech="V-" morphology="-s-p--n--i" head-id="1147053" relation="xadv" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1147053" relation="xsub"/>
         </token>
+        <token id="1178872" empty-token-sort="P" citation-part="6" head-id="1147050" relation="obj" antecedent-id="1147046" information-status="old"/>
         <token id="1147051" form="i" citation-part="6" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147050" relation="ag" presentation-after=" "/>
         <token id="1147052" form="nmanē" citation-part="6" lemma="na" part-of-speech="Pd" morphology="-s----b--i" head-id="1147051" relation="obl" antecedent-id="1147045" information-status="old" presentation-after=" "/>
+        <token id="1178873" empty-token-sort="P" citation-part="6" head-id="1147053" relation="sub" antecedent-id="1147042" information-status="old"/>
         <token id="1147053" form="ar̄akʻēr" citation-part="6" lemma="ar̄akem" part-of-speech="V-" morphology="3siia----i" head-id="1147040" relation="pred" presentation-after=" "/>
+        <token id="1178874" empty-token-sort="P" citation-part="6" head-id="1147053" relation="obj" antecedent-id="1178872" information-status="old"/>
         <token id="1147054" form="ar̄" citation-part="6" lemma="ar̄" part-of-speech="R-" morphology="---------n" head-id="1147053" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147055" form="arkʻay" citation-part="6" lemma="arkʻay" part-of-speech="Nb" morphology="-s----a--i" head-id="1147054" relation="obl" antecedent-id="1147008" information-status="old" foreign-ids="nominal"/>
         <token id="1147056" form="n" citation-part="6" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147055" relation="aux" presentation-after=" "/>
@@ -2560,10 +2564,6 @@
         <token id="1147058" form="erkir" citation-part="6" lemma="erkir" part-of-speech="Nb" morphology="-s----a--i" head-id="1147057" relation="obl" antecedent-id="1146877" information-status="old" foreign-ids="nominal"/>
         <token id="1147059" form="n" citation-part="6" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147058" relation="aux" presentation-after=" "/>
         <token id="1147060" form="Hayocʻ" citation-part="6" lemma="Hay" part-of-speech="Ne" morphology="-p----g--i" head-id="1147058" relation="apos" information-status="info_unannotatable" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178871" empty-token-sort="P" citation-part="6" head-id="1147036" relation="sub" antecedent-id="1147030" information-status="old"/>
-        <token id="1178872" empty-token-sort="P" citation-part="6" head-id="1147050" relation="obj" antecedent-id="1147046" information-status="old"/>
-        <token id="1178873" empty-token-sort="P" citation-part="6" head-id="1147053" relation="sub" antecedent-id="1147042" information-status="old"/>
-        <token id="1178874" empty-token-sort="P" citation-part="6" head-id="1147053" relation="obj" antecedent-id="1178872" information-status="old"/>
       </sentence>
       <sentence id="80542" status="reviewed" presentation-after=" ">
         <token id="1147061" form="I" citation-part="6" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147068" relation="adv" presentation-after=" "/>
@@ -2573,8 +2573,8 @@
         <token id="1147065" form="nora" citation-part="6" lemma="na" part-of-speech="Pd" morphology="-s----g--i" head-id="1147064" relation="atr" antecedent-id="1147055" information-status="old" presentation-after=" "/>
         <token id="1147066" form="i" citation-part="6" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147068" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147067" form="na" citation-part="6" lemma="na" part-of-speech="Pd" morphology="-s----a--i" head-id="1147066" relation="obl" antecedent-id="1147065" information-status="old" presentation-after=" "/>
-        <token id="1147068" form="hasowcʻanēr" citation-part="6" lemma="hasowcʻanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=": "/>
         <token id="1178875" empty-token-sort="P" citation-part="6" head-id="1147068" relation="sub" antecedent-id="1178873" information-status="old"/>
+        <token id="1147068" form="hasowcʻanēr" citation-part="6" lemma="hasowcʻanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=": "/>
         <token id="1178876" empty-token-sort="P" citation-part="6" head-id="1147068" relation="obj" antecedent-id="1178874" information-status="old"/>
       </sentence>
       <sentence id="80543" status="reviewed" presentation-after=" ">
@@ -2600,8 +2600,8 @@
         <token id="1147086" form="owrax" citation-part="6" lemma="owrax" part-of-speech="A-" morphology="-s----n--i" head-id="1147087" relation="xobj" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1147069" relation="xsub"/>
         </token>
-        <token id="1147087" form="linēin" citation-part="6" lemma="linim" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=": "/>
         <token id="1178877" empty-token-sort="P" citation-part="6" head-id="1147087" relation="sub" antecedent-id="1147074" information-status="old"/>
+        <token id="1147087" form="linēin" citation-part="6" lemma="linim" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=": "/>
       </sentence>
       <sentence id="80544" status="reviewed" presentation-after=" ">
         <token id="1147088" form="Apa" citation-part="6" lemma="apa" part-of-speech="Df" morphology="---------n" head-id="1147097" relation="adv" presentation-after=" "/>
@@ -2615,6 +2615,7 @@
         <token id="1147094" form="yankarcagiwt" citation-part="6" lemma="yankarcagiwt" part-of-speech="A-" morphology="-p----a--i" head-id="1147095" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147095" form="xndreli" citation-part="6" lemma="xndrem" part-of-speech="A-" morphology="-s----a--i" head-id="1147089" relation="obj" antecedent-id="1146955" information-status="old" foreign-ids="nominal"/>
         <token id="1147096" form="n" citation-part="6" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147095" relation="aux" presentation-after=" , "/>
+        <token id="1178878" empty-token-sort="P" citation-part="6" head-id="1147097" relation="sub" antecedent-id="1147091" information-status="old"/>
         <token id="1147097" form="haycʻēin" citation-part="6" lemma="haycʻem" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=" "/>
         <token id="1147098" form="ews" citation-part="6" lemma="ews" part-of-speech="Df" morphology="---------n" head-id="1147097" relation="adv" presentation-after=" "/>
         <token id="1147099" form="y" citation-part="6" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147097" relation="obl" information-status="info_unannotatable"/>
@@ -2628,9 +2629,8 @@
         <token id="1147107" form="arcarcel" citation-part="6" lemma="arcarcanem" part-of-speech="V-" morphology="---n-----i" head-id="1147108" relation="xobj" presentation-after=" ">
           <slash target-id="1147108" relation="xsub"/>
         </token>
-        <token id="1147108" form="martʻascʻen" citation-part="6" lemma="martʻanam" part-of-speech="V-" morphology="3pasa----i" head-id="1147101" relation="apos" presentation-after=": "/>
-        <token id="1178878" empty-token-sort="P" citation-part="6" head-id="1147097" relation="sub" antecedent-id="1147091" information-status="old"/>
         <token id="1178879" empty-token-sort="P" citation-part="6" head-id="1147108" relation="sub" antecedent-id="1178878" information-status="old"/>
+        <token id="1147108" form="martʻascʻen" citation-part="6" lemma="martʻanam" part-of-speech="V-" morphology="3pasa----i" head-id="1147101" relation="apos" presentation-after=": "/>
       </sentence>
       <sentence id="80545" status="reviewed" presentation-after=" ">
         <token id="1147109" form="Ew" citation-part="6" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147117" relation="aux" presentation-after=" "/>
@@ -2641,12 +2641,12 @@
         <token id="1147114" form="tełekanayin" citation-part="6" lemma="tełekanam" part-of-speech="V-" morphology="3piip----i" head-id="1147110" relation="pred" presentation-after=", "/>
         <token id="1147115" form="apa" citation-part="6" lemma="apa" part-of-speech="Df" morphology="---------n" head-id="1147117" relation="adv" presentation-after=" "/>
         <token id="1147116" form="hraman" citation-part="6" lemma="hraman" part-of-speech="Nb" morphology="-s----a--i" head-id="1147117" relation="obj" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178880" empty-token-sort="P" citation-part="6" head-id="1147117" relation="sub" antecedent-id="1147100" information-status="old"/>
         <token id="1147117" form="tayr" citation-part="6" lemma="tam" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1147118" form="amenayn" citation-part="6" lemma="amenayn" part-of-speech="Py" morphology="-s----n--i" head-id="1147119" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147119" form="owrekʻ" citation-part="6" lemma="owrekʻ" part-of-speech="Df" morphology="---------n" head-id="1147121" relation="adv" presentation-after=" "/>
         <token id="1147120" form="novin" citation-part="6" lemma="noyn" part-of-speech="Pd" morphology="-s----i--i" head-id="1147121" relation="adv" antecedent-id="1147105" information-status="old" presentation-after=" "/>
         <token id="1147121" form="krtʻel" citation-part="6" lemma="krtʻem" part-of-speech="V-" morphology="---n-----i" head-id="1147117" relation="comp" presentation-after=". "/>
-        <token id="1178880" empty-token-sort="P" citation-part="6" head-id="1147117" relation="sub" antecedent-id="1147100" information-status="old"/>
         <token id="1178881" empty-token-sort="P" citation-part="6" head-id="1147121" relation="obj" information-status="non_spec"/>
       </sentence>
       <sentence id="80546" status="reviewed" presentation-after=" ">
@@ -2664,6 +2664,7 @@
         <token id="1147133" form="ibrew" citation-part="6" lemma="ibrew" part-of-speech="G-" morphology="---------n" head-id="1147143" relation="adv" presentation-after=" "/>
         <token id="1147134" form="ams" citation-part="6" lemma="am" part-of-speech="Nb" morphology="-p----a--i" head-id="1147136" relation="adv" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147135" form="erkow" citation-part="6" lemma="erkow" part-of-speech="Ma" morphology="-s----n--i" head-id="1147134" relation="atr" presentation-after=" "/>
+        <token id="1178882" empty-token-sort="P" citation-part="6" head-id="1147136" relation="sub" antecedent-id="1147129" information-status="old"/>
         <token id="1147136" form="kargeal" citation-part="6" lemma="kargem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1147133" relation="pred" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147137" form="z" citation-part="6" lemma="z" part-of-speech="R-" morphology="---------n" head-id="1147138" relation="aux"/>
         <token id="1147138" form="vardapetowtʻiwn" citation-part="6" lemma="vardapetowtʻiwn" part-of-speech="Nb" morphology="-s----a--i" head-id="1147136" relation="obj" antecedent-id="1147125" information-status="acc_inf" presentation-after=" " foreign-ids="nominal"/>
@@ -2671,9 +2672,8 @@
         <token id="1147140" form="ew" citation-part="6" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147143" relation="aux" presentation-after=" "/>
         <token id="1147141" form="novin" citation-part="6" lemma="noyn" part-of-speech="Pd" morphology="-s----i--i" head-id="1147142" relation="atr" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147142" form="nšanagrovkʻ" citation-part="6" lemma="nšanagir" part-of-speech="Nb" morphology="-p----i--i" head-id="1147143" relation="adv" antecedent-id="1147105" information-status="old" presentation-after=" " foreign-ids="nominal"/>
-        <token id="1147143" form="tanēr" citation-part="6" lemma="tanim" part-of-speech="V-" morphology="3siia----i" head-id="1147132" relation="pred" presentation-after=": "/>
-        <token id="1178882" empty-token-sort="P" citation-part="6" head-id="1147136" relation="sub" antecedent-id="1147129" information-status="old"/>
         <token id="1178883" empty-token-sort="P" citation-part="6" head-id="1147143" relation="sub" antecedent-id="1147139" information-status="old"/>
+        <token id="1147143" form="tanēr" citation-part="6" lemma="tanim" part-of-speech="V-" morphology="3siia----i" head-id="1147132" relation="pred" presentation-after=": "/>
       </sentence>
       <sentence id="80547" status="reviewed">
         <token id="1147144" form="Isk" citation-part="6" lemma="isk" part-of-speech="C-" morphology="---------n" head-id="1147147" relation="aux" presentation-after=" "/>
@@ -2722,6 +2722,7 @@
         <token id="1147181" form="i" citation-part="6" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147184" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147182" form="noyn" citation-part="6" lemma="noyn" part-of-speech="Pd" morphology="-s----a--i" head-id="1147183" relation="atr" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147183" form="hogs" citation-part="6" lemma="hogkʻ" part-of-speech="Nb" morphology="-p----a--i" head-id="1147181" relation="obl" antecedent-id="1146924" information-status="old" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178885" empty-token-sort="P" citation-part="6" head-id="1147184" relation="sub" antecedent-id="1147113" information-status="old"/>
         <token id="1147184" form="dar̄nayin" citation-part="6" lemma="dar̄nam" part-of-speech="V-" morphology="3piia----i" head-id="1147185" relation="pred" presentation-after=", "/>
         <token id="1147185" form="ew" citation-part="6" lemma="ew" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
         <token id="1147186" form="nmin" citation-part="6" lemma="noyn" part-of-speech="Pd" morphology="-s----l--i" head-id="1147188" relation="adv" antecedent-id="1147183" information-status="old" presentation-after=" "/>
@@ -2730,7 +2731,6 @@
         <token id="1147189" form="žamanaks" citation-part="6" lemma="žamanak" part-of-speech="Nb" morphology="-p----a--i" head-id="1147188" relation="adv" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147190" form="inčʻ" citation-part="6" lemma="inčʻ" part-of-speech="Px" morphology="-s----a--i" head-id="1147189" relation="atr" information-status="info_unannotatable" presentation-after=": "/>
         <token id="1178884" empty-token-sort="C" citation-part="6" head-id="1147155" relation="obj"/>
-        <token id="1178885" empty-token-sort="P" citation-part="6" head-id="1147184" relation="sub" antecedent-id="1147113" information-status="old"/>
       </sentence>
     </div>
     <div>
@@ -2761,9 +2761,11 @@
         <token id="1147211" form="hambowriw" citation-part="7" lemma="hamboyr" part-of-speech="Nb" morphology="-s----i--i" head-id="1147208" relation="adv" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147212" form="srbowtʻean" citation-part="7" lemma="srbowtʻiwn" part-of-speech="Nb" morphology="-s----g--i" head-id="1147211" relation="atr" information-status="info_unannotatable" foreign-ids="nominal"/>
         <token id="1147213" form="n" citation-part="7" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147212" relation="aux" presentation-after=" ; "/>
+        <token id="1178886" empty-token-sort="P" citation-part="7" head-id="1147214" relation="sub" antecedent-id="1147194" information-status="old"/>
         <token id="1147214" form="xałayr" citation-part="7" lemma="xałam" part-of-speech="V-" morphology="3siia----i" head-id="1147223" relation="pred" presentation-after=" ">
           <slash target-id="1147216" relation="adv"/>
         </token>
+        <token id="1178887" empty-token-sort="P" citation-part="7" head-id="1147215" relation="sub" antecedent-id="1178886" information-status="old"/>
         <token id="1147215" form="gnayr" citation-part="7" lemma="gnam" part-of-speech="V-" morphology="3siia----i" head-id="1147223" relation="pred" presentation-after=" ">
           <slash target-id="1147191" relation="adv"/>
         </token>
@@ -2778,6 +2780,7 @@
         <token id="1147224" form="ertʻeal" citation-part="7" lemma="ertʻam" part-of-speech="V-" morphology="-s-p--n--i" head-id="1147225" relation="xadv" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1147225" relation="xsub"/>
         </token>
+        <token id="1178888" empty-token-sort="P" citation-part="7" head-id="1147225" relation="sub" antecedent-id="1178887" information-status="old"/>
         <token id="1147225" form="hasanēr" citation-part="7" lemma="hasanem" part-of-speech="V-" morphology="3siia----i" head-id="1147223" relation="pred" presentation-after=" ">
           <slash target-id="1147191" relation="adv"/>
         </token>
@@ -2788,9 +2791,6 @@
         <token id="1147230" form="kʻałakʻs" citation-part="7" lemma="kʻałakʻ" part-of-speech="Nb" morphology="-p----a--i" head-id="1147229" relation="obl" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147231" form="erkows" citation-part="7" lemma="erkow" part-of-speech="Ma" morphology="-p----a--i" head-id="1147230" relation="atr" presentation-after=" "/>
         <token id="1147232" form="Asorocʻ" citation-part="7" lemma="Asori" part-of-speech="Nb" morphology="-p----g--i" head-id="1147230" relation="atr" information-status="acc_gen" presentation-after=". " foreign-ids="nominal"/>
-        <token id="1178886" empty-token-sort="P" citation-part="7" head-id="1147214" relation="sub" antecedent-id="1147194" information-status="old"/>
-        <token id="1178887" empty-token-sort="P" citation-part="7" head-id="1147215" relation="sub" antecedent-id="1178886" information-status="old"/>
-        <token id="1178888" empty-token-sort="P" citation-part="7" head-id="1147225" relation="sub" antecedent-id="1178887" information-status="old"/>
       </sentence>
       <sentence id="80549" status="reviewed" presentation-after=" ">
         <token id="1147233" form="orocʻ" citation-part="7" lemma="or" part-of-speech="Pr" morphology="-p----g--i" head-id="1147234" relation="part" presentation-after=" ">
@@ -2813,6 +2813,7 @@
         <token id="1147243" form="Ənddēm" citation-part="7" lemma="ənddēm" part-of-speech="A-" morphology="-s----n--i" head-id="1147244" relation="xobj" presentation-after=" ">
           <slash target-id="1147244" relation="xsub"/>
         </token>
+        <token id="1178892" empty-token-sort="P" citation-part="7" head-id="1147244" relation="sub" antecedent-id="1178888" information-status="old"/>
         <token id="1147244" form="linēr" citation-part="7" lemma="linim" part-of-speech="V-" morphology="3siip----i" relation="pred" presentation-after=" "/>
         <token id="1147245" form="sowrb" citation-part="7" lemma="sowrb" part-of-speech="A-" morphology="---------n" head-id="1147246" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147246" form="episkoposacʻ" citation-part="7" lemma="episkopos" part-of-speech="Nb" morphology="-p----d--i" head-id="1147244" relation="obl" antecedent-id="1147230" information-status="acc_inf" foreign-ids="nominal"/>
@@ -2838,7 +2839,6 @@
         <token id="1178891" empty-token-sort="V" citation-part="7" head-id="1147253" relation="apos">
           <slash target-id="1178890" relation="pid"/>
         </token>
-        <token id="1178892" empty-token-sort="P" citation-part="7" head-id="1147244" relation="sub" antecedent-id="1178888" information-status="old"/>
       </sentence>
       <sentence id="80551" status="reviewed" presentation-after=" ">
         <token id="1147257" form="handerj" citation-part="7" lemma="handerj" part-of-speech="R-" morphology="---------n" head-id="1147271" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
@@ -2861,10 +2861,10 @@
         <token id="1147272" form="hogabarjowtʻeamb" citation-part="7" lemma="hogabarjowtʻiwn" part-of-speech="Mo" morphology="-s----i--i" head-id="1147271" relation="adv" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147273" form="əst" citation-part="7" lemma="əst" part-of-speech="R-" morphology="---------n" head-id="1147272" relation="atr" presentation-after=" "/>
         <token id="1147274" form="Kʻristosi" citation-part="7" lemma="Kʻristos" part-of-speech="Ne" morphology="-s----g--i" head-id="1147275" relation="atr" information-status="acc_gen" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178893" empty-token-sort="P" citation-part="7" head-id="1147275" relation="sub" information-status="kind"/>
         <token id="1147275" form="anowanelocʻ" citation-part="7" lemma="anowanem" part-of-speech="V-" morphology="---d--n--i" head-id="1147277" relation="atr" information-status="kind" foreign-ids="nominal"/>
         <token id="1147276" form="n" citation-part="7" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147275" relation="aux" presentation-after=" "/>
         <token id="1147277" form="kargi" citation-part="7" lemma="karg" part-of-speech="Nb" morphology="-s----d--i" head-id="1147273" relation="obl" information-status="new" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178893" empty-token-sort="P" citation-part="7" head-id="1147275" relation="sub" information-status="kind"/>
       </sentence>
       <sentence id="80552" status="reviewed">
         <token id="1147278" form="Isk" citation-part="7" lemma="isk" part-of-speech="C-" morphology="---------n" head-id="1147296" relation="aux" presentation-after=" "/>
@@ -2887,6 +2887,7 @@
         <token id="1147293" form="asori" citation-part="7" lemma="Asori" part-of-speech="A-" morphology="-s----a--i" head-id="1147294" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147294" form="dprowtʻiwn" citation-part="7" lemma="dprowtʻiwn" part-of-speech="Nb" morphology="-s----a--i" head-id="1147292" relation="obl" information-status="new" foreign-ids="nominal"/>
         <token id="1147295" form="n" citation-part="7" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147294" relation="aux" presentation-after=" "/>
+        <token id="1178897" empty-token-sort="P" citation-part="7" head-id="1147296" relation="sub" antecedent-id="1147280" information-status="old"/>
         <token id="1147296" form="kargēr" citation-part="7" lemma="kargem" part-of-speech="V-" morphology="3siia----i" head-id="1147301" relation="pred" presentation-after=" "/>
         <token id="1147297" form="(i" citation-part="7" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147294" relation="atr" presentation-after=" "/>
         <token id="1147298" form="kʻałakʻi" citation-part="7" lemma="kʻałakʻ" part-of-speech="Nb" morphology="-s----l--i" head-id="1147297" relation="obl" information-status="acc_gen" foreign-ids="nominal"/>
@@ -2904,12 +2905,11 @@
         <token id="1147310" form="Samowsatakan" citation-part="7" lemma="Samowsatakan" part-of-speech="A-" morphology="-s----a--i" head-id="1147311" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147311" form="kʻałakʻ" citation-part="7" lemma="kʻałakʻ" part-of-speech="Nb" morphology="-s----a--i" head-id="1147309" relation="obl" information-status="acc_gen" foreign-ids="nominal"/>
         <token id="1147312" form="n" citation-part="7" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147311" relation="aux" presentation-after=" "/>
+        <token id="1178898" empty-token-sort="P" citation-part="7" head-id="1147313" relation="sub" antecedent-id="1178897" information-status="old"/>
         <token id="1147313" form="gowmarēr" citation-part="7" lemma="gowmarem" part-of-speech="V-" morphology="3siia----i" head-id="1147306" relation="apos" presentation-after=": "/>
         <token id="1178896" empty-token-sort="V" citation-part="7" head-id="1147301" relation="pred">
           <slash target-id="1147296" relation="pid"/>
         </token>
-        <token id="1178897" empty-token-sort="P" citation-part="7" head-id="1147296" relation="sub" antecedent-id="1147280" information-status="old"/>
-        <token id="1178898" empty-token-sort="P" citation-part="7" head-id="1147313" relation="sub" antecedent-id="1178897" information-status="old"/>
       </sentence>
     </div>
     <div>
@@ -2951,11 +2951,11 @@
       </sentence>
       <sentence id="83368" status="reviewed" presentation-after=" ">
         <token id="1147345" form="Yoržam" citation-part="8" lemma="yoržam" part-of-speech="G-" morphology="---------n" head-id="1147347" relation="apos" presentation-after=" "/>
+        <token id="1178899" empty-token-sort="P" citation-part="8" head-id="1147346" relation="sub" information-status="non_spec"/>
         <token id="1147346" form="hececescʻes" citation-part="8" lemma="hececim" part-of-speech="V-" morphology="2sasa----i" head-id="1147345" relation="pred" presentation-after=", "/>
         <token id="1147347" form="yaynžam" citation-part="8" lemma="yaynžam" part-of-speech="Df" morphology="---------n" head-id="1147348" relation="adv" presentation-after=" "/>
-        <token id="1147348" form="kecʻcʻes$" citation-part="8" lemma="keam" part-of-speech="V-" morphology="2sasa----i" relation="pred" presentation-after=": "/>
-        <token id="1178899" empty-token-sort="P" citation-part="8" head-id="1147346" relation="sub" information-status="non_spec"/>
         <token id="1178900" empty-token-sort="P" citation-part="8" head-id="1147348" relation="sub" antecedent-id="1178899" information-status="non_spec_old"/>
+        <token id="1147348" form="kecʻcʻes$" citation-part="8" lemma="keam" part-of-speech="V-" morphology="2sasa----i" relation="pred" presentation-after=": "/>
       </sentence>
       <sentence id="80554" status="reviewed">
         <token id="1147349" form="Ew" citation-part="8" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147353" relation="aux" presentation-after=" "/>
@@ -3010,12 +3010,12 @@
           <slash target-id="1147393" relation="xsub"/>
         </token>
         <token id="1147392" form="kargeal" citation-part="8" lemma="kargem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1147391" relation="xadv" presentation-after=", " foreign-ids="nominal"/>
+        <token id="1178903" empty-token-sort="P" citation-part="8" head-id="1147393" relation="sub" antecedent-id="1147373" information-status="old"/>
         <token id="1147393" form="yawrinēr" citation-part="8" lemma="yawrinem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
+        <token id="1178904" empty-token-sort="P" citation-part="8" head-id="1147393" relation="obj" antecedent-id="1147382" information-status="old"/>
         <token id="1147394" form="siłobayiwkʻ" citation-part="8" lemma="siłobay" part-of-speech="Nb" morphology="-p----i--i" head-id="1178902" relation="adv" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147395" form="kapawkʻ" citation-part="8" lemma="kap" part-of-speech="Nb" morphology="-p----i--i" head-id="1178902" relation="adv" information-status="new" presentation-after=": " foreign-ids="nominal"/>
         <token id="1178902" empty-token-sort="C" citation-part="8" head-id="1147393" relation="adv"/>
-        <token id="1178903" empty-token-sort="P" citation-part="8" head-id="1147393" relation="sub" antecedent-id="1147373" information-status="old"/>
-        <token id="1178904" empty-token-sort="P" citation-part="8" head-id="1147393" relation="obj" antecedent-id="1147382" information-status="old"/>
       </sentence>
       <sentence id="80558" status="reviewed" presentation-after=" ">
         <token id="1147396" form="Ew" citation-part="8" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147406" relation="aux" presentation-after=" "/>
@@ -3030,6 +3030,7 @@
         <token id="1147403" form="handerj" citation-part="8" lemma="handerj" part-of-speech="R-" morphology="---------n" head-id="1147398" relation="adv" presentation-after=" "/>
         <token id="1147404" form="awgnakanawkʻ" citation-part="8" lemma="awgnakan" part-of-speech="Nb" morphology="-p----i--i" head-id="1147403" relation="obl" antecedent-id="1147317" information-status="old" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147405" form="iwrovkʻ" citation-part="8" lemma="iwr" part-of-speech="Ps" morphology="3p----i--i" head-id="1147404" relation="atr" information-status="info_unannotatable" presentation-after=" "/>
+        <token id="1178905" empty-token-sort="P" citation-part="8" head-id="1147406" relation="sub" antecedent-id="1178903" information-status="old"/>
         <token id="1147406" form="iǰanēr" citation-part="8" lemma="iǰanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1147407" form="i" citation-part="8" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147406" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147408" form="kʻałakʻ" citation-part="8" lemma="kʻałakʻ" part-of-speech="Nb" morphology="-s----a--i" head-id="1147407" relation="obl" antecedent-id="1147311" information-status="old" foreign-ids="nominal"/>
@@ -3049,9 +3050,8 @@
         <token id="1147422" form="mecareal" citation-part="8" lemma="mecarem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1147423" relation="xadv" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1147423" relation="xsub"/>
         </token>
-        <token id="1147423" form="linēr" citation-part="8" lemma="linim" part-of-speech="V-" morphology="3siip----i" head-id="1147408" relation="apos" presentation-after=": "/>
-        <token id="1178905" empty-token-sort="P" citation-part="8" head-id="1147406" relation="sub" antecedent-id="1178903" information-status="old"/>
         <token id="1178906" empty-token-sort="P" citation-part="8" head-id="1147423" relation="sub" antecedent-id="1178905" information-status="old"/>
+        <token id="1147423" form="linēr" citation-part="8" lemma="linim" part-of-speech="V-" morphology="3siip----i" head-id="1147408" relation="apos" presentation-after=": "/>
       </sentence>
       <sentence id="80559" status="reviewed" presentation-after=" ">
         <token id="1147424" form="Ew" citation-part="8" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147468" relation="aux" presentation-after=" "/>
@@ -3106,6 +3106,7 @@
         <token id="1147465" form="yankowcʻeal" citation-part="8" lemma="yankownem?" part-of-speech="V-" morphology="-s-p--n--i" head-id="1147464" relation="xadv" presentation-after=", " foreign-ids="nominal"/>
         <token id="1147466" form="i" citation-part="8" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147468" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147467" form="tʻargmanowtʻiwn" citation-part="8" lemma="tʻargmanowtʻiwn" part-of-speech="Nb" morphology="-s----a--i" head-id="1147466" relation="obl" information-status="new" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178908" empty-token-sort="P" citation-part="8" head-id="1147468" relation="sub" antecedent-id="1147435" information-status="old"/>
         <token id="1147468" form="dar̄nayin" citation-part="8" lemma="dar̄nam" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=" "/>
         <token id="1147469" form="handerj" citation-part="8" lemma="handerj" part-of-speech="R-" morphology="---------n" head-id="1147468" relation="adv" presentation-after=" "/>
         <token id="1147470" form="arambkʻ" citation-part="8" lemma="ayr" part-of-speech="Nb" morphology="-p----i--i" head-id="1147469" relation="obl" information-status="new" presentation-after=" " foreign-ids="nominal"/>
@@ -3114,7 +3115,6 @@
         <token id="1147473" form="n" citation-part="8" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147472" relation="aux" presentation-after=" "/>
         <token id="1147474" form="iwrovkʻ" citation-part="8" lemma="iwr" part-of-speech="Ps" morphology="3p----i--i" head-id="1147472" relation="atr" information-status="info_unannotatable" presentation-after=". "/>
         <token id="1178907" empty-token-sort="V" citation-part="8" head-id="1147429" relation="apos"/>
-        <token id="1178908" empty-token-sort="P" citation-part="8" head-id="1147468" relation="sub" antecedent-id="1147435" information-status="old"/>
       </sentence>
       <sentence id="80560" status="reviewed" presentation-after=" ">
         <token id="1147475" form="orocʻ" citation-part="8" lemma="or" part-of-speech="Pr" morphology="-p----g--i" head-id="1147476" relation="part" presentation-after=" "/>
@@ -3124,6 +3124,7 @@
           <slash target-id="1147479" relation="xsub"/>
         </token>
         <token id="1147479" form="anown" citation-part="8" lemma="anown" part-of-speech="Nb" morphology="-s----a--i" head-id="1147480" relation="obj" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1178910" empty-token-sort="P" citation-part="8" head-id="1147480" relation="sub" information-status="kind"/>
         <token id="1147480" form="kočʻēin" citation-part="8" lemma="kočʻem" part-of-speech="V-" morphology="3piia----i" head-id="1147485" relation="pred" presentation-after=", "/>
         <token id="1147481" form="y" citation-part="8" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147476" relation="atr"/>
         <token id="1147482" form="Ekełeacʻ" citation-part="8" lemma="Ekełeacʻ" part-of-speech="Ne" morphology="---------n" head-id="1147483" relation="atr" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
@@ -3143,7 +3144,6 @@
         <token id="1178909" empty-token-sort="C" citation-part="8" head-id="1147485" relation="pred">
           <slash target-id="1147480" relation="pid"/>
         </token>
-        <token id="1178910" empty-token-sort="P" citation-part="8" head-id="1147480" relation="sub" information-status="kind"/>
       </sentence>
       <sentence id="80561" status="reviewed">
         <token id="1147494" form="Ew" citation-part="8" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147495" relation="aux" presentation-after=" "/>
@@ -3216,6 +3216,7 @@
         <token id="1147541" form="Apa" citation-part="9" lemma="apa" part-of-speech="Df" morphology="---------n" head-id="1147544" relation="aux" presentation-after=" "/>
         <token id="1147542" form="yet" citation-part="9" lemma="yet" part-of-speech="R-" morphology="---------n" head-id="1147544" relation="adv" presentation-after=" "/>
         <token id="1147543" form="aynorik" citation-part="9" lemma="ayn" part-of-speech="Pd" morphology="-s----g--i" head-id="1147542" relation="obl" antecedent-id="1147529" information-status="old" presentation-after=" "/>
+        <token id="1178919" empty-token-sort="P" citation-part="9" head-id="1147544" relation="sub" antecedent-id="1147435" information-status="old"/>
         <token id="1147544" form="ar̄noyr" citation-part="9" lemma="ar̄nowm" part-of-speech="V-" morphology="3siia----i" head-id="1147550" relation="pred" presentation-after=" "/>
         <token id="1147545" form="tʻowłtʻs" citation-part="9" lemma="tʻowłtʻ" part-of-speech="Nb" morphology="-p----a--i" head-id="1147544" relation="obj" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147546" form="y" citation-part="9" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147544" relation="adv"/>
@@ -3232,14 +3233,13 @@
         <token id="1147555" form="amenayn" citation-part="9" lemma="amenayn" part-of-speech="Py" morphology="---------n" head-id="1147556" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147556" form="iwrovkʻ" citation-part="9" lemma="iwr" part-of-speech="Ps" morphology="3p----i--i" head-id="1147554" relation="obl" information-status="quant"/>
         <token id="1147557" form="n" citation-part="9" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147556" relation="aux" presentation-after=" , "/>
+        <token id="1178920" empty-token-sort="P" citation-part="9" head-id="1147558" relation="sub" antecedent-id="1178919" information-status="old"/>
         <token id="1147558" form="berēr" citation-part="9" lemma="berem" part-of-speech="V-" morphology="3siia----i" head-id="1147550" relation="pred" presentation-after=" "/>
+        <token id="1178921" empty-token-sort="P" citation-part="9" head-id="1147558" relation="obj" antecedent-id="1147545" information-status="old"/>
         <token id="1147559" form="ar̄" citation-part="9" lemma="ar̄" part-of-speech="R-" morphology="---------n" head-id="1147558" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147560" form="episkopos" citation-part="9" lemma="episkopos" part-of-speech="Nb" morphology="-s----a--i" head-id="1147559" relation="obl" antecedent-id="1147400" information-status="old" foreign-ids="nominal"/>
         <token id="1147561" form="n" citation-part="9" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147560" relation="aux" presentation-after=" "/>
         <token id="1147562" form="Asorocʻ" citation-part="9" lemma="Asori" part-of-speech="Nb" morphology="-p----g--i" head-id="1147560" relation="atr" information-status="info_unannotatable" presentation-after=": " foreign-ids="nominal"/>
-        <token id="1178919" empty-token-sort="P" citation-part="9" head-id="1147544" relation="sub" antecedent-id="1147435" information-status="old"/>
-        <token id="1178920" empty-token-sort="P" citation-part="9" head-id="1147558" relation="sub" antecedent-id="1178919" information-status="old"/>
-        <token id="1178921" empty-token-sort="P" citation-part="9" head-id="1147558" relation="obj" antecedent-id="1147545" information-status="old"/>
       </sentence>
       <sentence id="80564" status="reviewed">
         <token id="1178922" form="Or" citation-part="9" lemma="or" part-of-speech="Pr" morphology="-s----n--i" head-id="1178927" relation="sub" presentation-after=" "/>
@@ -3311,8 +3311,8 @@
         <token id="1147618" form="čanaparhord" citation-part="9" lemma="čanaparhord" part-of-speech="Nb" morphology="-s----n--i" head-id="1147619" relation="xobj" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1147619" relation="xsub"/>
         </token>
-        <token id="1147619" form="linēr" citation-part="9" lemma="linim" part-of-speech="V-" morphology="3siip----i" relation="pred" presentation-after=". "/>
         <token id="1178939" empty-token-sort="P" citation-part="9" head-id="1147619" relation="sub" antecedent-id="1147603" information-status="old"/>
+        <token id="1147619" form="linēr" citation-part="9" lemma="linim" part-of-speech="V-" morphology="3siip----i" relation="pred" presentation-after=". "/>
       </sentence>
       <sentence id="80567" status="reviewed" presentation-after=" ">
         <token id="1178953" form="z" citation-part="9" lemma="z-" part-of-speech="R-" morphology="---------n" head-id="1178955" relation="obl" information-status="info_unannotatable"/>
@@ -3325,6 +3325,7 @@
         <token id="1178958" form="hogelicʻ" citation-part="9" lemma="hogelicʻ" part-of-speech="A-" morphology="-s----a--i" head-id="1178960" relation="adv" presentation-after=" "/>
         <token id="1178959" form="owraxowtʻeamb" citation-part="9" lemma="owraxowtʻiwn" part-of-speech="Nb" morphology="-s----i--i" head-id="1178960" relation="adv" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1178960" form="ekeal" citation-part="9" lemma="gam" part-of-speech="V-" morphology="-s-p--n--i" head-id="1178957" relation="xadv" presentation-after=" "/>
+        <token id="1178983" empty-token-sort="P" citation-part="9" head-id="1178961" relation="sub" antecedent-id="1178939" information-status="old"/>
         <token id="1178961" form="hasanēr" citation-part="9" lemma="hasanem" part-of-speech="V-" morphology="3siia----i" relation="pred" presentation-after=" "/>
         <token id="1178962" form="i" citation-part="9" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1178961" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1178963" form="Hayastan" citation-part="9" lemma="Hayastan" part-of-speech="Ne" morphology="---------n" head-id="1178964" relation="atr" information-status="info_unannotatable" presentation-after=" "/>
@@ -3346,7 +3347,6 @@
         <token id="1178979" form="arkʻayi" citation-part="9" lemma="arkʻay" part-of-speech="Nb" morphology="-s----g--i" head-id="1178978" relation="atr" information-status="info_unannotatable"/>
         <token id="1178980" form="n" citation-part="9" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1178979" relation="aux" presentation-after=" "/>
         <token id="1178981" form="Hayocʻ Mecacʻ" citation-part="9" lemma="Mec Haykʻ" part-of-speech="Ne" morphology="-s----g--i" head-id="1178979" relation="atr" antecedent-id="1178964" information-status="acc_gen" presentation-after=": "/>
-        <token id="1178983" empty-token-sort="P" citation-part="9" head-id="1178961" relation="sub" antecedent-id="1178939" information-status="old"/>
       </sentence>
       <sentence id="80568" status="reviewed">
         <token id="1147651" form="Ew" citation-part="9" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147657" relation="aux" presentation-after=" "/>
@@ -3364,6 +3364,7 @@
       </sentence>
       <sentence id="80569" status="reviewed" presentation-after=" ">
         <token id="1147663" form="čʻ" citation-part="9" lemma="očʻ" part-of-speech="Df" morphology="---------n" head-id="1147664" relation="aux"/>
+        <token id="1179320" empty-token-sort="P" citation-part="9" head-id="1147664" relation="sub" information-status="old"/>
         <token id="1147664" form="asemkʻ" citation-part="9" lemma="asem" part-of-speech="V-" morphology="1ppia----i" relation="pred" presentation-after=" "/>
         <token id="1147665" form="tʻē" citation-part="9" lemma="tʻē" part-of-speech="G-" morphology="---------n" head-id="1147664" relation="adv" presentation-after=" "/>
         <token id="1147666" form="ar̄awelawkʻ" citation-part="9" lemma="ar̄awel" part-of-speech="A-" morphology="-s----a--i" head-id="1179318" relation="adv" information-status="info_unannotatable" foreign-ids="nominal"/>
@@ -3373,7 +3374,6 @@
         <token id="1179319" empty-token-sort="C" citation-part="9" head-id="1147665" relation="pred">
           <slash target-id="1179318" relation="pid"/>
         </token>
-        <token id="1179320" empty-token-sort="P" citation-part="9" head-id="1147664" relation="sub" information-status="old"/>
       </sentence>
       <sentence id="80570" status="reviewed" presentation-after=" ">
         <token id="1147669" form="Kʻanzi" citation-part="9" lemma="kʻanzi" part-of-speech="G-" morphology="---------n" head-id="1147684" relation="adv" presentation-after=" "/>
@@ -3426,10 +3426,10 @@
         <token id="1147711" form="n" citation-part="9" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147710" relation="aux" presentation-after=" "/>
         <token id="1147712" form="srtar̄owčʻ" citation-part="9" lemma="srtar̄owčʻ" part-of-speech="A-" morphology="-s----a--i" head-id="1147714" relation="adv" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147713" form="srtabek" citation-part="9" lemma="srtabek" part-of-speech="A-" morphology="-s----a--i" head-id="1147714" relation="adv" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1179012" empty-token-sort="P" citation-part="9" head-id="1147714" relation="sub" antecedent-id="1147699" information-status="old"/>
         <token id="1147714" form="lacʻowcʻin" citation-part="9" lemma="lacʻowcʻanem" part-of-speech="V-" morphology="3paia----i" head-id="1147707" relation="pred" presentation-after=". "/>
         <token id="1179002" empty-token-sort="V" citation-part="9" head-id="1147695" relation="apos"/>
         <token id="1179003" empty-token-sort="V" citation-part="9" head-id="1147695" relation="apos"/>
-        <token id="1179012" empty-token-sort="P" citation-part="9" head-id="1147714" relation="sub" antecedent-id="1147699" information-status="old"/>
       </sentence>
       <sentence id="80572" status="reviewed">
         <token id="1147715" form="kʻanzi" citation-part="9" lemma="kʻanzi" part-of-speech="G-" morphology="---------n" head-id="1147722" relation="adv" presentation-after=" "/>
@@ -3453,6 +3453,7 @@
         <token id="1147729" form="eranelwoy" citation-part="9" lemma="eraneli" part-of-speech="A-" morphology="-s----g--i" head-id="1147734" relation="atr" presentation-after="; " foreign-ids="nominal"/>
         <token id="1147730" form="vasn" citation-part="9" lemma="vasn" part-of-speech="R-" morphology="---------n" head-id="1147732" relation="apos" presentation-after=" "/>
         <token id="1147731" form="oroy" citation-part="9" lemma="or" part-of-speech="Pr" morphology="-s----g--i" head-id="1147730" relation="obl" presentation-after=" "/>
+        <token id="1179027" empty-token-sort="P" citation-part="9" head-id="1147732" relation="sub" antecedent-id="1179320" information-status="old"/>
         <token id="1147732" form="čar̄ealkʻ" citation-part="9" lemma="čar̄em" part-of-speech="V-" morphology="-p-p--n--i" head-id="1147729" relation="atr" foreign-ids="nominal"/>
         <token id="1147733" form="s" citation-part="9" lemma="s" part-of-speech="Df" morphology="---------n" head-id="1147732" relation="aux" presentation-after=" "/>
         <token id="1147734" form="yardarin" citation-part="9" lemma="yardarem" part-of-speech="V-" morphology="3ppip----i" head-id="1147743" relation="pred" presentation-after=", "/>
@@ -3493,7 +3494,6 @@
           <slash target-id="1147744" relation="sub"/>
         </token>
         <token id="1179026" empty-token-sort="V" citation-part="9" head-id="1147755" relation="pred"/>
-        <token id="1179027" empty-token-sort="P" citation-part="9" head-id="1147732" relation="sub" antecedent-id="1179320" information-status="old"/>
       </sentence>
       <sentence id="80574" status="reviewed" presentation-after=" ">
         <token id="1147764" form="Baycʻ" citation-part="9" lemma="baycʻ" part-of-speech="C-" morphology="---------n" head-id="1147773" relation="adv" presentation-after=" "/>
@@ -3526,22 +3526,22 @@
         <token id="1147789" form="nmanecʻowcʻeal" citation-part="9" lemma="nmanecʻowcʻanem" part-of-speech="V-" morphology="-s-p--n--i" head-id="1147790" relation="xadv" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1147790" relation="xsub"/>
         </token>
-        <token id="1147790" form="hawasareacʻ" citation-part="9" lemma="hawasarem" part-of-speech="V-" morphology="3saia----i" head-id="1147774" relation="pred" presentation-after=". "/>
         <token id="1179314" empty-token-sort="P" citation-part="9" head-id="1147790" relation="sub" information-status="non_spec"/>
+        <token id="1147790" form="hawasareacʻ" citation-part="9" lemma="hawasarem" part-of-speech="V-" morphology="3saia----i" head-id="1147774" relation="pred" presentation-after=". "/>
       </sentence>
       <sentence id="80575" status="reviewed" presentation-after=" ">
         <token id="1147791" form="orov" citation-part="9" lemma="or" part-of-speech="Pr" morphology="-s----i--i" head-id="1147793" relation="adv" presentation-after=" "/>
         <token id="1147792" form="tʻerews" citation-part="9" lemma="tʻerews" part-of-speech="Df" morphology="---------n" head-id="1147793" relation="adv" presentation-after=" "/>
-        <token id="1147793" form="stgtanicʻemkʻ" citation-part="9" lemma="stgtanem?" part-of-speech="V-" morphology="1ppsa----i" relation="pred" presentation-after=": "/>
         <token id="1179313" empty-token-sort="P" citation-part="9" head-id="1147793" relation="sub" antecedent-id="1147772" information-status="old"/>
+        <token id="1147793" form="stgtanicʻemkʻ" citation-part="9" lemma="stgtanem?" part-of-speech="V-" morphology="1ppsa----i" relation="pred" presentation-after=": "/>
       </sentence>
       <sentence id="80576" status="reviewed" presentation-after=" ">
         <token id="1147794" form="Ew" citation-part="9" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1147795" relation="aux" presentation-after=" "/>
+        <token id="1179315" empty-token-sort="P" citation-part="9" head-id="1147795" relation="sub" antecedent-id="1179313" information-status="old"/>
         <token id="1147795" form="karemkʻ" citation-part="9" lemma="karem" part-of-speech="V-" morphology="1ppia----i" relation="pred" presentation-after=" "/>
         <token id="1147796" form="ayl" citation-part="9" lemma="ayl" part-of-speech="A-" morphology="-s----a--i" head-id="1147797" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147797" form="aweli" citation-part="9" lemma="aweli" part-of-speech="A-" morphology="-s----a--i" head-id="1147795" relation="obj" information-status="non_spec" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147798" form="hawatovkʻ" citation-part="9" lemma="hawatkʻ" part-of-speech="Nb" morphology="-p----i--i" head-id="1147795" relation="adv" information-status="info_unannotatable" presentation-after=". " foreign-ids="nominal"/>
-        <token id="1179315" empty-token-sort="P" citation-part="9" head-id="1147795" relation="sub" antecedent-id="1179313" information-status="old"/>
       </sentence>
       <sentence id="80577" status="reviewed">
         <token id="1147799" form="kʻanzi" citation-part="9" lemma="kʻanzi" part-of-speech="C-" morphology="---------n" head-id="1147802" relation="adv" presentation-after=" "/>
@@ -3640,16 +3640,16 @@
         <token id="1147878" form="i" citation-part="9" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1147881" relation="obl" information-status="info_unannotatable" presentation-after=" "/>
         <token id="1147879" form="kʻałakʻ" citation-part="9" lemma="kʻałakʻ" part-of-speech="Nb" morphology="-s----a--i" head-id="1147878" relation="obl" antecedent-id="1147850" information-status="old" foreign-ids="nominal"/>
         <token id="1147880" form="n" citation-part="9" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1147879" relation="aux" presentation-after=" "/>
-        <token id="1147881" form="dar̄nayin" citation-part="9" lemma="dar̄nam" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=", "/>
         <token id="1179056" empty-token-sort="P" citation-part="9" head-id="1147881" relation="sub" antecedent-id="1147866" information-status="old"/>
+        <token id="1147881" form="dar̄nayin" citation-part="9" lemma="dar̄nam" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=", "/>
       </sentence>
       <sentence id="83401" status="reviewed">
         <token id="1147882" form="z" citation-part="9" lemma="z" part-of-speech="R-" morphology="---------n" head-id="1147883" relation="aux"/>
         <token id="1147883" form="awowrs" citation-part="9" lemma="awr" part-of-speech="Nb" morphology="-p----a--i" head-id="1147886" relation="obj" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147884" form="tawnakan" citation-part="9" lemma="tawnakan" part-of-speech="A-" morphology="---------n" head-id="1147885" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1147885" form="owraxowtʻeamb" citation-part="9" lemma="owraxowtʻiwn" part-of-speech="Nb" morphology="-s----i--i" head-id="1147886" relation="adv" information-status="info_unannotatable" presentation-after=" " foreign-ids="nominal"/>
-        <token id="1147886" form="ancʻowcʻanēin" citation-part="9" lemma="ancʻowcʻanem" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=": "/>
         <token id="1179057" empty-token-sort="P" citation-part="9" head-id="1147886" relation="sub" antecedent-id="1179056" information-status="old"/>
+        <token id="1147886" form="ancʻowcʻanēin" citation-part="9" lemma="ancʻowcʻanem" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=": "/>
       </sentence>
     </div>
     <div>
@@ -3915,8 +3915,8 @@
         <token id="1148101" form="iwreancʻ" citation-part="11" lemma="iwr#2" part-of-speech="Pk" morphology="3p----g--i" head-id="1148102" relation="atr" antecedent-id="1148086" information-status="old" presentation-after=" "/>
         <token id="1148102" form="mšakowtʻiwn" citation-part="11" lemma="mšakowtʻiwn" part-of-speech="Nb" morphology="-s----a--i" head-id="1148104" relation="obj" information-status="new" foreign-ids="nominal"/>
         <token id="1148103" form="n" citation-part="11" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1148102" relation="aux" presentation-after=" "/>
-        <token id="1148104" form="cʻowcʻanen" citation-part="11" lemma="cʻowcʻanem" part-of-speech="V-" morphology="3ppia----i" relation="pred" presentation-after=": "/>
         <token id="1179641" empty-token-sort="P" citation-part="11" head-id="1148104" relation="sub" antecedent-id="1148101" information-status="old"/>
+        <token id="1148104" form="cʻowcʻanen" citation-part="11" lemma="cʻowcʻanem" part-of-speech="V-" morphology="3ppia----i" relation="pred" presentation-after=": "/>
       </sentence>
       <sentence id="80594" status="reviewed">
         <token id="1179642" form="Y" citation-part="11" lemma="i" part-of-speech="R-" morphology="---------n" head-id="1179653" relation="adv"/>
@@ -3983,13 +3983,13 @@
         <token id="1148153" form="owraxowtʻiwn" citation-part="11" lemma="owraxowtʻiwn" part-of-speech="Nb" morphology="-s----n--i" head-id="1148150" relation="sub" information-status="new" presentation-after=" " foreign-ids="nominal"/>
         <token id="1148154" form="ew" citation-part="11" lemma="ew" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
         <token id="1148155" form="aknavayel" citation-part="11" lemma="aknavayem" part-of-speech="V-" morphology="---n-----i" head-id="1179688" relation="sub" information-status="new" presentation-after=" " foreign-ids="nominal"/>
+        <token id="1179689" empty-token-sort="P" citation-part="11" head-id="1148155" relation="obj" antecedent-id="1148153" information-status="old"/>
         <token id="1148156" form="tesil" citation-part="11" lemma="tesil" part-of-speech="Nb" morphology="-s----a--i" head-id="1179688" relation="xobj" presentation-after=" " foreign-ids="nominal">
           <slash target-id="1148155" relation="xsub"/>
         </token>
         <token id="1148157" form="hayelwoy" citation-part="11" lemma="hayeli" part-of-speech="Nb" morphology="-s----g--i" head-id="1148156" relation="atr" information-status="info_unannotatable" foreign-ids="nominal"/>
         <token id="1148158" form="n" citation-part="11" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1148157" relation="aux" presentation-after=" : "/>
         <token id="1179688" empty-token-sort="V" citation-part="11" head-id="1148154" relation="pred"/>
-        <token id="1179689" empty-token-sort="P" citation-part="11" head-id="1148155" relation="obj" antecedent-id="1148153" information-status="old"/>
       </sentence>
       <sentence id="80596" status="reviewed">
         <token id="1148159" form="Kʻanzi" citation-part="11" lemma="kʻanzi" part-of-speech="C-" morphology="---------n" head-id="1148184" relation="adv" presentation-after=" "/>
@@ -4072,6 +4072,7 @@
         <token id="1148224" form="noragiwt" citation-part="12" lemma="noragiwt" part-of-speech="A-" morphology="---------n" head-id="1148225" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1148225" form="vardapetowtʻean" citation-part="12" lemma="vardapetowtʻiwn" part-of-speech="Nb" morphology="-s----d--i" head-id="1148227" relation="obl" antecedent-id="1148214" information-status="old" foreign-ids="nominal"/>
         <token id="1148226" form="n" citation-part="12" lemma="n" part-of-speech="Df" morphology="---------n" head-id="1148225" relation="aux" presentation-after=" "/>
+        <token id="1179692" empty-token-sort="P" citation-part="12" head-id="1148227" relation="sub" antecedent-id="1179681" information-status="old"/>
         <token id="1148227" form="xmbēin" citation-part="12" lemma="xmbem" part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=" "/>
         <token id="1148228" form="owsowcʻanel" citation-part="12" lemma="owsowcʻanem" part-of-speech="V-" morphology="---n-----i" head-id="1148229" relation="xadv" presentation-after=" "/>
         <token id="1148229" form="ew" citation-part="12" lemma="ew" part-of-speech="C-" morphology="---------n" head-id="1148227" relation="xadv" presentation-after=" ">
@@ -4085,7 +4086,6 @@
         <token id="1148235" form="angēt" citation-part="12" lemma="angēt" part-of-speech="A-" morphology="---------n" head-id="1148236" relation="atr" presentation-after=" " foreign-ids="nominal"/>
         <token id="1148236" form="mardkan" citation-part="12" lemma="mardik" part-of-speech="Nb" morphology="-s----g--i" head-id="1148233" relation="narg" information-status="kind" presentation-after=" " foreign-ids="nominal"/>
         <token id="1148237" form="yawrinel" citation-part="12" lemma="yawrinem" part-of-speech="V-" morphology="---n-----i" head-id="1148229" relation="xadv" presentation-after=": "/>
-        <token id="1179692" empty-token-sort="P" citation-part="12" head-id="1148227" relation="sub" antecedent-id="1179681" information-status="old"/>
       </sentence>
       <sentence id="80599" status="unannotated">
         <token id="1148238" form="Orocʻ" citation-part="12" presentation-after=" "/>
