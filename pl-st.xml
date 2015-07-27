@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-07-25T22:13:27+02:00" schema-version="2.0">
+<proiel export-time="2015-07-27T17:21:22+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -340,9 +340,9 @@
         <token id="2204788" form="istaec" citation-part="23" presentation-after=" "/>
         <token id="2204789" form="dicit" citation-part="23" presentation-after=", "/>
         <token id="2204790" form="neque" citation-part="24" presentation-after=" "/>
-        <token id="2204791" form="illé" citation-part="24" lemma="ille" part-of-speech="Pd" morphology="-s---mn--i" presentation-after=" "/>
-        <token id="2204792" form="sibi" citation-part="24" lemma="se" part-of-speech="Pk" morphology="3s---md--i" presentation-after=" "/>
-        <token id="2204793" form="mereat" citation-part="24" lemma="mereo" part-of-speech="V-" morphology="3spsa----i" presentation-after=" "/>
+        <token id="2204791" form="illé" citation-part="24" lemma="ille" part-of-speech="Pd" morphology="-s---mn--i" head-id="2204793" relation="sub" presentation-after=" "/>
+        <token id="2204792" form="sibi" citation-part="24" lemma="se" part-of-speech="Pk" morphology="3s---md--i" head-id="2204793" relation="obl" presentation-after=" "/>
+        <token id="2204793" form="mereat" citation-part="24" lemma="mereo" part-of-speech="V-" morphology="3spsa----i" relation="pred" presentation-after=" "/>
         <token id="2204794" form="Pérsarum" citation-part="24" presentation-after=" "/>
         <token id="2204795" form="montís" citation-part="25" presentation-after=", "/>
         <token id="2204796" form="qui" citation-part="25" presentation-after=" "/>
@@ -807,13 +807,13 @@
         <token id="2205172" form="eas" citation-part="77" presentation-after=" "/>
         <token id="2205173" form="simulem" citation-part="77" presentation-after=", "/>
         <token id="2205174" form="quasi" citation-part="77" presentation-after=" "/>
-        <token id="2205175" form="nil" citation-part="77" presentation-after=" "/>
-        <token id="2205176" form="indaudiverim" citation-part="77" lemma="inaudio" part-of-speech="V-" morphology="1srsa----i" presentation-after=" "/>
-        <token id="2205177" form="eas" citation-part="78" lemma="is" part-of-speech="Pp" morphology="3p---fa--i" presentation-after=" "/>
-        <token id="2205178" form="in" citation-part="78" lemma="in" part-of-speech="R-" morphology="---------n" presentation-after=" "/>
-        <token id="2205179" form="se" citation-part="78" lemma="se" part-of-speech="Pk" morphology="3p---fa--i" presentation-after=" "/>
-        <token id="2205180" form="meruisse" citation-part="78" lemma="mereo" part-of-speech="V-" morphology="--rna----i" presentation-after=" "/>
-        <token id="2205181" form="culpam" citation-part="78" lemma="culpa" part-of-speech="Nb" morphology="-s---fa--i" presentation-after=", "/>
+        <token id="2205175" form="nil" citation-part="77" head-id="2205176" relation="aux" presentation-after=" "/>
+        <token id="2205176" form="indaudiverim" citation-part="77" lemma="inaudio" part-of-speech="V-" morphology="1srsa----i" relation="pred" presentation-after=" "/>
+        <token id="2205177" form="eas" citation-part="78" lemma="is" part-of-speech="Pp" morphology="3p---fa--i" head-id="2205180" relation="sub" presentation-after=" "/>
+        <token id="2205178" form="in" citation-part="78" lemma="in" part-of-speech="R-" morphology="---------n" head-id="2205180" relation="adv" presentation-after=" "/>
+        <token id="2205179" form="se" citation-part="78" lemma="se" part-of-speech="Pk" morphology="3p---fa--i" head-id="2205178" relation="obl" presentation-after=" "/>
+        <token id="2205180" form="meruisse" citation-part="78" lemma="mereo" part-of-speech="V-" morphology="--rna----i" head-id="2205176" relation="comp" presentation-after=" "/>
+        <token id="2205181" form="culpam" citation-part="78" lemma="culpa" part-of-speech="Nb" morphology="-s---fa--i" head-id="2205180" relation="obj" presentation-after=", "/>
         <token id="2205182" form="an" citation-part="78" presentation-after=" "/>
         <token id="2205183" form="potius" citation-part="78" presentation-after=" "/>
         <token id="2205184" form="temptem" citation-part="78" presentation-after=" "/>
@@ -1510,10 +1510,10 @@
         <token id="2205719" form="Stultitia" citation-part="139" lemma="stultitia" part-of-speech="Nb" morphology="-s---fn--i" presentation-before="Pan. "/>
         <token id="2205720" form="st" citation-part="139" lemma="sum" part-of-speech="V-" morphology="3spia----i" presentation-after=", "/>
         <token id="2205721" form="pater" citation-part="139" lemma="pater" part-of-speech="Nb" morphology="-s---mv--i" presentation-after=", "/>
-        <token id="2205722" form="venatum" citation-part="139" lemma="venor" part-of-speech="V-" morphology="---u--a--i" presentation-after=" "/>
-        <token id="2205723" form="ducere" citation-part="139" lemma="duco" part-of-speech="V-" morphology="--pna----i" presentation-after=" "/>
+        <token id="2205722" form="venatum" citation-part="139" lemma="venor" part-of-speech="V-" morphology="---u--a--i" head-id="2205723" relation="xadv" presentation-after=" "/>
+        <token id="2205723" form="ducere" citation-part="139" lemma="duco" part-of-speech="V-" morphology="--pna----i" relation="pred" presentation-after=" "/>
         <token id="2205724" form="invitas" citation-part="139" lemma="invitus" part-of-speech="A-" morphology="-p---fap-i" presentation-after=" "/>
-        <token id="2205725" form="canes" citation-part="139" lemma="canis" part-of-speech="Nb" morphology="-p---fa--i" presentation-after=". "/>
+        <token id="2205725" form="canes" citation-part="139" lemma="canis" part-of-speech="Nb" morphology="-p---fa--i" head-id="2205723" relation="obj" presentation-after=". "/>
       </sentence>
       <sentence id="183546" status="unannotated">
         <token id="2205726" form="hostis" citation-part="140" presentation-after=" "/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-07-25T22:12:18+02:00" schema-version="2.0">
+<proiel export-time="2015-07-27T17:20:55+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -6729,13 +6729,13 @@
         <token id="2188184" form="est" citation-part="641" presentation-after="? "/>
       </sentence>
       <sentence id="181024" status="unannotated">
-        <token id="2188185" form="reddere" citation-part="642" lemma="reddo" part-of-speech="V-" morphology="--pna----i" presentation-after=" "/>
-        <token id="2188186" form="hoc" citation-part="642" lemma="hic" part-of-speech="Pd" morphology="-s---na--i" presentation-after=", "/>
-        <token id="2188187" form="non" citation-part="642" lemma="non" part-of-speech="Df" morphology="---------n" presentation-after=" "/>
-        <token id="2188188" form="perdere" citation-part="642" lemma="perdo" part-of-speech="V-" morphology="--pna----i" presentation-after=" "/>
-        <token id="2188189" form="erus" citation-part="642" lemma="erus" part-of-speech="Nb" morphology="-s---mn--i" presentation-after=" "/>
-        <token id="2188190" form="me" citation-part="642" lemma="ego" part-of-speech="Pp" morphology="1s---ma--i" presentation-after=" "/>
-        <token id="2188191" form="misit" citation-part="642" lemma="mitto" part-of-speech="V-" morphology="3sria----i" presentation-after=". "/>
+        <token id="2188185" form="reddere" citation-part="642" lemma="reddo" part-of-speech="V-" morphology="--pna----i" relation="xadv" presentation-after=" "/>
+        <token id="2188186" form="hoc" citation-part="642" lemma="hic" part-of-speech="Pd" morphology="-s---na--i" head-id="2188185" relation="obj" presentation-after=", "/>
+        <token id="2188187" form="non" citation-part="642" lemma="non" part-of-speech="Df" morphology="---------n" head-id="2188188" relation="aux" presentation-after=" "/>
+        <token id="2188188" form="perdere" citation-part="642" lemma="perdo" part-of-speech="V-" morphology="--pna----i" relation="xadv" presentation-after=" "/>
+        <token id="2188189" form="erus" citation-part="642" lemma="erus" part-of-speech="Nb" morphology="-s---mn--i" head-id="2188191" relation="sub" presentation-after=" "/>
+        <token id="2188190" form="me" citation-part="642" lemma="ego" part-of-speech="Pp" morphology="1s---ma--i" head-id="2188191" relation="obj" presentation-after=" "/>
+        <token id="2188191" form="misit" citation-part="642" lemma="mitto" part-of-speech="V-" morphology="3sria----i" relation="pred" presentation-after=". "/>
       </sentence>
       <sentence id="181025" status="unannotated">
         <token id="2188192" form="nam" citation-part="642" presentation-after=" "/>
@@ -7385,18 +7385,18 @@
         <token id="2188696" form="sciam" citation-part="696b" presentation-after=".] "/>
       </sentence>
       <sentence id="181093" status="unannotated">
-        <token id="2188697" form="Pseudolus" citation-part="697" lemma="Pseudolus" part-of-speech="Ne" morphology="-s---mn--i" presentation-before="Cal. " presentation-after=" "/>
-        <token id="2188698" form="mi" citation-part="697" lemma="ego" part-of-speech="Pp" morphology="1s---md--i" presentation-after=" "/>
-        <token id="2188699" form="ita" citation-part="697" lemma="ita" part-of-speech="Df" morphology="---------n" presentation-after=" "/>
-        <token id="2188700" form="imperavit" citation-part="697" lemma="impero" part-of-speech="V-" morphology="3sria----i" presentation-after=", "/>
-        <token id="2188701" form="ut" citation-part="697" lemma="ut" part-of-speech="G-" morphology="---------n" presentation-after=" "/>
-        <token id="2188702" form="aliquem" citation-part="697" lemma="aliquis" part-of-speech="Px" morphology="-s---ma--i" presentation-after=" "/>
-        <token id="2188703" form="hominem" citation-part="697" lemma="homo" part-of-speech="Nb" morphology="-s---ma--i" presentation-after=" "/>
-        <token id="2188704" form="strenuom" citation-part="697" lemma="strenuus" part-of-speech="A-" morphology="-s---map-i" presentation-after=" "/>
-        <token id="2188705" form="benevolentem" citation-part="698" lemma="benevolens" part-of-speech="A-" morphology="-s---map-i" presentation-after=" "/>
-        <token id="2188706" form="adducerem" citation-part="698" lemma="adduco" part-of-speech="V-" morphology="1sisa----i" presentation-after=" "/>
-        <token id="2188707" form="ad" citation-part="698" lemma="ad" part-of-speech="R-" morphology="---------n" presentation-after=" "/>
-        <token id="2188708" form="se" citation-part="698" lemma="se" part-of-speech="Pk" morphology="3s---ma--i" presentation-after=".  "/>
+        <token id="2188697" form="Pseudolus" citation-part="697" lemma="Pseudolus" part-of-speech="Ne" morphology="-s---mn--i" head-id="2188700" relation="sub" presentation-before="Cal. " presentation-after=" "/>
+        <token id="2188698" form="mi" citation-part="697" lemma="ego" part-of-speech="Pp" morphology="1s---md--i" head-id="2188700" relation="obl" presentation-after=" "/>
+        <token id="2188699" form="ita" citation-part="697" lemma="ita" part-of-speech="Df" morphology="---------n" head-id="2188700" relation="adv" presentation-after=" "/>
+        <token id="2188700" form="imperavit" citation-part="697" lemma="impero" part-of-speech="V-" morphology="3sria----i" relation="pred" presentation-after=", "/>
+        <token id="2188701" form="ut" citation-part="697" lemma="ut" part-of-speech="G-" morphology="---------n" head-id="2188700" relation="comp" presentation-after=" "/>
+        <token id="2188702" form="aliquem" citation-part="697" lemma="aliquis" part-of-speech="Px" morphology="-s---ma--i" head-id="2188703" relation="atr" presentation-after=" "/>
+        <token id="2188703" form="hominem" citation-part="697" lemma="homo" part-of-speech="Nb" morphology="-s---ma--i" head-id="2188706" relation="obj" presentation-after=" "/>
+        <token id="2188704" form="strenuom" citation-part="697" lemma="strenuus" part-of-speech="A-" morphology="-s---map-i" relation="xadv" presentation-after=" "/>
+        <token id="2188705" form="benevolentem" citation-part="698" lemma="benevolens" part-of-speech="A-" morphology="-s---map-i" relation="xadv" presentation-after=" "/>
+        <token id="2188706" form="adducerem" citation-part="698" lemma="adduco" part-of-speech="V-" morphology="1sisa----i" head-id="2188701" relation="pred" presentation-after=" "/>
+        <token id="2188707" form="ad" citation-part="698" lemma="ad" part-of-speech="R-" morphology="---------n" head-id="2188706" relation="obl" presentation-after=" "/>
+        <token id="2188708" form="se" citation-part="698" lemma="se" part-of-speech="Pk" morphology="3s---ma--i" head-id="2188707" relation="obl" presentation-after=".  "/>
       </sentence>
       <sentence id="181094" status="unannotated">
         <token id="2188709" form="Servas" citation-part="698" presentation-before="Char. " presentation-after=" "/>

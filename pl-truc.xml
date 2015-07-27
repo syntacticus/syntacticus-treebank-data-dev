@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-07-25T22:14:15+02:00" schema-version="2.0">
+<proiel export-time="2015-07-27T17:21:45+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -2042,22 +2042,22 @@
         <token id="2221430" form="sensi" citation-part="199" presentation-after=". "/>
       </sentence>
       <sentence id="185714" status="unannotated">
-        <token id="2221431" form="Celabat" citation-part="200" presentation-before="Ast. " presentation-after=" "/>
-        <token id="2221432" form="metuebat" citation-part="200" lemma="metuo" part-of-speech="V-" morphology="3siia----i"/>
-        <token id="2221433" form="que" citation-part="200" lemma="que" part-of-speech="C-" morphology="---------n" presentation-after=" "/>
-        <token id="2221434" form="te" citation-part="200" presentation-after=", "/>
-        <token id="2221435" form="ne" citation-part="200" lemma="ne" part-of-speech="G-" morphology="---------n" presentation-after=" "/>
-        <token id="2221436" form="tu" citation-part="200" lemma="tu" part-of-speech="Pp" morphology="2s---mn--i" presentation-after=" "/>
-        <token id="2221437" form="sibi" citation-part="200" lemma="se" part-of-speech="Pk" morphology="3s---md--i" presentation-after=" "/>
-        <token id="2221438" form="persuaderes" citation-part="200" lemma="persuadeo" part-of-speech="V-" morphology="2sisa----i" presentation-after=", "/>
-        <token id="2221439" form="ut" citation-part="201" lemma="ut" part-of-speech="G-" morphology="---------n" presentation-after=" "/>
-        <token id="2221440" form="abortioni" citation-part="201" presentation-after=" "/>
-        <token id="2221441" form="operam" citation-part="201" lemma="opera" part-of-speech="Nb" morphology="-s---fa--i" presentation-after=" "/>
-        <token id="2221442" form="daret" citation-part="201" lemma="do" part-of-speech="V-" morphology="3sisa----i" presentation-after=" "/>
-        <token id="2221443" form="puerum" citation-part="201"/>
-        <token id="2221444" form="que" citation-part="201" presentation-after=" "/>
-        <token id="2221445" form="ut" citation-part="201" presentation-after=" "/>
-        <token id="2221446" form="enicaret" citation-part="201" presentation-after=". "/>
+        <token id="2221431" form="Celabat" citation-part="200" head-id="2221433" relation="pred" presentation-before="Ast. " presentation-after=" "/>
+        <token id="2221432" form="metuebat" citation-part="200" lemma="metuo" part-of-speech="V-" morphology="3siia----i" head-id="2221433" relation="pred"/>
+        <token id="2221433" form="que" citation-part="200" lemma="que" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="2221434" form="te" citation-part="200" head-id="2221432" relation="obj" presentation-after=", "/>
+        <token id="2221435" form="ne" citation-part="200" lemma="ne" part-of-speech="G-" morphology="---------n" head-id="2221432" relation="comp" presentation-after=" "/>
+        <token id="2221436" form="tu" citation-part="200" lemma="tu" part-of-speech="Pp" morphology="2s---mn--i" head-id="2221438" relation="sub" presentation-after=" "/>
+        <token id="2221437" form="sibi" citation-part="200" lemma="se" part-of-speech="Pk" morphology="3s---md--i" head-id="2221438" relation="obl" presentation-after=" "/>
+        <token id="2221438" form="persuaderes" citation-part="200" lemma="persuadeo" part-of-speech="V-" morphology="2sisa----i" head-id="2221435" relation="pred" presentation-after=", "/>
+        <token id="2221439" form="ut" citation-part="201" lemma="ut" part-of-speech="G-" morphology="---------n" head-id="2221444" relation="comp" presentation-after=" "/>
+        <token id="2221440" form="abortioni" citation-part="201" head-id="2221442" relation="obl" presentation-after=" "/>
+        <token id="2221441" form="operam" citation-part="201" lemma="opera" part-of-speech="Nb" morphology="-s---fa--i" head-id="2221442" relation="obj" presentation-after=" "/>
+        <token id="2221442" form="daret" citation-part="201" lemma="do" part-of-speech="V-" morphology="3sisa----i" head-id="2221439" relation="pred" presentation-after=" "/>
+        <token id="2221443" form="puerum" citation-part="201" head-id="2221446" relation="obj"/>
+        <token id="2221444" form="que" citation-part="201" head-id="2221437" relation="comp" presentation-after=" "/>
+        <token id="2221445" form="ut" citation-part="201" head-id="2221444" relation="comp" presentation-after=" "/>
+        <token id="2221446" form="enicaret" citation-part="201" head-id="2221445" relation="pred" presentation-after=". "/>
       </sentence>
       <sentence id="185715" status="unannotated">
         <token id="2221447" form="Tum" citation-part="202" presentation-before="Din. " presentation-after=" "/>

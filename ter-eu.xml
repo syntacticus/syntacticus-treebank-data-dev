@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-07-25T22:15:34+02:00" schema-version="2.0">
+<proiel export-time="2015-07-27T17:22:19+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -5772,11 +5772,11 @@
         <token id="2248201" form="est" citation-part="526" presentation-after=". "/>
       </sentence>
       <sentence id="190457" status="unannotated">
-        <token id="2248202" form="Misit" citation-part="527" lemma="mitto" part-of-speech="V-" morphology="3sria----i" presentation-after=" "/>
-        <token id="2248203" form="porro" citation-part="527" lemma="porro" part-of-speech="Df" morphology="---------n" presentation-after=" "/>
-        <token id="2248204" form="orare" citation-part="527" lemma="oro" part-of-speech="V-" morphology="--pna----i" presentation-after=" "/>
-        <token id="2248205" form="ut" citation-part="527" lemma="ut" part-of-speech="G-" morphology="---------n" presentation-after=" "/>
-        <token id="2248206" form="venirem" citation-part="527" lemma="venio" part-of-speech="V-" morphology="1sisa----i" presentation-after=" "/>
+        <token id="2248202" form="Misit" citation-part="527" lemma="mitto" part-of-speech="V-" morphology="3sria----i" relation="pred" presentation-after=" "/>
+        <token id="2248203" form="porro" citation-part="527" lemma="porro" part-of-speech="Df" morphology="---------n" head-id="2248202" relation="aux" presentation-after=" "/>
+        <token id="2248204" form="orare" citation-part="527" lemma="oro" part-of-speech="V-" morphology="--pna----i" head-id="2248202" relation="xadv" presentation-after=" "/>
+        <token id="2248205" form="ut" citation-part="527" lemma="ut" part-of-speech="G-" morphology="---------n" head-id="2248204" relation="comp" presentation-after=" "/>
+        <token id="2248206" form="venirem" citation-part="527" lemma="venio" part-of-speech="V-" morphology="1sisa----i" head-id="2248205" relation="pred" presentation-after=" "/>
         <token id="2248207" form="serio" citation-part="527" presentation-after=". "/>
       </sentence>
       <sentence id="190458" status="unannotated">
