@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-07-27T17:18:27+02:00" schema-version="2.0">
+<proiel export-time="2015-08-23T01:40:11+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -158,7 +158,7 @@
     <title>Asinaria</title>
     <author>Plautus</author>
     <citation-part>Pl. As.</citation-part>
-    <annotator>Marius Larsen Jøhndal (81 sentences)</annotator>
+    <annotator>Marius Larsen Jøhndal (82 sentences)</annotator>
     <electronic-text-publisher>Perseus</electronic-text-publisher>
     <electronic-text-original-url>http://www.perseus.tufts.edu/hopper/</electronic-text-original-url>
     <electronic-text-license>Creative Commons Attribution-ShareAlike 3.0</electronic-text-license>
@@ -3069,11 +3069,11 @@
       </sentence>
       <sentence id="164164" status="unannotated">
         <token id="2073975" form="Edepol" citation-part="292" lemma="edepol" part-of-speech="I-" morphology="---------n" presentation-before="Lib. " presentation-after=" "/>
-        <token id="2073976" form="hominem" citation-part="292" presentation-after=" "/>
-        <token id="2073977" form="ínfelicem" citation-part="292" presentation-after=", "/>
-        <token id="2073978" form="qui" citation-part="292" presentation-after=" "/>
-        <token id="2073979" form="patronam" citation-part="292" presentation-after=" "/>
-        <token id="2073980" form="comprimat" citation-part="292" presentation-after=". "/>
+        <token id="2073976" form="hominem" citation-part="292" lemma="homo" part-of-speech="Nb" morphology="-s---ma--i" presentation-after=" "/>
+        <token id="2073977" form="ínfelicem" citation-part="292" lemma="infelix" part-of-speech="A-" morphology="-s---map-i" presentation-after=", "/>
+        <token id="2073978" form="qui" citation-part="292" lemma="qui" part-of-speech="Pr" morphology="-s---mn--i" presentation-after=" "/>
+        <token id="2073979" form="patronam" citation-part="292" lemma="patrona" part-of-speech="Nb" morphology="-s---fa--i" presentation-after=" "/>
+        <token id="2073980" form="comprimat" citation-part="292" lemma="comprimo" part-of-speech="V-" morphology="3spsa----i" presentation-after=". "/>
       </sentence>
       <sentence id="164165" status="unannotated">
         <token id="2073981" form="nam" citation-part="293" presentation-after=" "/>
@@ -6101,11 +6101,12 @@
         <token id="2076296" form="quod" citation-part="578" presentation-after=" "/>
         <token id="2076297" form="vis" citation-part="578" presentation-after=". "/>
       </sentence>
-      <sentence id="164493" status="unannotated">
-        <token id="2076298" form="Argenti" citation-part="579" presentation-before="Lib. " presentation-after=" "/>
-        <token id="2076299" form="vinginti" citation-part="579" presentation-after=" "/>
-        <token id="2076300" form="minas" citation-part="579" presentation-after=" "/>
-        <token id="2076301" form="habesne" citation-part="579" presentation-after="?  "/>
+      <sentence id="164493" status="annotated">
+        <token id="2076298" form="Argenti" citation-part="579" lemma="argentum" part-of-speech="Nb" morphology="-s---ng--i" head-id="2076300" relation="atr" presentation-before="Lib. " presentation-after=" "/>
+        <token id="2076299" form="vinginti" citation-part="579" lemma="viginti" part-of-speech="Ma" morphology="---------n" head-id="2076300" relation="atr" presentation-after=" "/>
+        <token id="2076300" form="minas" citation-part="579" lemma="mina" part-of-speech="Nb" morphology="-p---fa--i" head-id="2076301" relation="obj" presentation-after=" "/>
+        <token id="2076301" form="habes" citation-part="579" lemma="habeo" part-of-speech="V-" morphology="2spia----i" relation="pred"/>
+        <token id="2695171" form="ne" citation-part="579" lemma="ne" part-of-speech="Df" morphology="---------n" head-id="2076301" relation="aux" presentation-after="?  "/>
       </sentence>
       <sentence id="164494" status="unannotated">
         <token id="2076302" form="Hariolare" citation-part="579" presentation-before="Leon. " presentation-after=". "/>
