@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2015-07-25T22:16:34+02:00" schema-version="2.0">
+<proiel export-time="2015-09-20T01:50:20+02:00" schema-version="2.0">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -158,6 +158,7 @@
     <title>Hecyra</title>
     <author>Terence</author>
     <citation-part>Ter. Hec.</citation-part>
+    <annotator>Marius Larsen Jøhndal (5 sentences)</annotator>
     <electronic-text-publisher>Perseus</electronic-text-publisher>
     <electronic-text-original-url>http://www.perseus.tufts.edu/hopper/</electronic-text-original-url>
     <electronic-text-license>Creative Commons Attribution-ShareAlike 3.0</electronic-text-license>
@@ -8037,40 +8038,47 @@
         <token id="2268073" form="istac" citation-part="748" presentation-after=" "/>
         <token id="2268074" form="aetate" citation-part="748" presentation-after=". "/>
       </sentence>
-      <sentence id="193844" status="unannotated">
-        <token id="2268075" form="Quis" citation-part="749" presentation-before="Ba. " presentation-after=" "/>
-        <token id="2268076" form="id" citation-part="749" presentation-after=" "/>
-        <token id="2268077" form="ait" citation-part="749" presentation-after="?  "/>
+      <sentence id="193844" status="annotated">
+        <token id="2268075" form="Quis" citation-part="749" lemma="quis" part-of-speech="Pi" morphology="-s---mn--i" head-id="2268077" relation="sub" presentation-before="Ba. " presentation-after=" "/>
+        <token id="2268076" form="id" citation-part="749" lemma="is" part-of-speech="Pp" morphology="3s---na--i" head-id="2268077" relation="obj" presentation-after=" "/>
+        <token id="2268077" form="ait" citation-part="749" lemma="aio" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after="?  "/>
       </sentence>
-      <sentence id="193845" status="unannotated">
-        <token id="2268078" form="Socrus" citation-part="749" presentation-before="La. " presentation-after=".  "/>
+      <sentence id="193845" status="annotated">
+        <token id="2268078" form="Socrus" citation-part="749" lemma="socrus" part-of-speech="Nb" morphology="-s---fn--i" head-id="2695215" relation="sub" presentation-before="La. " presentation-after=".  "/>
+        <token id="2695215" empty-token-sort="V" relation="pred"/>
       </sentence>
-      <sentence id="193846" status="unannotated">
-        <token id="2268079" form="Mene" citation-part="749" presentation-before="Ba. " presentation-after="?  "/>
+      <sentence id="193846" status="annotated">
+        <token id="2268079" form="Me" citation-part="749" lemma="ego" part-of-speech="Pp" morphology="1s---fa--i" head-id="2695220" relation="sub" presentation-before="Ba. "/>
+        <token id="2695217" form="ne" citation-part="749" lemma="ne" part-of-speech="Df" morphology="---------n" head-id="2268079" relation="aux" presentation-after="?  "/>
+        <token id="2695219" empty-token-sort="V" relation="pred"/>
+        <token id="2695220" empty-token-sort="V" head-id="2695219" relation="comp"/>
       </sentence>
-      <sentence id="193847" status="unannotated">
-        <token id="2268080" form="Te" citation-part="749" presentation-before="La. " presentation-after=" "/>
-        <token id="2268081" form="ipsam" citation-part="749" presentation-after="; "/>
+      <sentence id="193847" status="annotated">
+        <token id="2268080" form="Te" citation-part="749" lemma="tu" part-of-speech="Pp" morphology="2s---fa--i" head-id="2695224" relation="sub" presentation-before="La. " presentation-after=" "/>
+        <token id="2268081" form="ipsam" citation-part="749" lemma="ipse" part-of-speech="Pd" morphology="-s---fa--i" head-id="2268080" relation="atr" presentation-after="; "/>
+        <token id="2695223" empty-token-sort="V" relation="pred"/>
+        <token id="2695224" empty-token-sort="V" head-id="2695223" relation="comp"/>
       </sentence>
-      <sentence id="193848" status="unannotated">
-        <token id="2268082" form="et" citation-part="749" presentation-after=" "/>
-        <token id="2268083" form="filiam" citation-part="749" presentation-after=" "/>
-        <token id="2268084" form="abduxit" citation-part="749" presentation-after=" "/>
-        <token id="2268085" form="suam" citation-part="749" presentation-after="; "/>
+      <sentence id="193848" status="annotated">
+        <token id="2268082" form="et" citation-part="749" lemma="et" part-of-speech="C-" morphology="---------n" head-id="2268084" relation="aux" presentation-after=" "/>
+        <token id="2268083" form="filiam" citation-part="749" lemma="filia" part-of-speech="Nb" morphology="-s---fa--i" head-id="2268084" relation="obj" presentation-after=" "/>
+        <token id="2268084" form="abduxit" citation-part="749" lemma="abduco" part-of-speech="V-" morphology="3sria----i" head-id="2695225" relation="pred" presentation-after=" "/>
+        <token id="2268085" form="suam" citation-part="749" lemma="suus" part-of-speech="Pt" morphology="3s---fa--i" head-id="2268083" relation="atr" presentation-after="; "/>
+        <token id="2268086" form="Puerum" citation-part="750" lemma="puer" part-of-speech="Nb" morphology="-s---ma--i" head-id="2268095" relation="obj"/>
+        <token id="2695225" form="que" citation-part="750" lemma="que" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="2268087" form="ob" citation-part="750" lemma="ob" part-of-speech="R-" morphology="---------n" head-id="2268095" relation="adv" presentation-after=" "/>
+        <token id="2268088" form="eam" citation-part="750" lemma="is" part-of-speech="Pp" morphology="3s---fa--i" head-id="2268089" relation="atr" presentation-after=" "/>
+        <token id="2268089" form="rem" citation-part="750" lemma="res" part-of-speech="Nb" morphology="-s---fa--i" head-id="2268087" relation="obl" presentation-after=" "/>
+        <token id="2268090" form="clam" citation-part="750" lemma="clam" part-of-speech="Df" morphology="---------n" head-id="2268095" relation="adv" presentation-after=" "/>
+        <token id="2268091" form="voluit" citation-part="750" lemma="volo#1" part-of-speech="V-" morphology="3sria----i" head-id="2695225" relation="pred" presentation-after=" "/>
+        <token id="2268092" form="natus" citation-part="750" lemma="nascor" part-of-speech="V-" morphology="-srppmn--i" head-id="2268086" relation="atr" presentation-after=" "/>
+        <token id="2268093" form="qui" citation-part="750" lemma="qui" part-of-speech="Pr" morphology="-s---mn--i" head-id="2268092" relation="sub" presentation-after=" "/>
+        <token id="2268094" form="est" citation-part="750" lemma="sum" part-of-speech="V-" morphology="3spia----i" head-id="2268092" relation="aux" presentation-after=" "/>
+        <token id="2268095" form="extinguere" citation-part="750" lemma="ex(s)tinguo" part-of-speech="V-" morphology="--pna----i" head-id="2268091" relation="xobj" presentation-after=". ">
+          <slash target-id="2268091" relation="xsub"/>
+        </token>
       </sentence>
-      <sentence id="193849" status="unannotated">
-        <token id="2268086" form="Puerumque" citation-part="750" presentation-after=" "/>
-        <token id="2268087" form="ob" citation-part="750" presentation-after=" "/>
-        <token id="2268088" form="eam" citation-part="750" presentation-after=" "/>
-        <token id="2268089" form="rem" citation-part="750" presentation-after=" "/>
-        <token id="2268090" form="clam" citation-part="750" presentation-after=" "/>
-        <token id="2268091" form="voluit" citation-part="750" presentation-after=" "/>
-        <token id="2268092" form="natus" citation-part="750" presentation-after=" "/>
-        <token id="2268093" form="qui" citation-part="750" presentation-after=" "/>
-        <token id="2268094" form="est" citation-part="750" presentation-after=" "/>
-        <token id="2268095" form="extinguere" citation-part="750" presentation-after=". "/>
-      </sentence>
-      <sentence id="193850" status="unannotated">
+      <sentence id="224630" status="unannotated">
         <token id="2268096" form="Aliud" citation-part="751" presentation-before="Ba. " presentation-after=" "/>
         <token id="2268097" form="si" citation-part="751" presentation-after=" "/>
         <token id="2268098" form="scirem" citation-part="751" presentation-after=" "/>
