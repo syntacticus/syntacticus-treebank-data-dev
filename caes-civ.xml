@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2016-06-18T02:38:59+02:00" schema-version="2.1">
+<proiel export-time="2016-10-15T02:28:28+02:00" schema-version="2.1">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -167,7 +167,7 @@
     <title>De Bello Civili</title>
     <author>Caesar</author>
     <citation-part>Caes. Civ.</citation-part>
-    <annotator>Marco Budassi (31 sentences) and Marius Larsen Jøhndal (5 sentences)</annotator>
+    <annotator>Marco Budassi (31 sentences), Marius Larsen Jøhndal (5 sentences), and Dag Haug (1 sentence)</annotator>
     <reviewer>Dag Haug (1 sentence)</reviewer>
     <electronic-text-publisher>Perseus</electronic-text-publisher>
     <electronic-text-original-url>http://www.perseus.tufts.edu/hopper/</electronic-text-original-url>
@@ -873,15 +873,15 @@
     </div>
     <div>
       <title>Book 1 Chapter 5</title>
-      <sentence id="196402" status="unannotated">
-        <token id="2290008" form="His" citation-part="1.5.1" presentation-after=" "/>
-        <token id="2290009" form="de" citation-part="1.5.1" presentation-after=" "/>
-        <token id="2290010" form="causis" citation-part="1.5.1" presentation-after=" "/>
-        <token id="2290011" form="aguntur" citation-part="1.5.1" presentation-after=" "/>
-        <token id="2290012" form="omnia" citation-part="1.5.1" presentation-after=" "/>
-        <token id="2290013" form="raptim" citation-part="1.5.1" presentation-after=" "/>
-        <token id="2290014" form="atque" citation-part="1.5.1" presentation-after=" "/>
-        <token id="2290015" form="turbate" citation-part="1.5.1" presentation-after=". "/>
+      <sentence id="196402" status="annotated" annotated-at="2016-10-13T11:47:14Z" annotated-by="dag">
+        <token id="2290008" form="His" citation-part="1.5.1" lemma="hic" part-of-speech="Pd" morphology="-p---qb--i" head-id="2290010" relation="atr" presentation-after=" "/>
+        <token id="2290009" form="de" citation-part="1.5.1" lemma="de" part-of-speech="R-" morphology="---------n" head-id="2290011" relation="adv" presentation-after=" "/>
+        <token id="2290010" form="causis" citation-part="1.5.1" lemma="causa" part-of-speech="Nb" morphology="-p---fb--i" head-id="2290009" relation="obl" presentation-after=" "/>
+        <token id="2290011" form="aguntur" citation-part="1.5.1" lemma="ago" part-of-speech="V-" morphology="3ppip----i" relation="pred" presentation-after=" "/>
+        <token id="2290012" form="omnia" citation-part="1.5.1" lemma="omnis" part-of-speech="Px" morphology="-p---nn--i" head-id="2290011" relation="sub" presentation-after=" "/>
+        <token id="2290013" form="raptim" citation-part="1.5.1" lemma="raptim" part-of-speech="Df" morphology="---------n" head-id="2290014" relation="adv" presentation-after=" "/>
+        <token id="2290014" form="atque" citation-part="1.5.1" lemma="atque" part-of-speech="C-" morphology="---------n" head-id="2290011" relation="adv" presentation-after=" "/>
+        <token id="2290015" form="turbate" citation-part="1.5.1" lemma="turbate" part-of-speech="Df" morphology="---------n" head-id="2290014" relation="adv" presentation-after=". "/>
       </sentence>
       <sentence id="196403" status="unannotated">
         <token id="2290016" form="nec" citation-part="1.5.1" presentation-after=" "/>
