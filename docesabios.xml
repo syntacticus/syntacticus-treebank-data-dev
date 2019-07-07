@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2017-07-06T15:35:33+02:00" schema-version="2.1">
+<proiel export-time="2019-07-07T04:08:16+02:00" schema-version="2.1">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -614,8 +614,10 @@
       </sentence>
       <sentence id="122451" status="annotated" annotated-at="2013-05-13T16:39:49Z" annotated-by="kristfha">
         <token id="1280684" form="e" lemma="y" part-of-speech="C-" morphology="---------n" head-id="1280687" relation="aux" presentation-after=" "/>
-        <token id="1280685" form="qué" lemma="qué" part-of-speech="Pi" morphology="---------n" head-id="1280688" relation="adv" presentation-after=" "/>
-        <token id="1280686" form="tal" lemma="tal" part-of-speech="Df" morphology="---------n" head-id="1280685" relation="adv" presentation-after=" "/>
+        <token id="1280685" form="qué" lemma="que" part-of-speech="Pr" morphology="---------n" head-id="1280688" relation="sub" presentation-after=" "/>
+        <token id="1280686" form="tal" lemma="tal" part-of-speech="Df" morphology="---------n" head-id="1280688" relation="xobj" presentation-after=" ">
+          <slash target-id="1280685" relation="xsub"/>
+        </token>
         <token id="1280687" form="deve" lemma="deber" part-of-speech="V-" morphology="3spi-----i" relation="pred" presentation-after=" "/>
         <token id="1280688" form="ser" lemma="ser" part-of-speech="V-" morphology="---n-----n" head-id="1280687" relation="xobj" presentation-after=", ">
           <slash target-id="1280687" relation="xsub"/>
