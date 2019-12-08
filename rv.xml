@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proiel export-time="2019-10-27T05:01:10+01:00" schema-version="2.1">
+<proiel export-time="2019-12-08T05:08:16+01:00" schema-version="2.1">
   <annotation>
     <relations>
       <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
@@ -166,7 +166,7 @@
   <source id="rv" language="san">
     <title>Rigveda</title>
     <citation-part>RV</citation-part>
-    <annotator>Erica Biagetti (935 sentences)</annotator>
+    <annotator>Erica Biagetti (936 sentences)</annotator>
     <div id="6470">
       <title>2.1</title>
       <sentence id="225420" status="annotated" annotated-at="2019-05-30T16:18:09Z" annotated-by="ericabiagetti">
@@ -345,26 +345,29 @@
         <token id="2706347" form="bhājayúḥ" citation-part="2.1.4" lemma="bhājayú" part-of-speech="A-" morphology="-s---mnp-i" head-id="2706344" relation="atr" presentation-after="॥ "/>
         <token id="2714052" empty-token-sort="V" relation="pred"/>
       </sentence>
-      <sentence id="225435" status="annotated" annotated-at="2019-05-31T09:28:57Z" annotated-by="ericabiagetti">
-        <token id="2706348" form="tvám" citation-part="2.1.5" lemma="tvám" part-of-speech="Pp" morphology="2s---qn--i" head-id="2714053" relation="sub" presentation-after=" "/>
+      <sentence id="225435" status="annotated" annotated-at="2019-12-02T17:11:22Z" annotated-by="ericabiagetti">
+        <token id="2706348" form="tvám" citation-part="2.1.5" lemma="tvám" part-of-speech="Pp" morphology="2s---qn--i" head-id="2780879" relation="sub" presentation-after=" "/>
         <token id="2706349" form="agne" citation-part="2.1.5" lemma="agní" part-of-speech="Ne" morphology="-s---mv--i" relation="voc" presentation-after=" "/>
-        <token id="2706350" form="tváṣṭā" citation-part="2.1.5" lemma="tváṣṭṛ́" part-of-speech="Ne" morphology="-s---mn--i" head-id="2714053" relation="xadv" presentation-after=" ">
+        <token id="2706350" form="tváṣṭā" citation-part="2.1.5" lemma="tváṣṭṛ́" part-of-speech="Ne" morphology="-s---mn--i" head-id="2780879" relation="xobj" presentation-after=" ">
           <slash target-id="2706348" relation="xsub"/>
         </token>
-        <token id="2706351" form="vidhaté" citation-part="2.1.5" lemma="vidh" part-of-speech="V-" morphology="-sppamd--i" head-id="2714053" relation="obl" presentation-after=" "/>
-        <token id="2706352" form="suvī́ryaṃ" citation-part="2.1.5" lemma="su-vī́rya" part-of-speech="Nb" morphology="-s---na--i" head-id="2714053" relation="obj" presentation-after=" "/>
-        <token id="2714053" empty-token-sort="V" relation="pred"/>
+        <token id="2706351" form="vidhaté" citation-part="2.1.5" lemma="vidh" part-of-speech="V-" morphology="-sppamd--i" head-id="2780880" relation="obl" presentation-after=" "/>
+        <token id="2706352" form="suvī́ryaṃ" citation-part="2.1.5" lemma="su-vī́rya" part-of-speech="Nb" morphology="-s---na--i" head-id="2780880" relation="obj" presentation-after=" "/>
+        <token id="2780879" empty-token-sort="V" relation="pred"/>
+        <token id="2780880" empty-token-sort="V" head-id="2780879" relation="xadv">
+          <slash target-id="2706348" relation="xsub"/>
+        </token>
       </sentence>
-      <sentence id="225436" status="annotated" annotated-at="2019-05-31T09:35:30Z" annotated-by="ericabiagetti">
-        <token id="2706353" form="táva" citation-part="2.1.5" lemma="tvám" part-of-speech="Pp" morphology="2s---qg--i" head-id="2714055" relation="xobj" presentation-after=" ">
+      <sentence id="229506" status="annotated" annotated-at="2019-12-02T17:28:26Z" annotated-by="ericabiagetti">
+        <token id="2706353" form="táva" citation-part="2.1.5" lemma="tvám" part-of-speech="Pp" morphology="2s---qg--i" head-id="2780881" relation="xobj" presentation-after=" ">
           <slash target-id="2706356" relation="xsub"/>
         </token>
         <token id="2706354" form="gnā́vo" citation-part="2.1.5" lemma="gnā́vat" part-of-speech="A-" morphology="-s---mvp-i" relation="voc" presentation-after=" "/>
         <token id="2706355" form="mitrámahaḥ" citation-part="2.1.5" lemma="mitrá-mahas" part-of-speech="A-" morphology="-s---mvp-i" relation="voc" presentation-after=" "/>
-        <token id="2706356" form="sajātyàm" citation-part="2.1.5" lemma="sajātyà" part-of-speech="Nb" morphology="-s---nn--i" head-id="2714055" relation="sub" presentation-after="। "/>
-        <token id="2714055" empty-token-sort="V" relation="pred"/>
+        <token id="2706356" form="sajātyàm" citation-part="2.1.5" lemma="sajātyà" part-of-speech="Nb" morphology="-s---nn--i" head-id="2780881" relation="sub" presentation-after="। "/>
+        <token id="2780881" empty-token-sort="V" relation="pred"/>
       </sentence>
-      <sentence id="225437" status="annotated" annotated-at="2019-05-31T09:40:03Z" annotated-by="ericabiagetti">
+      <sentence id="229507" status="annotated" annotated-at="2019-12-02T17:29:08Z" annotated-by="ericabiagetti">
         <token id="2706357" form="tvám" citation-part="2.1.5" lemma="tvám" part-of-speech="Pp" morphology="2s---qn--i" head-id="2706359" relation="sub" presentation-after=" "/>
         <token id="2706358" form="āśuhémā" citation-part="2.1.5" lemma="āśuhéman" part-of-speech="A-" morphology="-s---mnp-i" head-id="2706359" relation="xadv" presentation-after=" ">
           <slash target-id="2706357" relation="xsub"/>
@@ -682,14 +685,14 @@
         <token id="2706520" form="saścire" citation-part="2.1.13" lemma="sac" part-of-speech="V-" morphology="3pria----i" relation="pred" presentation-after=" "/>
       </sentence>
       <sentence id="225467" status="annotated" annotated-at="2019-05-31T17:13:12Z" annotated-by="ericabiagetti">
-        <token id="2706521" form="tvé" citation-part="2.1.13" lemma="tvám" part-of-speech="Pp" morphology="2s---ql--i" head-id="2706524" relation="adv" presentation-after=" "/>
+        <token id="2706521" form="tvé" citation-part="2.1.13" lemma="tvám" part-of-speech="Pp" morphology="2s---ql--i" head-id="2706525" relation="per" presentation-after=" "/>
         <token id="2706522" form="devā́́́" citation-part="2.1.13" lemma="devá" part-of-speech="Nb" morphology="-p---mn--i" head-id="2706524" relation="sub" presentation-after=" "/>
         <token id="2706523" form="havír" citation-part="2.1.13" lemma="havís" part-of-speech="Nb" morphology="-s---na--i" head-id="2706524" relation="obj" presentation-after=" "/>
         <token id="2706524" form="adanty" citation-part="2.1.13" lemma="ad" part-of-speech="V-" morphology="3ppia----i" relation="pred" presentation-after=" "/>
         <token id="2706525" form="ā́hutam" citation-part="2.1.13" lemma="hu" part-of-speech="V-" morphology="-suppna--i" head-id="2706523" relation="atr" presentation-after="॥ "/>
       </sentence>
       <sentence id="225468" status="annotated" annotated-at="2019-05-31T17:22:14Z" annotated-by="ericabiagetti">
-        <token id="2706526" form="tvé" citation-part="2.1.14" lemma="tvám" part-of-speech="Pp" morphology="2s---ql--i" head-id="2706534" relation="adv" presentation-after=" "/>
+        <token id="2706526" form="tvé" citation-part="2.1.14" lemma="tvám" part-of-speech="Pp" morphology="2s---ql--i" head-id="2706535" relation="per" presentation-after=" "/>
         <token id="2706527" form="agne" citation-part="2.1.14" lemma="agní" part-of-speech="Ne" morphology="-s---mv--i" relation="voc" presentation-after=" "/>
         <token id="2706528" form="víśve" citation-part="2.1.14" lemma="víśva" part-of-speech="Py" morphology="-p---mn--i" head-id="2706532" relation="atr" presentation-after=" "/>
         <token id="2706529" form="amṛ́tāso" citation-part="2.1.14" lemma="a-mṛ́ta" part-of-speech="A-" morphology="-p---mnp-i" head-id="2706532" relation="atr" presentation-after=" "/>
@@ -836,7 +839,7 @@
       <sentence id="225478" status="annotated" annotated-at="2019-06-06T07:48:05Z" annotated-by="ericabiagetti">
         <token id="2706626" form="táṃ" citation-part="2.2.3" lemma="tá" part-of-speech="Pd" morphology="-s---ma--i" head-id="2706634" relation="obj" presentation-after=" "/>
         <token id="2706627" form="devā́́" citation-part="2.2.3" lemma="devá" part-of-speech="Nb" morphology="-p---mn--i" head-id="2706634" relation="sub" presentation-after=" "/>
-        <token id="2706628" form="budhné" citation-part="2.2.3" lemma="budhná" part-of-speech="Nb" morphology="-s---ml--i" head-id="2706634" relation="adv" presentation-after=" "/>
+        <token id="2706628" form="budhné" citation-part="2.2.3" lemma="budhná" part-of-speech="Nb" morphology="-s---ml--i" head-id="2706634" relation="per" presentation-after=" "/>
         <token id="2706629" form="rájasaḥ" citation-part="2.2.3" lemma="rájas" part-of-speech="Nb" morphology="-s---ng--i" head-id="2706628" relation="atr" presentation-after=" "/>
         <token id="2706630" form="sudáṃsasaṃ" citation-part="2.2.3" lemma="su-dáṃsas" part-of-speech="A-" morphology="-s---map-i" head-id="2706626" relation="apos" presentation-after=" "/>
         <token id="2706631" form="diváspṛthivyór" citation-part="2.2.3" lemma="dyā́vā-pṛthivī́́" part-of-speech="Nb" morphology="-d---fg--i" head-id="2706632" relation="atr" presentation-after=" "/>
@@ -873,17 +876,27 @@
         <token id="2706654" form="ā́" citation-part="2.2.4" lemma="ā́" part-of-speech="Df" morphology="---------n" head-id="2780099" relation="aux" presentation-after=" "/>
         <token id="2706655" form="dadhuḥ" citation-part="2.2.4" lemma="dhā" part-of-speech="V-" morphology="3pria----i" relation="pred" presentation-after="। "/>
         <token id="2706656" form="pṛ́śnyāḥ" citation-part="2.2.4" lemma="pṛ́śni" part-of-speech="Nb" morphology="-s---fg--i" head-id="2706657" relation="atr" presentation-after=" "/>
-        <token id="2706657" form="pataráṃ" citation-part="2.2.4" lemma="patará" part-of-speech="A-" morphology="-s---map-i" head-id="2706644" relation="apos" presentation-after=" "/>
-        <token id="2706658" form="citáyantam" citation-part="2.2.4" lemma="citay" part-of-speech="V-" morphology="-sppama--i" head-id="2706644" relation="atr" presentation-after=" "/>
-        <token id="2706659" form="akṣábhiḥ" citation-part="2.2.4" lemma="ákṣi" part-of-speech="Nb" morphology="-p---ni--i" head-id="2706658" relation="adv" presentation-after=" "/>
-        <token id="2706660" form="pāthó" citation-part="2.2.4" lemma="páthi" part-of-speech="Nb" morphology="-s---ng--i" head-id="2780126" relation="obl" presentation-after=" "/>
-        <token id="2706661" form="ná" citation-part="2.2.4" lemma="ná" part-of-speech="G-" morphology="---------n" head-id="2706658" relation="adv" presentation-after=" "/>
-        <token id="2706662" form="pāyúṃ" citation-part="2.2.4" lemma="pāyú" part-of-speech="Nb" morphology="-s---ma--i" head-id="2780126" relation="sub" presentation-after=" "/>
-        <token id="2706663" form="jánasī" citation-part="2.2.4" lemma="jánas" part-of-speech="Nb" morphology="-d---na--i" head-id="2706658" relation="obj" presentation-after=" "/>
+        <token id="2706657" form="pataráṃ" citation-part="2.2.4" lemma="patará" part-of-speech="A-" morphology="-s---map-i" head-id="2706658" relation="xobj" presentation-after=" ">
+          <slash target-id="2706658" relation="xsub"/>
+        </token>
+        <token id="2706658" form="citáyantam" citation-part="2.2.4" lemma="citay" part-of-speech="V-" morphology="-sppama--i" head-id="2780885" relation="xadv" presentation-after=" ">
+          <slash target-id="2780885" relation="xsub"/>
+        </token>
+        <token id="2706659" form="akṣábhiḥ" citation-part="2.2.4" lemma="ákṣi" part-of-speech="Nb" morphology="-p---ni--i" head-id="2780886" relation="adv" presentation-after=" "/>
+        <token id="2706660" form="pāthó" citation-part="2.2.4" lemma="páthi" part-of-speech="Nb" morphology="-s---ng--i" head-id="2780887" relation="obl" presentation-after=" "/>
+        <token id="2706661" form="ná" citation-part="2.2.4" lemma="ná" part-of-speech="G-" morphology="---------n" head-id="2780886" relation="adv" presentation-after=" "/>
+        <token id="2706662" form="pāyúṃ" citation-part="2.2.4" lemma="pāyú" part-of-speech="Nb" morphology="-s---ma--i" head-id="2780887" relation="sub" presentation-after=" "/>
+        <token id="2706663" form="jánasī" citation-part="2.2.4" lemma="jánas" part-of-speech="Nb" morphology="-d---na--i" head-id="2780886" relation="obj" presentation-after=" "/>
         <token id="2706664" form="ubhé" citation-part="2.2.4" lemma="ubhá" part-of-speech="Py" morphology="-d---na--i" head-id="2706663" relation="atr" presentation-after=" "/>
-        <token id="2706665" form="ánu" citation-part="2.2.4" lemma="ánu" part-of-speech="Df" morphology="---------n" head-id="2706658" relation="adv" presentation-after="॥ "/>
+        <token id="2706665" form="ánu" citation-part="2.2.4" lemma="ánu" part-of-speech="Df" morphology="---------n" head-id="2780886" relation="aux" presentation-after="॥ "/>
         <token id="2780099" empty-token-sort="V" head-id="2706651" relation="pred"/>
-        <token id="2780126" empty-token-sort="V" head-id="2706661" relation="pred"/>
+        <token id="2780885" empty-token-sort="C" head-id="2706655" relation="xadv">
+          <slash target-id="2706644" relation="xsub"/>
+        </token>
+        <token id="2780886" empty-token-sort="V" head-id="2780885" relation="xadv">
+          <slash target-id="2780885" relation="xsub"/>
+        </token>
+        <token id="2780887" empty-token-sort="V" head-id="2706661" relation="pred"/>
       </sentence>
       <sentence id="225480" status="annotated" annotated-at="2019-06-06T16:03:24Z" annotated-by="ericabiagetti">
         <token id="2706666" form="sa" citation-part="2.2.5" lemma="tá" part-of-speech="Pd" morphology="-s---mn--i" head-id="2706670" relation="sub" presentation-after=" "/>
@@ -951,23 +964,23 @@
           <slash target-id="2706700" relation="xsub"/>
         </token>
       </sentence>
-      <sentence id="225485" status="annotated" annotated-at="2019-06-06T21:06:58Z" annotated-by="ericabiagetti">
-        <token id="2706706" form="dā́" citation-part="2.2.7" lemma="dā" part-of-speech="V-" morphology="2sasa----i" head-id="2714087" relation="pred" presentation-after=" "/>
+      <sentence id="225485" status="annotated" annotated-at="2019-12-03T08:53:00Z" annotated-by="ericabiagetti">
+        <token id="2706706" form="dā́" citation-part="2.2.7" lemma="dā" part-of-speech="V-" morphology="2sasa----i" head-id="2780888" relation="pred" presentation-after=" "/>
         <token id="2706707" form="no" citation-part="2.2.7" lemma="ahám" part-of-speech="Pp" morphology="1p---qd--i" head-id="2706706" relation="obl" presentation-after=" "/>
         <token id="2706708" form="agne" citation-part="2.2.7" lemma="agní" part-of-speech="Ne" morphology="-s---mv--i" relation="voc" presentation-after=" "/>
         <token id="2706709" form="bṛható" citation-part="2.2.7" lemma="bṛhát" part-of-speech="A-" morphology="-p---map-i" head-id="2706706" relation="obj" presentation-after=" "/>
-        <token id="2706710" form="dā́ḥ" citation-part="2.2.7" lemma="dā" part-of-speech="V-" morphology="2sasa----i" head-id="2714087" relation="pred" presentation-after=" "/>
+        <token id="2706710" form="dā́ḥ" citation-part="2.2.7" lemma="dā" part-of-speech="V-" morphology="2sasa----i" head-id="2780888" relation="pred" presentation-after=" "/>
         <token id="2706711" form="sahasríṇo" citation-part="2.2.7" lemma="sahasrín" part-of-speech="A-" morphology="-p---map-i" head-id="2706710" relation="obj" presentation-after=" "/>
-        <token id="2706712" form="duró" citation-part="2.2.7" lemma="dvā́r" part-of-speech="Nb" morphology="-p---qa--i" head-id="2780129" relation="sub" presentation-after=" "/>
+        <token id="2780888" empty-token-sort="C" relation="pred"/>
+      </sentence>
+      <sentence id="229508" status="annotated" annotated-at="2019-12-03T08:54:23Z" annotated-by="ericabiagetti">
+        <token id="2706712" form="duró" citation-part="2.2.7" lemma="dvā́r" part-of-speech="Nb" morphology="-p---qa--i" head-id="2780889" relation="obj" presentation-after=" "/>
         <token id="2706713" form="ná" citation-part="2.2.7" lemma="ná" part-of-speech="G-" morphology="---------n" head-id="2706717" relation="adv" presentation-after=" "/>
         <token id="2706714" form="vā́jaṃ" citation-part="2.2.7" lemma="vā́ja" part-of-speech="Nb" morphology="-s---ma--i" head-id="2706717" relation="obj" presentation-after=" "/>
-        <token id="2706715" form="śrútyā" citation-part="2.2.7" lemma="śru" part-of-speech="Nb" morphology="-s---fd--i" head-id="2706717" relation="xadv" presentation-after=" ">
-          <slash target-id="2706714" relation="xsub"/>
-        </token>
+        <token id="2706715" form="śrútyā" citation-part="2.2.7" lemma="srutí" part-of-speech="Nb" morphology="-s---fd--i" head-id="2706717" relation="adv" presentation-after=" "/>
         <token id="2706716" form="ápā" citation-part="2.2.7" lemma="ápa" part-of-speech="Df" morphology="---------n" head-id="2706717" relation="adv" presentation-after=" "/>
-        <token id="2706717" form="vṛdhi" citation-part="2.2.7" lemma="vṛ" part-of-speech="V-" morphology="2sama----i" head-id="2714087" relation="pred" presentation-after="। "/>
-        <token id="2714087" empty-token-sort="C" relation="pred"/>
-        <token id="2780129" empty-token-sort="V" head-id="2706713" relation="pred"/>
+        <token id="2706717" form="vṛdhi" citation-part="2.2.7" lemma="vṛ" part-of-speech="V-" morphology="2sama----i" relation="pred" presentation-after="। "/>
+        <token id="2780889" empty-token-sort="V" head-id="2706713" relation="pred"/>
       </sentence>
       <sentence id="225486" status="annotated" annotated-at="2019-06-06T21:12:47Z" annotated-by="ericabiagetti">
         <token id="2706718" form="prā́cī" citation-part="2.2.7" lemma="prā́c" part-of-speech="A-" morphology="-d---fap-i" head-id="2706721" relation="xobj" presentation-after=" ">
@@ -978,13 +991,15 @@
         <token id="2706721" form="kṛdhi" citation-part="2.2.7" lemma="kṛ" part-of-speech="V-" morphology="2sama----i" relation="pred" presentation-after=" "/>
       </sentence>
       <sentence id="225487" status="annotated" annotated-at="2019-06-06T21:16:13Z" annotated-by="ericabiagetti">
-        <token id="2706722" form="svàr" citation-part="2.2.7" lemma="svàr" part-of-speech="Nb" morphology="-s---mn--i" head-id="2780128" relation="sub" presentation-after=" "/>
+        <token id="2706722" form="svàr" citation-part="2.2.7" lemma="svàr" part-of-speech="Nb" morphology="-s---mn--i" head-id="2780890" relation="sub" presentation-after=" "/>
         <token id="2706723" form="ṇá" citation-part="2.2.7" lemma="ná" part-of-speech="G-" morphology="---------n" head-id="2706727" relation="adv" presentation-after=" "/>
-        <token id="2706724" form="śukrám" citation-part="2.2.7" lemma="śukrá" part-of-speech="A-" morphology="-s---nnp-i" head-id="2706727" relation="sub" presentation-after=" "/>
-        <token id="2706725" form="uṣáso" citation-part="2.2.7" lemma="uṣás" part-of-speech="Nb" morphology="-s---fg--i" head-id="2706724" relation="atr" presentation-after=" "/>
-        <token id="2706726" form="ví" citation-part="2.2.7" lemma="ví" part-of-speech="Df" morphology="---------n" head-id="2706727" relation="aux" presentation-after=" "/>
+        <token id="2706724" form="śukrám" citation-part="2.2.7" lemma="śukrá" part-of-speech="A-" morphology="-s---nnp-i" head-id="2706722" relation="atr" presentation-after=" "/>
+        <token id="2706725" form="uṣáso" citation-part="2.2.7" lemma="uṣás" part-of-speech="Nb" morphology="-s---fg--i" head-id="2706727" relation="obj" presentation-after=" ">
+          <slash target-id="2706727" relation="pred"/>
+        </token>
+        <token id="2706726" form="ví" citation-part="2.2.7" lemma="ví" part-of-speech="Df" morphology="---------n" head-id="2706727" relation="adv" presentation-after=" "/>
         <token id="2706727" form="didyutaḥ" citation-part="2.2.7" lemma="dyut" part-of-speech="V-" morphology="2sasa----i" relation="pred" presentation-after="॥ "/>
-        <token id="2780128" empty-token-sort="V" head-id="2706723" relation="pred"/>
+        <token id="2780890" empty-token-sort="V" head-id="2706723" relation="pred"/>
       </sentence>
       <sentence id="225488" status="annotated" annotated-at="2019-06-06T21:29:08Z" annotated-by="ericabiagetti">
         <token id="2706728" form="sá" citation-part="2.2.8" lemma="tá" part-of-speech="Pd" morphology="-s---mn--i" head-id="2706735" relation="sub" presentation-after=" "/>
@@ -999,17 +1014,22 @@
         <token id="2706735" form="dīded" citation-part="2.2.8" lemma="dīdī" part-of-speech="V-" morphology="3spja----i" relation="pred" presentation-after=" "/>
         <token id="2706736" form="aruṣéṇa" citation-part="2.2.8" lemma="aruṣá" part-of-speech="A-" morphology="-s---mip-i" head-id="2706737" relation="atr" presentation-after=" "/>
         <token id="2706737" form="bhānúnā" citation-part="2.2.8" lemma="bhānú" part-of-speech="Nb" morphology="-s---mi--i" head-id="2706735" relation="adv" presentation-after="। "/>
-        <token id="2706738" form="hótrābhir" citation-part="2.2.8" lemma="hotrá" part-of-speech="Nb" morphology="-p---fi--i" head-id="2706741" relation="adv" presentation-after=" "/>
-        <token id="2706739" form="agnír" citation-part="2.2.8" lemma="agní" part-of-speech="Ne" morphology="-s---mn--i" head-id="2706728" relation="apos" presentation-after=" "/>
-        <token id="2706740" form="mánuṣaḥ" citation-part="2.2.8" lemma="mánus" part-of-speech="Nb" morphology="-s---mg--i" head-id="2706738" relation="atr" presentation-after=" "/>
-        <token id="2706741" form="svadhvaró" citation-part="2.2.8" lemma="sv-adhvará" part-of-speech="A-" morphology="-s---mnp-i" head-id="2706728" relation="apos" presentation-after=" "/>
-        <token id="2706742" form="rā́jā" citation-part="2.2.8" lemma="rā́jan" part-of-speech="Nb" morphology="-s---mn--i" head-id="2706728" relation="apos" presentation-after=" "/>
-        <token id="2706743" form="viśā́m" citation-part="2.2.8" lemma="víś" part-of-speech="Nb" morphology="-p---fg--i" head-id="2706742" relation="atr" presentation-after=" "/>
-        <token id="2706744" form="átithiś" citation-part="2.2.8" lemma="átithi" part-of-speech="Nb" morphology="-s---mn--i" head-id="2706728" relation="apos" presentation-after=" "/>
-        <token id="2706745" form="cā́rur" citation-part="2.2.8" lemma="cā́ru" part-of-speech="A-" morphology="-s---mnp-i" head-id="2706744" relation="atr" presentation-after=" "/>
-        <token id="2706746" form="āyáve" citation-part="2.2.8" lemma="āyú" part-of-speech="Nb" morphology="-s---md--i" head-id="2706745" relation="adv" presentation-after="॥ "/>
         <token id="2778486" empty-token-sort="C" head-id="2706732" relation="obl"/>
         <token id="2780130" empty-token-sort="V" head-id="2706734" relation="pred"/>
+      </sentence>
+      <sentence id="229509" status="annotated" annotated-at="2019-12-03T09:16:30Z" annotated-by="ericabiagetti">
+        <token id="2706738" form="hótrābhir" citation-part="2.2.8" lemma="hotrá" part-of-speech="Nb" morphology="-p---fi--i" head-id="2780891" relation="adv" presentation-after=" "/>
+        <token id="2706739" form="agnír" citation-part="2.2.8" lemma="agní" part-of-speech="Ne" morphology="-s---mn--i" head-id="2780891" relation="sub" presentation-after=" "/>
+        <token id="2706740" form="mánuṣaḥ" citation-part="2.2.8" lemma="mánus" part-of-speech="Nb" morphology="-s---mg--i" head-id="2706738" relation="atr" presentation-after=" "/>
+        <token id="2706741" form="svadhvaró" citation-part="2.2.8" lemma="sv-adhvará" part-of-speech="A-" morphology="-s---mnp-i" head-id="2780891" relation="xobj" presentation-after=" ">
+          <slash target-id="2706739" relation="xsub"/>
+        </token>
+        <token id="2706742" form="rā́jā" citation-part="2.2.8" lemma="rā́jan" part-of-speech="Nb" morphology="-s---mn--i" head-id="2706739" relation="apos" presentation-after=" "/>
+        <token id="2706743" form="viśā́m" citation-part="2.2.8" lemma="víś" part-of-speech="Nb" morphology="-p---fg--i" head-id="2706742" relation="atr" presentation-after=" "/>
+        <token id="2706744" form="átithiś" citation-part="2.2.8" lemma="átithi" part-of-speech="Nb" morphology="-s---mn--i" head-id="2706739" relation="apos" presentation-after=" "/>
+        <token id="2706745" form="cā́rur" citation-part="2.2.8" lemma="cā́ru" part-of-speech="A-" morphology="-s---mnp-i" head-id="2706744" relation="atr" presentation-after=" "/>
+        <token id="2706746" form="āyáve" citation-part="2.2.8" lemma="āyú" part-of-speech="Nb" morphology="-s---md--i" head-id="2706745" relation="obl" presentation-after="॥ "/>
+        <token id="2780891" empty-token-sort="V" relation="pred"/>
       </sentence>
       <sentence id="225489" status="annotated" annotated-at="2019-06-07T07:12:27Z" annotated-by="ericabiagetti">
         <token id="2706747" form="evā́" citation-part="2.2.9" lemma="evá" part-of-speech="Df" morphology="---------n" head-id="2706753" relation="aux" presentation-after=" "/>
@@ -1020,27 +1040,28 @@
         <token id="2706752" form="dhī́ṣ" citation-part="2.2.9" lemma="dhī́" part-of-speech="Nb" morphology="-s---fn--i" head-id="2706753" relation="sub" presentation-after=" "/>
         <token id="2706753" form="pīpāya" citation-part="2.2.9" lemma="pīpay" part-of-speech="V-" morphology="3sria----i" relation="pred" presentation-after=" "/>
         <token id="2706754" form="bṛháddiveṣu" citation-part="2.2.9" lemma="bṛhád-diva" part-of-speech="A-" morphology="-p---mlp-i" head-id="2706750" relation="atr" presentation-after=" "/>
-        <token id="2706755" form="mā́nuṣā" citation-part="2.2.9" lemma="mā́nuṣa" part-of-speech="Nb" morphology="-s---fn--i" head-id="2706752" relation="atr" presentation-after="। "/>
+        <token id="2706755" form="mā́nuṣā" citation-part="2.2.9" lemma="mā́nuṣa" part-of-speech="A-" morphology="-p---nap-i" head-id="2706753" relation="adv" presentation-after="। "/>
         <token id="2706756" form="dúhānā" citation-part="2.2.9" lemma="duh" part-of-speech="V-" morphology="-sppefn--i" head-id="2706757" relation="atr" presentation-after=" "/>
         <token id="2706757" form="dhenúr" citation-part="2.2.9" lemma="dhenú" part-of-speech="Nb" morphology="-s---fn--i" head-id="2706752" relation="apos" presentation-after=" "/>
         <token id="2706758" form="vṛjáneṣu" citation-part="2.2.9" lemma="vṛjána" part-of-speech="Nb" morphology="-p---nl--i" head-id="2706756" relation="adv" presentation-after=" "/>
         <token id="2706759" form="kāráve" citation-part="2.2.9" lemma="kārú" part-of-speech="Nb" morphology="-s---md--i" head-id="2706756" relation="adv" presentation-after=" "/>
-        <token id="2706760" form="tmánā" citation-part="2.2.9" lemma="tmán" part-of-speech="Pk" morphology="-s---mi--i" head-id="2706763" relation="atr" presentation-after=" "/>
+        <token id="2706760" form="tmánā" citation-part="2.2.9" lemma="tmán" part-of-speech="Pk" morphology="-s---mi--i" head-id="2706756" relation="adv" presentation-after=" "/>
         <token id="2706761" form="śatínam" citation-part="2.2.9" lemma="śatín" part-of-speech="A-" morphology="-s---map-i" head-id="2706756" relation="obj" presentation-after=" "/>
         <token id="2706762" form="pururū́pam" citation-part="2.2.9" lemma="puru-rū́pa" part-of-speech="A-" morphology="-s---map-i" head-id="2706761" relation="atr" presentation-after=" "/>
         <token id="2706763" form="iṣáṇi" citation-part="2.2.9" lemma="iṣáni" part-of-speech="Nb" morphology="-s---nl--i" head-id="2706756" relation="adv" presentation-after="॥ "/>
       </sentence>
       <sentence id="225490" status="annotated" annotated-at="2019-06-07T07:47:01Z" annotated-by="ericabiagetti">
-        <token id="2706764" form="vayám" citation-part="2.2.10" lemma="ahám" part-of-speech="Pp" morphology="1p---qn--i" head-id="2706772" relation="sub" presentation-after=" "/>
+        <token id="2706764" form="vayám" citation-part="2.2.10" lemma="ahám" part-of-speech="Pp" morphology="1p---qn--i" head-id="2780892" relation="sub" presentation-after=" "/>
         <token id="2706765" form="agne" citation-part="2.2.10" lemma="agní" part-of-speech="Ne" morphology="-s---mv--i" relation="voc" presentation-after=" "/>
-        <token id="2706766" form="árvatā" citation-part="2.2.10" lemma="árvan" part-of-speech="Nb" morphology="-s---mi--i" head-id="2706771" relation="adv" presentation-after=" "/>
-        <token id="2706767" form="vā" citation-part="2.2.10" lemma="vā#2" part-of-speech="C-" morphology="---------n" head-id="2706766" relation="aux" presentation-after=" "/>
-        <token id="2706768" form="suvī́ryam" citation-part="2.2.10" lemma="su-vī́rya" part-of-speech="Df" morphology="---------n" head-id="2706772" relation="obj" presentation-after=" "/>
-        <token id="2706770" form="bráhmaṇā" citation-part="2.2.10" lemma="bráhman" part-of-speech="Nb" morphology="-s---ni--i" head-id="2706771" relation="adv" presentation-after=" "/>
-        <token id="2706771" form="vā" citation-part="2.2.10" lemma="vā#2" part-of-speech="C-" morphology="---------n" head-id="2706772" relation="adv" presentation-after=" "/>
-        <token id="2706772" form="citayemā" citation-part="2.2.10" lemma="citay" part-of-speech="V-" morphology="1ppoa----i" relation="pred" presentation-after=" "/>
+        <token id="2706766" form="árvatā" citation-part="2.2.10" lemma="árvan" part-of-speech="Nb" morphology="-s---mi--i" head-id="2780892" relation="adv" presentation-after=" "/>
+        <token id="2706767" form="vā" citation-part="2.2.10" lemma="vā#2" part-of-speech="C-" morphology="---------n" head-id="2780892" relation="aux" presentation-after=" "/>
+        <token id="2706768" form="suvī́ryam" citation-part="2.2.10" lemma="su-vī́rya" part-of-speech="Df" morphology="---------n" head-id="2780892" relation="obj" presentation-after=" "/>
+        <token id="2706770" form="bráhmaṇā" citation-part="2.2.10" lemma="bráhman" part-of-speech="Nb" morphology="-s---ni--i" head-id="2706772" relation="adv" presentation-after=" "/>
+        <token id="2706771" form="vā" citation-part="2.2.10" lemma="vā#2" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="2706772" form="citayemā" citation-part="2.2.10" lemma="citay" part-of-speech="V-" morphology="1ppoa----i" head-id="2706771" relation="pred" presentation-after=" "/>
         <token id="2706773" form="jánāṃ" citation-part="2.2.10" lemma="jána" part-of-speech="Nb" morphology="-p---ma--i" head-id="2706774" relation="obl" presentation-after=" "/>
         <token id="2706774" form="áti" citation-part="2.2.10" lemma="áti" part-of-speech="Df" morphology="---------n" head-id="2706772" relation="adv" presentation-after="। "/>
+        <token id="2780892" empty-token-sort="V" head-id="2706771" relation="pred"/>
       </sentence>
       <sentence id="225491" status="annotated" annotated-at="2019-06-07T07:55:15Z" annotated-by="ericabiagetti">
         <token id="2706775" form="asmā́kaṃ" citation-part="2.2.10" lemma="ahám" part-of-speech="Pp" morphology="1p---qg--i" head-id="2706776" relation="atr" presentation-after=" "/>
@@ -1120,7 +1141,7 @@
         <token id="2706831" form="ca" citation-part="2.2.13" lemma="ca" part-of-speech="C-" morphology="---------n" head-id="2706830" relation="aux" presentation-after=" "/>
         <token id="2706832" form="tā́ṃś" citation-part="2.2.13" lemma="tá" part-of-speech="Pd" morphology="-p---ma--i" head-id="2706833" relation="obj" presentation-after=" "/>
         <token id="2706833" form="ca" citation-part="2.2.13" lemma="ca" part-of-speech="C-" morphology="---------n" head-id="2706836" relation="obj" presentation-after=" "/>
-        <token id="2706834" form="prá" citation-part="2.2.13" lemma="prá" part-of-speech="Df" morphology="---------n" head-id="2706836" relation="adv" presentation-after=" "/>
+        <token id="2706834" form="prá" citation-part="2.2.13" lemma="prá" part-of-speech="Df" morphology="---------n" head-id="2706836" relation="aux" presentation-after=" "/>
         <token id="2706835" form="hí" citation-part="2.2.13" lemma="hí" part-of-speech="Df" morphology="---------n" head-id="2706836" relation="aux" presentation-after=" "/>
         <token id="2706836" form="néṣi" citation-part="2.2.13" lemma="nī" part-of-speech="V-" morphology="2spia----i" relation="pred" presentation-after=" "/>
         <token id="2706837" form="vásya" citation-part="2.2.13" lemma="vásyas" part-of-speech="Nb" morphology="-s---na--i" head-id="2706838" relation="obl" presentation-after=" "/>
@@ -1170,18 +1191,20 @@
       </sentence>
       <sentence id="225499" status="annotated" annotated-at="2019-06-09T17:14:40Z" annotated-by="ericabiagetti">
         <token id="2706860" form="nárāśáṃsaḥ" citation-part="2.3.2" lemma="nárā-śáṅsa" part-of-speech="Ne" morphology="-s---mn--i" head-id="2706876" relation="sub" presentation-after=" "/>
-        <token id="2706861" form="práti" citation-part="2.3.2" lemma="práti" part-of-speech="Df" morphology="---------n" head-id="2706863" relation="aux" presentation-after=" "/>
-        <token id="2706862" form="dhā́māny" citation-part="2.3.2" lemma="dhā́man" part-of-speech="Nb" morphology="-p---na--i" head-id="2706863" relation="obj" presentation-after=" "/>
+        <token id="2706861" form="práti" citation-part="2.3.2" lemma="práti" part-of-speech="Df" morphology="---------n" head-id="2706860" relation="apos" presentation-after=" "/>
+        <token id="2706862" form="dhā́māny" citation-part="2.3.2" lemma="dhā́man" part-of-speech="Nb" morphology="-p---na--i" head-id="2706861" relation="obl" presentation-after=" "/>
         <token id="2706863" form="añján" citation-part="2.3.2" lemma="añj" part-of-speech="V-" morphology="-sppamn--i" head-id="2706860" relation="apos" presentation-after=" "/>
         <token id="2706864" form="tisró" citation-part="2.3.2" lemma="trí" part-of-speech="A-" morphology="-p---fap-i" head-id="2706865" relation="atr" presentation-after=" "/>
         <token id="2706865" form="dívaḥ" citation-part="2.3.2" lemma="dív" part-of-speech="Nb" morphology="-p---ma--i" head-id="2706866" relation="obl" presentation-after=" "/>
-        <token id="2706866" form="práti" citation-part="2.3.2" lemma="práti" part-of-speech="Df" morphology="---------n" head-id="2706868" relation="adv" presentation-after=" "/>
-        <token id="2706867" form="mahnā́" citation-part="2.3.2" lemma="mahimán" part-of-speech="Nb" morphology="-s---ni--i" head-id="2706868" relation="adv" presentation-after=" "/>
+        <token id="2706866" form="práti" citation-part="2.3.2" lemma="práti" part-of-speech="Df" morphology="---------n" head-id="2706860" relation="apos" presentation-after=" "/>
+        <token id="2706867" form="mahnā́" citation-part="2.3.2" lemma="mahimán" part-of-speech="Nb" morphology="-s---ni--i" head-id="2706866" relation="adv" presentation-after=" "/>
         <token id="2706868" form="svarcíḥ" citation-part="2.3.2" lemma="sv-arcís" part-of-speech="A-" morphology="-s---mnp-i" head-id="2706860" relation="apos" presentation-after="। "/>
         <token id="2706869" form="ghṛtaprúṣā" citation-part="2.3.2" lemma="ghṛta-prúṣ" part-of-speech="A-" morphology="-s---fip-i" head-id="2706870" relation="atr" presentation-after=" "/>
         <token id="2706870" form="mánasā" citation-part="2.3.2" lemma="mánas" part-of-speech="Nb" morphology="-s---ni--i" head-id="2706872" relation="adv" presentation-after=" "/>
         <token id="2706871" form="havyám" citation-part="2.3.2" lemma="havyá" part-of-speech="Nb" morphology="-s---na--i" head-id="2706872" relation="obj" presentation-after=" "/>
-        <token id="2706872" form="undán" citation-part="2.3.2" lemma="ud" part-of-speech="V-" morphology="-sppamn--i" head-id="2706860" relation="apos" presentation-after=" "/>
+        <token id="2706872" form="undán" citation-part="2.3.2" lemma="ud" part-of-speech="V-" morphology="-sppamn--i" head-id="2706876" relation="xadv" presentation-after=" ">
+          <slash target-id="2706860" relation="xsub"/>
+        </token>
         <token id="2706873" form="mūrdhán" citation-part="2.3.2" lemma="mūrdhán" part-of-speech="Nb" morphology="-s---ml--i" head-id="2706876" relation="adv" presentation-after=" "/>
         <token id="2706874" form="yajñásya" citation-part="2.3.2" lemma="yajñá" part-of-speech="Nb" morphology="-s---mg--i" head-id="2706873" relation="atr" presentation-after=" "/>
         <token id="2706875" form="sám" citation-part="2.3.2" lemma="sám" part-of-speech="Df" morphology="---------n" head-id="2706876" relation="aux" presentation-after=" "/>
@@ -1227,10 +1250,10 @@
         <token id="2706899" form="barhir" citation-part="2.3.4" lemma="barhís" part-of-speech="Nb" morphology="-s---nv--i" relation="voc" presentation-after=" "/>
         <token id="2706900" form="várdhamānaṃ" citation-part="2.3.4" lemma="vṛdh" part-of-speech="V-" morphology="-sppmnn--i" head-id="2706899" relation="atr" presentation-after=" "/>
         <token id="2706901" form="suvī́raṃ" citation-part="2.3.4" lemma="su-vī́ra" part-of-speech="A-" morphology="-s---nnp-i" head-id="2706899" relation="atr" presentation-after=" "/>
-        <token id="2706902" form="stīrṇáṃ" citation-part="2.3.4" lemma="stṛ" part-of-speech="V-" morphology="-suppnn--i" head-id="2706899" relation="atr" presentation-after=" "/>
+        <token id="2706902" form="stīrṇáṃ" citation-part="2.3.4" lemma="stṛ" part-of-speech="V-" morphology="-suppnn--i" relation="pred" presentation-after=" "/>
         <token id="2706903" form="rāyé" citation-part="2.3.4" lemma="rayí" part-of-speech="Nb" morphology="-s---md--i" head-id="2706902" relation="adv" presentation-after=" "/>
         <token id="2706904" form="subháraṃ" citation-part="2.3.4" lemma="su-bhára" part-of-speech="A-" morphology="-s---nnp-i" head-id="2706899" relation="atr" presentation-after=" "/>
-        <token id="2706905" form="védy" citation-part="2.3.4" lemma="védi" part-of-speech="Nb" morphology="-s---fl--i" head-id="2706904" relation="adv" presentation-after=" "/>
+        <token id="2706905" form="védy" citation-part="2.3.4" lemma="védi" part-of-speech="Nb" morphology="-s---fl--i" head-id="2706902" relation="per" presentation-after=" "/>
         <token id="2706906" form="asyā́m" citation-part="2.3.4" lemma="idám" part-of-speech="Pd" morphology="-s---fl--i" head-id="2706905" relation="atr" presentation-after="। "/>
       </sentence>
       <sentence id="225504" status="annotated" annotated-at="2019-06-10T07:42:18Z" annotated-by="ericabiagetti">
@@ -1318,7 +1341,9 @@
         <token id="2706957" form="vápúṣṭarā" citation-part="2.3.7" lemma="vápus" part-of-speech="A-" morphology="-d---mns-i" head-id="2706950" relation="apos" presentation-after="। "/>
       </sentence>
       <sentence id="225509" status="annotated" annotated-at="2019-06-10T09:48:43Z" annotated-by="ericabiagetti">
-        <token id="2706958" form="devā́́n" citation-part="2.3.7" lemma="devá" part-of-speech="Nb" morphology="-p---ma--i" head-id="2706959" relation="obj" presentation-after=" "/>
+        <token id="2706958" form="devā́́n" citation-part="2.3.7" lemma="devá" part-of-speech="Nb" morphology="-p---ma--i" head-id="2706959" relation="obj" presentation-after=" ">
+          <slash target-id="2706962" relation="pred"/>
+        </token>
         <token id="2706959" form="yájantāv" citation-part="2.3.7" lemma="yaj" part-of-speech="V-" morphology="-dppamn--i" head-id="2706962" relation="xadv" presentation-after=" ">
           <slash target-id="2706962" relation="xsub"/>
         </token>
@@ -1369,15 +1394,19 @@
         <token id="2706993" form="prajāṃ" citation-part="2.3.9" lemma="prajā́" part-of-speech="Nb" morphology="-s---fa--i" head-id="2706996" relation="obj" presentation-after=" "/>
         <token id="2706994" form="tváṣṭā" citation-part="2.3.9" lemma="tváṣṭṛ́" part-of-speech="Ne" morphology="-s---mn--i" head-id="2706996" relation="sub" presentation-after=" "/>
         <token id="2706995" form="ví" citation-part="2.3.9" lemma="ví" part-of-speech="Df" morphology="---------n" head-id="2706996" relation="aux" presentation-after=" "/>
-        <token id="2706996" form="ṣyatu" citation-part="2.3.9" lemma="sā" part-of-speech="V-" morphology="3spma----i" head-id="2714096" relation="pred" presentation-after=" "/>
-        <token id="2706997" form="nā́bhim" citation-part="2.3.9" lemma="nā́bhi" part-of-speech="Nb" morphology="-s---fa--i" head-id="2706993" relation="apos" presentation-after=" "/>
-        <token id="2706998" form="asme" citation-part="2.3.9" lemma="mad" part-of-speech="Pp" morphology="1p---ql--i" head-id="2706996" relation="adv" presentation-after=" "/>
+        <token id="2706996" form="ṣyatu" citation-part="2.3.9" lemma="sā" part-of-speech="V-" morphology="3spma----i" head-id="2780895" relation="pred" presentation-after=" "/>
+        <token id="2706997" form="nā́bhim" citation-part="2.3.9" lemma="nā́bhi" part-of-speech="Nb" morphology="-s---fa--i" head-id="2780896" relation="obj" presentation-after=" "/>
+        <token id="2706998" form="asme" citation-part="2.3.9" lemma="mad" part-of-speech="Pp" morphology="1p---ql--i" head-id="2780896" relation="aux" presentation-after=" "/>
         <token id="2706999" form="athā" citation-part="2.3.9" lemma="atha" part-of-speech="Df" morphology="---------n" head-id="2707002" relation="aux" presentation-after=" "/>
         <token id="2707000" form="devā́́nām" citation-part="2.3.9" lemma="devá" part-of-speech="Nb" morphology="-p---mg--i" head-id="2707003" relation="atr" presentation-after=" "/>
         <token id="2707001" form="ápy" citation-part="2.3.9" lemma="api" part-of-speech="Df" morphology="---------n" head-id="2707002" relation="aux" presentation-after=" "/>
         <token id="2707002" form="etu" citation-part="2.3.9" lemma="i" part-of-speech="V-" morphology="3spma----i" head-id="2714096" relation="pred" presentation-after=" "/>
         <token id="2707003" form="pātháḥ" citation-part="2.3.9" lemma="páthi" part-of-speech="Nb" morphology="-s---na--i" head-id="2707002" relation="obj" presentation-after="॥ "/>
         <token id="2714096" empty-token-sort="C" relation="pred"/>
+        <token id="2780895" empty-token-sort="C" head-id="2714096" relation="pred"/>
+        <token id="2780896" empty-token-sort="V" head-id="2780895" relation="pred">
+          <slash target-id="2706996" relation="pid"/>
+        </token>
       </sentence>
       <sentence id="225514" status="annotated" annotated-at="2019-06-10T11:15:28Z" annotated-by="ericabiagetti">
         <token id="2707004" form="vánaspátir" citation-part="2.3.10" lemma="vánas-páti" part-of-speech="Ne" morphology="-s---mn--i" head-id="2707007" relation="sub" presentation-after=" "/>
@@ -1482,9 +1511,11 @@
       <sentence id="225526" status="annotated" annotated-at="2019-06-19T08:53:11Z" annotated-by="ericabiagetti">
         <token id="2707069" form="eṣá" citation-part="2.4.2" lemma="etá" part-of-speech="Pd" morphology="-s---mn--i" head-id="2707072" relation="sub" presentation-after=" "/>
         <token id="2707070" form="víśvāny" citation-part="2.4.2" lemma="víśva" part-of-speech="Py" morphology="-p---na--i" head-id="2707073" relation="atr" presentation-after=" "/>
-        <token id="2707071" form="abhy" citation-part="2.4.2" lemma="abhí" part-of-speech="Df" morphology="---------n" head-id="2707072" relation="aux" presentation-after=" "/>
+        <token id="2707071" form="abhy" citation-part="2.4.2" lemma="abhí" part-of-speech="Df" morphology="---------n" head-id="2707072" relation="xobj" presentation-after=" ">
+          <slash target-id="2707069" relation="xsub"/>
+        </token>
         <token id="2707072" form="àstu" citation-part="2.4.2" lemma="as" part-of-speech="V-" morphology="3spma----i" relation="pred" presentation-after=" "/>
-        <token id="2707073" form="bhū́mā" citation-part="2.4.2" lemma="bhū́man" part-of-speech="Nb" morphology="-p---na--i" head-id="2707072" relation="arg" presentation-after=" "/>
+        <token id="2707073" form="bhū́mā" citation-part="2.4.2" lemma="bhū́man" part-of-speech="Nb" morphology="-p---na--i" head-id="2707071" relation="obl" presentation-after=" "/>
         <token id="2707074" form="devā́́nām" citation-part="2.4.2" lemma="devá" part-of-speech="Nb" morphology="-p---mg--i" head-id="2707076" relation="atr" presentation-after=" "/>
         <token id="2707075" form="agnír" citation-part="2.4.2" lemma="agní" part-of-speech="Ne" morphology="-s---mn--i" head-id="2707069" relation="apos" presentation-after=" "/>
         <token id="2707076" form="aratír" citation-part="2.4.2" lemma="aratí" part-of-speech="Nb" morphology="-s---mn--i" head-id="2707069" relation="apos" presentation-after=" "/>
@@ -1506,9 +1537,9 @@
         <token id="2707087" form="sá" citation-part="2.4.3" lemma="tá" part-of-speech="Pd" morphology="-s---mn--i" head-id="2707088" relation="sub" presentation-after=" "/>
         <token id="2707088" form="dīdayad" citation-part="2.4.3" lemma="dī" part-of-speech="V-" morphology="3spsa----i" relation="pred" presentation-after=" "/>
         <token id="2707089" form="uśatī́r" citation-part="2.4.3" lemma="vāś" part-of-speech="V-" morphology="-pppafa--i" head-id="2707090" relation="atr" presentation-after=" "/>
-        <token id="2707090" form="ū́rmyā" citation-part="2.4.3" lemma="ū́rmyā" part-of-speech="Nb" morphology="-p---fa--i" head-id="2707088" relation="arg" presentation-after=" "/>
-        <token id="2707091" form="ā́" citation-part="2.4.3" lemma="ā́" part-of-speech="Df" morphology="---------n" head-id="2707088" relation="aux" presentation-after=" "/>
-        <token id="2707092" form="dakṣā́yyo" citation-part="2.4.3" lemma="dakṣā́yya" part-of-speech="A-" morphology="-s---mnp-i" head-id="2707087" relation="comp" presentation-after=" "/>
+        <token id="2707090" form="ū́rmyā" citation-part="2.4.3" lemma="ū́rmyā" part-of-speech="Nb" morphology="-p---fa--i" head-id="2707091" relation="obl" presentation-after=" "/>
+        <token id="2707091" form="ā́" citation-part="2.4.3" lemma="ā́" part-of-speech="Df" morphology="---------n" head-id="2707088" relation="adv" presentation-after=" "/>
+        <token id="2707092" form="dakṣā́yyo" citation-part="2.4.3" lemma="dakṣā́yya" part-of-speech="A-" morphology="-s---mnp-i" head-id="2707087" relation="atr" presentation-after=" "/>
         <token id="2707093" form="yó" citation-part="2.4.3" lemma="yá" part-of-speech="Pr" morphology="-s---mn--i" head-id="2707092" relation="sub" presentation-after=" "/>
         <token id="2707094" form="dā́svate" citation-part="2.4.3" lemma="dā́svat" part-of-speech="A-" morphology="-s---mdp-i" head-id="2707092" relation="ag" presentation-after=" "/>
         <token id="2707095" form="dáma" citation-part="2.4.3" lemma="dáma" part-of-speech="Nb" morphology="-s---ml--i" head-id="2707096" relation="obl" presentation-after=" "/>
@@ -1542,18 +1573,19 @@
       </sentence>
       <sentence id="226448" status="annotated" annotated-at="2019-06-19T10:14:10Z" annotated-by="ericabiagetti">
         <token id="2707106" form="ví" citation-part="2.4.4" lemma="ví" part-of-speech="Df" morphology="---------n" head-id="2707108" relation="aux" presentation-after=" "/>
-        <token id="2707107" form="yó" citation-part="2.4.4" lemma="yá" part-of-speech="Pr" morphology="-s---mn--i" head-id="2707114" relation="sub" presentation-after=" "/>
-        <token id="2707108" form="bháribhrad" citation-part="2.4.4" lemma="bhṛ" part-of-speech="V-" morphology="-sppamn--i" head-id="2707114" relation="xadv" presentation-after=" ">
+        <token id="2707107" form="yó" citation-part="2.4.4" lemma="yá" part-of-speech="Pr" morphology="-s---mn--i" head-id="2780901" relation="sub" presentation-after=" "/>
+        <token id="2707108" form="bháribhrad" citation-part="2.4.4" lemma="bhṛ" part-of-speech="V-" morphology="-sppamn--i" head-id="2780901" relation="xobj" presentation-after=" ">
           <slash target-id="2707107" relation="xsub"/>
         </token>
         <token id="2707109" form="óṣadhīṣu" citation-part="2.4.4" lemma="óṣadhī" part-of-speech="Nb" morphology="-p---fl--i" head-id="2707108" relation="adv" presentation-after=" "/>
         <token id="2707110" form="jihvā́m" citation-part="2.4.4" lemma="jihvā́" part-of-speech="Nb" morphology="-s---fa--i" head-id="2707108" relation="obj" presentation-after=" "/>
-        <token id="2707111" form="átyo" citation-part="2.4.4" lemma="átya" part-of-speech="Nb" morphology="-s---mn--i" head-id="2707113" relation="atr" presentation-after=" "/>
+        <token id="2707111" form="átyo" citation-part="2.4.4" lemma="átya" part-of-speech="Nb" morphology="-s---mn--i" head-id="2780133" relation="sub" presentation-after=" "/>
         <token id="2707112" form="ná" citation-part="2.4.4" lemma="ná" part-of-speech="G-" morphology="---------n" head-id="2707114" relation="adv" presentation-after=" "/>
-        <token id="2707113" form="ráthyo" citation-part="2.4.4" lemma="ráthya" part-of-speech="A-" morphology="-s---mnp-i" head-id="2780133" relation="sub" presentation-after=" "/>
+        <token id="2707113" form="ráthyo" citation-part="2.4.4" lemma="ráthya" part-of-speech="A-" morphology="-s---mnp-i" head-id="2707111" relation="atr" presentation-after=" "/>
         <token id="2707114" form="dodhavīti" citation-part="2.4.4" lemma="dodhav" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
         <token id="2707115" form="vā́rān" citation-part="2.4.4" lemma="vā́ra" part-of-speech="Nb" morphology="-p---ma--i" head-id="2707114" relation="obj" presentation-after="॥ "/>
         <token id="2780133" empty-token-sort="V" head-id="2707112" relation="pred"/>
+        <token id="2780901" empty-token-sort="V" head-id="2707114" relation="sub"/>
       </sentence>
       <sentence id="225530" status="annotated" annotated-at="2019-06-19T10:23:46Z" annotated-by="ericabiagetti">
         <token id="2707116" form="ā́" citation-part="2.4.5" lemma="ā́" part-of-speech="Df" morphology="---------n" head-id="2707121" relation="aux" presentation-after=" "/>
@@ -1714,12 +1746,14 @@
     <div id="6474">
       <title>2.5</title>
       <sentence id="225539" status="annotated" annotated-at="2019-06-20T08:49:12Z" annotated-by="ericabiagetti">
-        <token id="2707212" form="hótā" citation-part="2.5.1" lemma="hótṛ" part-of-speech="Nb" morphology="-s---mn--i" head-id="2707213" relation="xadv" presentation-after=" ">
-          <slash target-id="2707213" relation="xsub"/>
+        <token id="2707212" form="hótā" citation-part="2.5.1" lemma="hótṛ" part-of-speech="Nb" morphology="-s---mn--i" head-id="2780902" relation="xadv" presentation-after=" ">
+          <slash target-id="2780902" relation="xsub"/>
         </token>
         <token id="2707213" form="ájaniṣṭa" citation-part="2.5.1" lemma="jan" part-of-speech="V-" morphology="3saia----i" relation="pred" presentation-after=" "/>
         <token id="2707214" form="cétanaḥ" citation-part="2.5.1" lemma="cétana" part-of-speech="A-" morphology="-s---mnp-i" head-id="2707212" relation="atr" presentation-after=" "/>
-        <token id="2707215" form="pitā́́" citation-part="2.5.1" lemma="pitṛ́" part-of-speech="Nb" morphology="-s---mn--i" head-id="2707212" relation="apos" presentation-after=" "/>
+        <token id="2707215" form="pitā́́" citation-part="2.5.1" lemma="pitṛ́" part-of-speech="Nb" morphology="-s---mn--i" head-id="2780902" relation="xadv" presentation-after=" ">
+          <slash target-id="2780902" relation="xsub"/>
+        </token>
         <token id="2707216" form="pitṛ́bhya" citation-part="2.5.1" lemma="pitṛ́" part-of-speech="Nb" morphology="-p---md--i" head-id="2707217" relation="narg" presentation-after=" "/>
         <token id="2707217" form="ūtáye" citation-part="2.5.1" lemma="ūtí" part-of-speech="Nb" morphology="-s---fd--i" head-id="2707215" relation="adv" presentation-after="। "/>
         <token id="2707218" form="prayákṣañ" citation-part="2.5.1" lemma="yakṣ" part-of-speech="V-" morphology="-sppamn--i" head-id="2707213" relation="xadv" presentation-after=" ">
@@ -1727,6 +1761,9 @@
         </token>
         <token id="2707219" form="jényaṃ" citation-part="2.5.1" lemma="jénya" part-of-speech="A-" morphology="-s---nap-i" head-id="2707220" relation="atr" presentation-after=" "/>
         <token id="2707220" form="vásu" citation-part="2.5.1" lemma="vásu" part-of-speech="Nb" morphology="-s---na--i" head-id="2707218" relation="obj" presentation-after=" "/>
+        <token id="2780902" empty-token-sort="C" head-id="2707213" relation="xadv">
+          <slash target-id="2707213" relation="xsub"/>
+        </token>
       </sentence>
       <sentence id="225540" status="annotated" annotated-at="2019-06-20T09:03:09Z" annotated-by="ericabiagetti">
         <token id="2707221" form="śakéma" citation-part="2.5.1" lemma="śak" part-of-speech="V-" morphology="1ppoa----i" relation="pred" presentation-after=" "/>
@@ -1783,22 +1820,20 @@
       <sentence id="225544" status="annotated" annotated-at="2019-06-20T10:36:27Z" annotated-by="ericabiagetti">
         <token id="2707255" form="sākáṃ" citation-part="2.5.4" lemma="sākám" part-of-speech="Df" morphology="---------n" head-id="2707261" relation="adv" presentation-after=" "/>
         <token id="2707256" form="hí" citation-part="2.5.4" lemma="hí" part-of-speech="Df" morphology="---------n" head-id="2707261" relation="aux" presentation-after=" "/>
-        <token id="2707257" form="śúcinā" citation-part="2.5.4" lemma="śúci" part-of-speech="A-" morphology="-s---mip-i" head-id="2707261" relation="adv" presentation-after=" "/>
+        <token id="2707257" form="śúcinā" citation-part="2.5.4" lemma="śúci" part-of-speech="A-" morphology="-s---mip-i" head-id="2707255" relation="obl" presentation-after=" "/>
         <token id="2707258" form="śúciḥ" citation-part="2.5.4" lemma="śúci" part-of-speech="A-" morphology="-s---mnp-i" head-id="2707261" relation="sub" presentation-after=" "/>
         <token id="2707259" form="praśāstā́" citation-part="2.5.4" lemma="praśāstṛ́" part-of-speech="Nb" morphology="-s---mn--i" head-id="2707261" relation="xadv" presentation-after=" ">
           <slash target-id="2707258" relation="xsub"/>
         </token>
         <token id="2707260" form="krátunā" citation-part="2.5.4" lemma="krátu" part-of-speech="Nb" morphology="-s---mi--i" head-id="2707261" relation="adv" presentation-after=" "/>
         <token id="2707261" form="ájani" citation-part="2.5.4" lemma="jan" part-of-speech="V-" morphology="3saip----i" head-id="2707269" relation="adv" presentation-after="। "/>
-        <token id="2707262" form="vidvā́ṃ" citation-part="2.5.4" lemma="vid" part-of-speech="V-" morphology="-srpamn--i" head-id="2707269" relation="xadv" presentation-after=" ">
-          <slash target-id="2707269" relation="xsub"/>
-        </token>
+        <token id="2707262" form="vidvā́ṃ" citation-part="2.5.4" lemma="vid" part-of-speech="V-" morphology="-srpamn--i" head-id="2707269" relation="sub" presentation-after=" "/>
         <token id="2707263" form="asya" citation-part="2.5.4" lemma="idám" part-of-speech="Pd" morphology="-s---mg--i" head-id="2707264" relation="atr" presentation-after=" "/>
-        <token id="2707264" form="vratā́" citation-part="2.5.4" lemma="vratá" part-of-speech="Nb" morphology="-p---na--i" head-id="2707262" relation="obj" presentation-after=" "/>
+        <token id="2707264" form="vratā́" citation-part="2.5.4" lemma="vratá" part-of-speech="Nb" morphology="-p---na--i" head-id="2707268" relation="obl" presentation-after=" "/>
         <token id="2707265" form="dhruvā́" citation-part="2.5.4" lemma="dhruvá" part-of-speech="A-" morphology="-p---nap-i" head-id="2707264" relation="atr" presentation-after=" "/>
         <token id="2707266" form="vayā́" citation-part="2.5.4" lemma="vayā" part-of-speech="Nb" morphology="-p---fn--i" head-id="2780108" relation="sub" presentation-after=" "/>
         <token id="2707267" form="iva" citation-part="2.5.4" lemma="iva" part-of-speech="G-" morphology="---------n" head-id="2707269" relation="adv" presentation-after=" "/>
-        <token id="2707268" form="ánu" citation-part="2.5.4" lemma="ánu" part-of-speech="Df" morphology="---------n" head-id="2707269" relation="aux" presentation-after=" "/>
+        <token id="2707268" form="ánu" citation-part="2.5.4" lemma="ánu" part-of-speech="Df" morphology="---------n" head-id="2707269" relation="adv" presentation-after=" "/>
         <token id="2707269" form="rohate" citation-part="2.5.4" lemma="ruh" part-of-speech="V-" morphology="3spim----i" relation="pred" presentation-after="॥ "/>
         <token id="2780108" empty-token-sort="V" head-id="2707267" relation="pred"/>
       </sentence>
@@ -1820,18 +1855,19 @@
           <slash target-id="2778370" relation="xsub"/>
         </token>
         <token id="2707280" form="váraṃ" citation-part="2.5.5" lemma="vára" part-of-speech="A-" morphology="-s---nnp-i" head-id="2707279" relation="obl" presentation-after=" "/>
-        <token id="2707281" form="svásāro" citation-part="2.5.5" lemma="svásṛ" part-of-speech="Nb" morphology="-p---fn--i" head-id="2707284" relation="xadv" presentation-after=" ">
-          <slash target-id="2707282" relation="xsub"/>
-        </token>
+        <token id="2707281" form="svásāro" citation-part="2.5.5" lemma="svásṛ" part-of-speech="Nb" morphology="-p---fn--i" head-id="2778370" relation="sub" presentation-after=" "/>
         <token id="2707282" form="yā́" citation-part="2.5.5" lemma="yad" part-of-speech="Pr" morphology="-p---fn--i" head-id="2707284" relation="sub" presentation-after=" "/>
-        <token id="2707283" form="idáṃ" citation-part="2.5.5" lemma="idám" part-of-speech="Pd" morphology="-s---na--i" head-id="2707284" relation="obj" presentation-after=" "/>
-        <token id="2707284" form="yayúḥ" citation-part="2.5.5" lemma="yā" part-of-speech="V-" morphology="3ppia----i" head-id="2707278" relation="atr" presentation-after="॥ "/>
+        <token id="2707283" form="idáṃ" citation-part="2.5.5" lemma="idám" part-of-speech="Pd" morphology="-s---na--i" head-id="2707284" relation="adv" presentation-after=" "/>
+        <token id="2707284" form="yayúḥ" citation-part="2.5.5" lemma="yā" part-of-speech="V-" morphology="3ppia----i" head-id="2707281" relation="atr" presentation-after="॥ "/>
         <token id="2778370" empty-token-sort="V" relation="pred"/>
       </sentence>
-      <sentence id="225548" status="annotated" annotated-at="2019-06-20T13:13:28Z" annotated-by="ericabiagetti">
-        <token id="2707285" form="yádī" citation-part="2.5.6" lemma="yadi" part-of-speech="G-" morphology="---------n" head-id="2707298" relation="adv" presentation-after=" "/>
+      <sentence id="225548" status="annotated" annotated-at="2019-12-06T10:53:04Z" annotated-by="ericabiagetti">
+        <token id="2707285" form="yád" citation-part="2.5.6" lemma="yád" part-of-speech="G-" morphology="---------n" head-id="2707298" relation="adv" presentation-after=" "/>
+        <token id="2780917" form="ī" citation-part="2.5.6" lemma="īṃ" part-of-speech="Pd" morphology="---------n" head-id="2707287" relation="obl" presentation-after=" "/>
         <token id="2707286" form="mātúr" citation-part="2.5.6" lemma="mātṛ́" part-of-speech="Nb" morphology="-s---fg--i" head-id="2707289" relation="atr" presentation-after=" "/>
-        <token id="2707287" form="úpa" citation-part="2.5.6" lemma="úpa" part-of-speech="Df" morphology="---------n" head-id="2707291" relation="aux" presentation-after=" "/>
+        <token id="2707287" form="úpa" citation-part="2.5.6" lemma="úpa" part-of-speech="Df" morphology="---------n" head-id="2707291" relation="xobj" presentation-after=" ">
+          <slash target-id="2707288" relation="xsub"/>
+        </token>
         <token id="2707288" form="svásā" citation-part="2.5.6" lemma="svásṛ" part-of-speech="Nb" morphology="-s---fn--i" head-id="2707291" relation="sub" presentation-after=" "/>
         <token id="2707289" form="ghṛtám" citation-part="2.5.6" lemma="ghṛtá" part-of-speech="Nb" morphology="-s---na--i" head-id="2707290" relation="obj" presentation-after=" "/>
         <token id="2707290" form="bharanty" citation-part="2.5.6" lemma="bhṛ" part-of-speech="V-" morphology="-sppafn--i" head-id="2707291" relation="xadv" presentation-after=" ">
@@ -1840,53 +1876,58 @@
         <token id="2707291" form="ásthita" citation-part="2.5.6" lemma="sthā" part-of-speech="V-" morphology="3saia----i" head-id="2707285" relation="pred" presentation-after="। "/>
         <token id="2707292" form="tā́sām" citation-part="2.5.6" lemma="tá" part-of-speech="Pd" morphology="-p---fg--i" head-id="2707294" relation="atr" presentation-after=" "/>
         <token id="2707293" form="adhvaryúr" citation-part="2.5.6" lemma="adhvaryú" part-of-speech="Nb" morphology="-s---mn--i" head-id="2707298" relation="xadv" presentation-after=" ">
-          <slash target-id="2707298" relation="xsub"/>
+          <slash target-id="2780917" relation="xsub"/>
         </token>
-        <token id="2707294" form="ā́gatau" citation-part="2.5.6" lemma="ā́gati" part-of-speech="Nb" morphology="-s---fl--i" head-id="2707298" relation="obl" presentation-after=" "/>
-        <token id="2707295" form="yávo" citation-part="2.5.6" lemma="yáva" part-of-speech="Nb" morphology="-s---mn--i" head-id="2780109" relation="sub" presentation-after=" "/>
-        <token id="2707296" form="vṛṣṭī́" citation-part="2.5.6" lemma="vṛṣṭí" part-of-speech="Nb" morphology="-s---fi--i" head-id="2780109" relation="obl" presentation-after=" "/>
+        <token id="2707294" form="ā́gatau" citation-part="2.5.6" lemma="ā́gati" part-of-speech="Nb" morphology="-s---fl--i" head-id="2707298" relation="adv" presentation-after=" "/>
+        <token id="2707295" form="yávo" citation-part="2.5.6" lemma="yáva" part-of-speech="Nb" morphology="-s---mn--i" head-id="2780918" relation="sub" presentation-after=" "/>
+        <token id="2707296" form="vṛṣṭī́" citation-part="2.5.6" lemma="vṛṣṭí" part-of-speech="Nb" morphology="-s---fi--i" head-id="2780918" relation="per" presentation-after=" "/>
         <token id="2707297" form="iva" citation-part="2.5.6" lemma="iva" part-of-speech="G-" morphology="---------n" head-id="2707298" relation="adv" presentation-after=" "/>
         <token id="2707298" form="modate" citation-part="2.5.6" lemma="mud" part-of-speech="V-" morphology="3spim----i" relation="pred" presentation-after="॥ "/>
-        <token id="2780109" empty-token-sort="C" head-id="2707297" relation="pred"/>
+        <token id="2780918" empty-token-sort="V" head-id="2707297" relation="pred"/>
       </sentence>
       <sentence id="225549" status="annotated" annotated-at="2019-06-20T14:56:22Z" annotated-by="ericabiagetti">
-        <token id="2707299" form="sváḥ" citation-part="2.5.7" lemma="svá" part-of-speech="A-" morphology="-s---mnp-i" head-id="2707303" relation="atr" presentation-after=" "/>
+        <token id="2707299" form="sváḥ" citation-part="2.5.7" lemma="svá" part-of-speech="A-" morphology="-s---mnp-i" head-id="2780926" relation="sub" presentation-after=" "/>
         <token id="2707300" form="svā́ya" citation-part="2.5.7" lemma="svá" part-of-speech="A-" morphology="-s---ndp-i" head-id="2707301" relation="atr" presentation-after=" "/>
         <token id="2707301" form="dhā́yase" citation-part="2.5.7" lemma="dhā́yas" part-of-speech="Nb" morphology="-s---nd--i" head-id="2707302" relation="adv" presentation-after=" "/>
         <token id="2707302" form="kṛṇutā́m" citation-part="2.5.7" lemma="kṛ" part-of-speech="V-" morphology="3spmp----i" relation="pred" presentation-after=" "/>
-        <token id="2707303" form="ṛtvíg" citation-part="2.5.7" lemma="ṛtvíj" part-of-speech="Nb" morphology="-s---mn--i" head-id="2707302" relation="xadv" presentation-after=" ">
-          <slash target-id="2707302" relation="xsub"/>
+        <token id="2707303" form="ṛtvíg" citation-part="2.5.7" lemma="ṛtvíj" part-of-speech="Nb" morphology="-s---mn--i" head-id="2780926" relation="xobj" presentation-after=" ">
+          <slash target-id="2707299" relation="xsub"/>
         </token>
-        <token id="2707304" form="ṛtvíjam" citation-part="2.5.7" lemma="ṛtvíj" part-of-speech="Nb" morphology="-s---ma--i" head-id="2707302" relation="obj" presentation-after="। "/>
+        <token id="2707304" form="ṛtvíjam" citation-part="2.5.7" lemma="ṛtvíj" part-of-speech="Nb" morphology="-s---ma--i" head-id="2707302" relation="xobj" presentation-after="। ">
+          <slash target-id="2707299" relation="xsub"/>
+        </token>
+        <token id="2780926" empty-token-sort="V" head-id="2707302" relation="adv"/>
       </sentence>
-      <sentence id="229169" status="annotated" annotated-at="2019-06-20T14:56:45Z" annotated-by="ericabiagetti">
+      <sentence id="229169" status="annotated" annotated-at="2019-12-06T14:37:57Z" annotated-by="ericabiagetti">
         <token id="2707305" form="stómaṃ" citation-part="2.5.7" lemma="stóma" part-of-speech="Nb" morphology="-s---ma--i" head-id="2707307" relation="obj" presentation-after=" "/>
         <token id="2707306" form="yajñáṃ" citation-part="2.5.7" lemma="yajñá" part-of-speech="Nb" morphology="-s---ma--i" head-id="2707307" relation="obj" presentation-after=" "/>
-        <token id="2707307" form="ca" citation-part="2.5.7" lemma="ca" part-of-speech="C-" morphology="---------n" head-id="2707310" relation="obj" presentation-after=" "/>
+        <token id="2707307" form="ca" citation-part="2.5.7" lemma="ca" part-of-speech="C-" morphology="---------n" head-id="2707311" relation="obj" presentation-after=" "/>
         <token id="2707308" form="ā́t" citation-part="2.5.7" lemma="ā́t" part-of-speech="Df" morphology="---------n" head-id="2707310" relation="aux" presentation-after=" "/>
         <token id="2707309" form="áraṃ" citation-part="2.5.7" lemma="áram" part-of-speech="Df" morphology="---------n" head-id="2707310" relation="adv" presentation-after=" "/>
-        <token id="2707310" form="vanémā" citation-part="2.5.7" lemma="van" part-of-speech="V-" morphology="1ppoa----i" relation="pred" presentation-after=" "/>
-      </sentence>
-      <sentence id="229167" status="annotated" annotated-at="2019-06-20T14:57:02Z" annotated-by="ericabiagetti">
+        <token id="2707310" form="vanémā" citation-part="2.5.7" lemma="van" part-of-speech="V-" morphology="1ppoa----i" relation="parpred" presentation-after=" "/>
         <token id="2707311" form="rarimā́" citation-part="2.5.7" lemma="rā" part-of-speech="V-" morphology="1pria----i" relation="pred" presentation-after=" "/>
         <token id="2707312" form="vayám" citation-part="2.5.7" lemma="ahám" part-of-speech="Pp" morphology="1p---qn--i" head-id="2707311" relation="sub" presentation-after="॥ "/>
       </sentence>
       <sentence id="225552" status="annotated" annotated-at="2019-06-20T15:15:48Z" annotated-by="ericabiagetti">
-        <token id="2707313" form="yáthā" citation-part="2.5.8" lemma="yáthā" part-of-speech="G-" morphology="---------n" head-id="2778396" relation="adv" presentation-after=" "/>
+        <token id="2707313" form="yáthā" citation-part="2.5.8" lemma="yáthā" part-of-speech="G-" morphology="---------n" head-id="2780930" relation="adv" presentation-after=" "/>
         <token id="2707314" form="vidvā́ṃ" citation-part="2.5.8" lemma="vid" part-of-speech="V-" morphology="-srpamn--i" head-id="2707316" relation="sub" presentation-after=" "/>
-        <token id="2707315" form="áraṃ" citation-part="2.5.8" lemma="áram" part-of-speech="Df" morphology="---------n" head-id="2707316" relation="adv" presentation-after=" "/>
+        <token id="2707315" form="áraṃ" citation-part="2.5.8" lemma="áram" part-of-speech="Df" morphology="---------n" head-id="2707316" relation="xobj" presentation-after=" ">
+          <slash target-id="2707316" relation="xsub"/>
+        </token>
         <token id="2707316" form="kárad" citation-part="2.5.8" lemma="kṛ" part-of-speech="V-" morphology="3sasa----i" head-id="2707313" relation="pred" presentation-after=" "/>
-        <token id="2707317" form="víśvebhyo" citation-part="2.5.8" lemma="víśva" part-of-speech="Py" morphology="-p---md--i" head-id="2707318" relation="atr" presentation-after=" "/>
-        <token id="2707318" form="yajatébhyaḥ" citation-part="2.5.8" lemma="yajatá" part-of-speech="A-" morphology="-p---mdp-i" head-id="2707316" relation="arg" presentation-after="। "/>
-        <token id="2707319" form="ayám" citation-part="2.5.8" lemma="idám" part-of-speech="Pd" morphology="-s---mn--i" head-id="2778396" relation="sub" presentation-after=" "/>
+        <token id="2707317" form="víśvebhyo" citation-part="2.5.8" lemma="víśva" part-of-speech="Py" morphology="-p---md--i" head-id="2707315" relation="obl" presentation-after=" "/>
+        <token id="2707318" form="yajatébhyaḥ" citation-part="2.5.8" lemma="yajatá" part-of-speech="A-" morphology="-p---mdp-i" head-id="2707315" relation="obl" presentation-after="। "/>
+        <token id="2707319" form="ayám" citation-part="2.5.8" lemma="idám" part-of-speech="Pd" morphology="-s---mn--i" head-id="2780930" relation="sub" presentation-after=" "/>
         <token id="2707320" form="agne" citation-part="2.5.8" lemma="agní" part-of-speech="Ne" morphology="-s---mv--i" relation="voc" presentation-after=" "/>
-        <token id="2707321" form="tvé" citation-part="2.5.8" lemma="tvám" part-of-speech="Pp" morphology="2s---ql--i" head-id="2778396" relation="adv" presentation-after=" "/>
-        <token id="2707322" form="ápi" citation-part="2.5.8" lemma="api" part-of-speech="Df" morphology="---------n" head-id="2778396" relation="aux" presentation-after=" "/>
-        <token id="2707323" form="yáṃ" citation-part="2.5.8" lemma="yad" part-of-speech="Pr" morphology="-s---ma--i" head-id="2707325" relation="obj" presentation-after=" "/>
+        <token id="2707321" form="tvé" citation-part="2.5.8" lemma="tvám" part-of-speech="Pp" morphology="2s---ql--i" head-id="2707322" relation="obl" presentation-after=" "/>
+        <token id="2707322" form="ápi" citation-part="2.5.8" lemma="api" part-of-speech="Df" morphology="---------n" head-id="2780930" relation="xobj" presentation-after=" ">
+          <slash target-id="2707319" relation="xsub"/>
+        </token>
+        <token id="2707323" form="yáṃ" citation-part="2.5.8" lemma="yad" part-of-speech="Pr" morphology="-s---ma--i" head-id="2707324" relation="atr" presentation-after=" "/>
         <token id="2707324" form="yajñáṃ" citation-part="2.5.8" lemma="yajñá" part-of-speech="Nb" morphology="-s---ma--i" head-id="2707325" relation="obj" presentation-after=" "/>
         <token id="2707325" form="cakṛmā́" citation-part="2.5.8" lemma="kṛ" part-of-speech="V-" morphology="1pria----i" head-id="2707319" relation="atr" presentation-after=" "/>
         <token id="2707326" form="vayám" citation-part="2.5.8" lemma="ahám" part-of-speech="Pp" morphology="1p---qn--i" head-id="2707325" relation="sub" presentation-after="॥ "/>
-        <token id="2778396" empty-token-sort="V" relation="pred"/>
+        <token id="2780930" empty-token-sort="V" relation="pred"/>
       </sentence>
     </div>
     <div id="6475">
@@ -1905,7 +1946,9 @@
         <token id="2707337" form="śrudhī́" citation-part="2.6.1" lemma="śru" part-of-speech="V-" morphology="2sama----i" head-id="2778397" relation="pred" presentation-after=" "/>
         <token id="2707338" form="gíraḥ" citation-part="2.6.1" lemma="gír" part-of-speech="Nb" morphology="-p---fa--i" head-id="2707337" relation="obj" presentation-after="॥ "/>
         <token id="2778397" empty-token-sort="C" relation="pred"/>
-        <token id="2778398" empty-token-sort="V" head-id="2778397" relation="pred"/>
+        <token id="2778398" empty-token-sort="V" head-id="2778397" relation="pred">
+          <slash target-id="2707333" relation="pid"/>
+        </token>
       </sentence>
       <sentence id="225555" status="annotated" annotated-at="2019-06-20T17:23:55Z" annotated-by="ericabiagetti">
         <token id="2707339" form="ayā́" citation-part="2.6.2" lemma="idám" part-of-speech="A-" morphology="-s---fip-i" head-id="2707342" relation="adv" presentation-after=" "/>
@@ -1922,12 +1965,12 @@
         <token id="2778400" empty-token-sort="V" head-id="2778399" relation="pred"/>
       </sentence>
       <sentence id="225556" status="annotated" annotated-at="2019-06-20T18:23:40Z" annotated-by="ericabiagetti">
-        <token id="2707349" form="táṃ" citation-part="2.6.3" lemma="tá" part-of-speech="Pd" morphology="-s---ma--i" head-id="2707352" relation="adv" presentation-after=" "/>
+        <token id="2707349" form="táṃ" citation-part="2.6.3" lemma="tá" part-of-speech="Pd" morphology="-s---ma--i" head-id="2780933" relation="sub" presentation-after=" ">
+          <slash target-id="2707350" relation="obj"/>
+        </token>
         <token id="2707350" form="tvā" citation-part="2.6.3" lemma="tvám" part-of-speech="Pp" morphology="2s---qa--i" head-id="2778405" relation="obj" presentation-after=" "/>
         <token id="2707351" form="gīrbhír" citation-part="2.6.3" lemma="gír" part-of-speech="Nb" morphology="-p---qi--i" head-id="2778405" relation="adv" presentation-after=" "/>
-        <token id="2707352" form="gírvaṇasaṃ" citation-part="2.6.3" lemma="gírvaṇas" part-of-speech="A-" morphology="-s---map-i" head-id="2778405" relation="xadv" presentation-after=" ">
-          <slash target-id="2707350" relation="xsub"/>
-        </token>
+        <token id="2707352" form="gírvaṇasaṃ" citation-part="2.6.3" lemma="gírvaṇas" part-of-speech="A-" morphology="-s---map-i" head-id="2780933" relation="obj" presentation-after=" "/>
         <token id="2707353" form="draviṇasyúṃ" citation-part="2.6.3" lemma="draviṇasyú" part-of-speech="A-" morphology="-s---map-i" head-id="2778404" relation="obj" presentation-after=" "/>
         <token id="2707354" form="draviṇodaḥ" citation-part="2.6.3" lemma="draviṇo-dā́" part-of-speech="A-" morphology="-s---mvp-i" relation="voc" presentation-after="। "/>
         <token id="2707355" form="saparyéma" citation-part="2.6.3" lemma="sapary" part-of-speech="V-" morphology="1ppoa----i" head-id="2778404" relation="pred" presentation-after=" "/>
@@ -1936,6 +1979,7 @@
         </token>
         <token id="2778404" empty-token-sort="C" relation="pred"/>
         <token id="2778405" empty-token-sort="V" head-id="2778404" relation="pred"/>
+        <token id="2780933" empty-token-sort="V" head-id="2778405" relation="adv"/>
       </sentence>
       <sentence id="225557" status="annotated" annotated-at="2019-06-21T15:18:49Z" annotated-by="ericabiagetti">
         <token id="2707357" form="sá" citation-part="2.6.4" lemma="tá" part-of-speech="Pd" morphology="-s---mn--i" head-id="2707358" relation="xadv" presentation-after=" ">
