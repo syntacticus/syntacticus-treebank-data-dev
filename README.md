@@ -1,5 +1,5 @@
-# proiel-treebank-dev
+# syntacticus-treebank-data-dev
 
-This is a staging area for development releases of the PROIEL treebank and co-hosted treebanks.
+This is a staging area for development releases of the Syntacticus collection of treebanks.
 
-The texts are exported on PROIEL XML formAT from the production annotation system on a weekly basis.
+The data here is exported regularly from the current annotation system.
